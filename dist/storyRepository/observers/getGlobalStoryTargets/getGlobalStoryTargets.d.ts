@@ -1,0 +1,2 @@
+export declare const getGlobalStoryTargets: (params: Amity.LiveCollectionParams<Amity.StoryGlobalQuery>, callback: Amity.LiveCollectionCallback<Amity.StoryTarget>, config?: Amity.LiveCollectionConfig) => () => void;
+//# sourceMappingURL=getGlobalStoryTargets.d.ts.map

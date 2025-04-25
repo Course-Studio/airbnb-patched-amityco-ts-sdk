@@ -1,0 +1,2 @@
+export declare const createComment: (bundle: Pick<Amity.Comment<Amity.CommentContentType>, 'data' | 'referenceType' | 'referenceId' | 'parentId' | 'metadata' | 'mentionees' | 'attachments'>) => Promise<Amity.Cached<Amity.InternalComment>>;
+//# sourceMappingURL=createComment.d.ts.map

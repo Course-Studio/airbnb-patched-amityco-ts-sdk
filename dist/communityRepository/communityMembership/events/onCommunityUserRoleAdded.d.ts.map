@@ -1,0 +1,1 @@
+{"version":3,"file":"onCommunityUserRoleAdded.d.ts","sourceRoot":"","sources":["../../../../src/communityRepository/communityMembership/events/onCommunityUserRoleAdded.ts"],"names":[],"mappings":"AAEA;;;;;;;;;;;;;;GAcG;AACH,eAAO,MAAM,wBAAwB,yBACb,MAAM,SAAS,UAAU,MAAM,UAAU,CAAC,WAAW,CAAC,EAAE,KAAK,IAAI,uBACf,CAAC"}

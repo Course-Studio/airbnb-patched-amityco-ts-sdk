@@ -1,0 +1,17 @@
+/**
+ * ```js
+ * import { onMessageMarkerFetched } from '@amityco/ts-sdk'
+ * const dispose = onMessageMarkerFetched(messageMarker => {
+ *   // ...
+ * })
+ * ```
+ *
+ * Fired when an {@link Amity.MessageMarker} has been fetched
+ *
+ * @param callback The function to call when the event was fired
+ * @returns an {@link Amity.Unsubscriber} function to stop listening
+ *
+ * @category MessageMarker Events
+ */
+export declare const onMessageMarkerFetched: (callback: Amity.Listener<Amity.MessageMarker>) => Amity.Unsubscriber;
+//# sourceMappingURL=onMessageMarkerFetched.d.ts.map

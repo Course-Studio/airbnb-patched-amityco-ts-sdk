@@ -1,0 +1,3 @@
+export declare const createCommunityMemberEventSubscriber: (event: keyof Amity.MqttCommunityUserEvents, callback: (community: Amity.Community, members: Amity.Membership<'community'>[]) => void) => Amity.Unsubscriber;
+export declare const createLocalCommunityMemberEventSubscriber: (event: keyof Amity.LocalCommunityEvents, callback: (community: Amity.Community, members: Amity.Membership<'community'>[]) => void) => Amity.Unsubscriber;
+//# sourceMappingURL=utils.d.ts.map

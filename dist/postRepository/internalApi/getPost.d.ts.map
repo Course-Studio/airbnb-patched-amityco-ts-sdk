@@ -1,0 +1,1 @@
+{"version":3,"file":"getPost.d.ts","sourceRoot":"","sources":["../../../src/postRepository/internalApi/getPost.ts"],"names":[],"mappings":"AASA,eAAO,MAAM,OAAO;aACV,MAAM,YAAY,CAAC,QAAQ,CAAC,GACnC,QAAQ,MAAM,MAAM,CAAC,MAAM,YAAY,CAAC,CAAC;oBAsClC,MAAM,YAAY,CAAC,QAAQ,CAAC,GACnC,MAAM,MAAM,CAAC,MAAM,YAAY,CAAC,GAAG,SAAS;CAJ9C,CAAC"}

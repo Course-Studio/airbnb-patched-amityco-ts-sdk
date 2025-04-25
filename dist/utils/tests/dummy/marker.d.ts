@@ -1,0 +1,10 @@
+export declare const generateChannelMarker: ({ entityId, ...params }: MakeRequired<Amity.ChannelMarker, 'entityId'>) => Amity.ChannelMarker;
+export declare const generateChannelMarkerResponse: ({ entityId, ...params }: MakeRequired<Amity.ChannelMarker, 'entityId'>) => Amity.UserEntityMarkerResponse;
+export declare const generateSubChannelMarker: ({ feedId, entityId, ...params }: MakeRequired<Amity.SubChannelMarker, 'feedId' | 'entityId'>) => Amity.SubChannelMarker;
+export declare const generateSubChannelMarkerResponse: ({ feedId, entityId, ...params }: MakeRequired<Amity.SubChannelMarker, 'feedId' | 'entityId'>) => Amity.UserFeedMarkerResponse;
+export declare const generateMessageMarker: ({ feedId, contentId, ...params }: MakeRequired<Amity.MessageMarker, 'feedId' | 'contentId'>) => Amity.MessageMarker;
+export declare const generateFeedMarker: ({ feedId, entityId, ...params }: MakeRequired<Amity.FeedMarker, 'feedId' | 'entityId'>) => Amity.FeedMarker;
+export declare const generateUserMarker: (params?: Partial<Amity.UserMarker>) => Amity.UserMarker;
+export declare const generateUserMarkerResponse: (params?: Partial<Amity.UserMarker>) => Amity.UserMarkerResponse;
+export declare const generateFeedMarkerResponse: (params?: Partial<Amity.FeedMarker>) => Amity.FeedMarker;
+//# sourceMappingURL=marker.d.ts.map

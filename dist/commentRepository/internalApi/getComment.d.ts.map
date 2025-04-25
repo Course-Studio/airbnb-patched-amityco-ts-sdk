@@ -1,0 +1,1 @@
+{"version":3,"file":"getComment.d.ts","sourceRoot":"","sources":["../../../src/commentRepository/internalApi/getComment.ts"],"names":[],"mappings":"AAQA,eAAO,MAAM,UAAU;gBACV,MAAM,eAAe,CAAC,WAAW,CAAC,GAC5C,QAAQ,MAAM,MAAM,CAAC,MAAM,eAAe,CAAC,CAAC;uBAkClC,MAAM,eAAe,CAAC,WAAW,CAAC,GAC5C,MAAM,MAAM,CAAC,MAAM,eAAe,CAAC,GAAG,SAAS;CAJjD,CAAC"}

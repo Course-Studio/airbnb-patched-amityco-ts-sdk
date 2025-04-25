@@ -1,0 +1,1 @@
+{"version":3,"file":"getCategory.d.ts","sourceRoot":"","sources":["../../../src/categoryRepository/internalApi/getCategory.ts"],"names":[],"mappings":"AAKA,eAAO,MAAM,WAAW;iBACV,MAAM,gBAAgB,CAAC,YAAY,CAAC,GAC/C,QAAQ,MAAM,MAAM,CAAC,MAAM,gBAAgB,CAAC,CAAC;wBAoBlC,MAAM,gBAAgB,CAAC,YAAY,CAAC,GAC/C,MAAM,MAAM,CAAC,MAAM,gBAAgB,CAAC,GAAG,SAAS;CAJlD,CAAC"}

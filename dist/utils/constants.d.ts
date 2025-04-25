@@ -1,0 +1,15 @@
+export declare const COLLECTION_DEFAULT_PAGINATION_LIMIT = 5;
+export declare const COLLECTION_DEFAULT_CACHING_POLICY: Amity.QueryPolicy;
+export declare const ENABLE_CACHE_MESSAGE = "For using Live Collection feature you need to enable Cache!";
+export declare const LIVE_OBJECT_ENABLE_CACHE_MESSAGE = "For using Live Object feature you need to enable Cache!";
+export declare const UNSYNCED_OBJECT_CACHED_AT_MESSAGE = "Observing unsynced object is not supported by Live Object.";
+export declare const UNSYNCED_OBJECT_CACHED_AT_VALUE = -5;
+export declare const SECOND = 1000;
+export declare const MINUTE: number;
+export declare const HOUR: number;
+export declare const DAY: number;
+export declare const WEEK: number;
+export declare const MONTH: number;
+export declare const YEAR: number;
+export declare const ACCESS_TOKEN_WATCHER_INTERVAL: number;
+//# sourceMappingURL=constants.d.ts.map

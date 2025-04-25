@@ -1,0 +1,1 @@
+{"version":3,"file":"onNetworkActivities.d.ts","sourceRoot":"","sources":["../../../src/client/events/onNetworkActivities.ts"],"names":[],"mappings":"AAEA;;;;;;;;GAQG;AACH,eAAO,MAAM,mBAAmB,uBAEnB,OAAO,YACN;IACR,IAAI,EAAE,OAAO,CAAC;IACd,QAAQ,MAAM,CAAC;IACf,UAAU,EAAE,MAAM,CAAC;IACnB,OAAO,EAAE,OAAO,CAAC;CAClB,KACE,IAAI,KACR,MAAM,YAAoF,CAAC"}

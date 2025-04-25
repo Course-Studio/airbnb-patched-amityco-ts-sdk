@@ -1,0 +1,10 @@
+export * from './getCommentByIds';
+export * from './createComment';
+export * from './updateComment';
+export * from './deleteComment';
+export * from './softDeleteComment';
+export * from './hardDeleteComment';
+export * from './flagComment';
+export * from './unflagComment';
+export * from './isCommentFlaggedByMe';
+//# sourceMappingURL=index.d.ts.map

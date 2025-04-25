@@ -1,0 +1,1 @@
+{"version":3,"file":"PostPaginationController.d.ts","sourceRoot":"","sources":["../../../../src/postRepository/observers/getPosts/PostPaginationController.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,oBAAoB,EAAE,MAAM,4CAA4C,CAAC;AAIlF,qBAAa,wBAAyB,SAAQ,oBAAoB,CAChE,MAAM,EACN,KAAK,CAAC,kBAAkB,CACzB;IACO,UAAU,CAAC,WAAW,EAAE,KAAK,CAAC,kBAAkB,EAAE,KAAK,EAAE,MAAM,GAAG,SAAS;CAoClF"}
