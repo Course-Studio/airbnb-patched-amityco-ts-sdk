@@ -12,4 +12,4 @@
  * @private
  * @async
  */
-export declare const deleteSubChannel: (subChannelId: Amity.SubChannel['subChannelId'], permanent?: boolean) => Promise<Amity.SubChannel>;
+export declare const deleteSubChannel: (subChannelId: Amity.SubChannel["subChannelId"], permanent?: boolean) => Promise<Amity.SubChannel>;

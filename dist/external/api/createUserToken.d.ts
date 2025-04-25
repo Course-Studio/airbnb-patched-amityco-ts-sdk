@@ -14,8 +14,8 @@ import { API_REGIONS } from '~/client/utils/endpoints';
  * @hidden
  */
 export declare const createUserToken: (apiKey: string, apiRegion: (typeof API_REGIONS)[keyof typeof API_REGIONS], params: {
-    userId: Amity.InternalUser['userId'];
-    displayName?: Amity.InternalUser['displayName'];
+    userId: Amity.InternalUser["userId"];
+    displayName?: Amity.InternalUser["displayName"];
     authToken?: string;
 }) => Promise<{
     accessToken: string;

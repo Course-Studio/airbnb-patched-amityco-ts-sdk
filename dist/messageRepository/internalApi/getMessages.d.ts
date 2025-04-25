@@ -13,19 +13,6 @@
  * @async
  */
 export declare const getMessages: {
-    (messageIds: Amity.Message['messageId'][]): Promise<Amity.Cached<Amity.InternalMessage[]>>;
-    /**
-     * ```js
-     * import { getMessages } from '@amityco/ts-sdk'
-     * const messages = getMessages.locally(['foo', 'bar']) ?? []
-     * ```
-     *
-     * Fetches a collection of {@link Amity.Message} objects from cache
-     *
-     * @param messageIds the IDs of the {@link Amity.Message} to fetch
-     * @returns the associated collection of {@link Amity.Message} objects
-     *
-     * @category Message API
-     */
-    locally(messageIds: Amity.Message['messageId'][]): Amity.Cached<Amity.InternalMessage[]> | undefined;
+    (messageIds: Amity.Message["messageId"][]): Promise<Amity.Cached<Amity.InternalMessage[]>>;
+    locally(messageIds: Amity.Message["messageId"][]): Amity.Cached<Amity.InternalMessage[]> | undefined;
 };

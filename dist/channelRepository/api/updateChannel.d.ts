@@ -13,4 +13,4 @@
  * @category Channel API
  * @async
  */
-export declare const updateChannel: (channelId: Amity.Channel['channelId'], patch: Patch<Amity.Channel, 'displayName' | 'avatarFileId' | 'tags' | 'metadata'>) => Promise<Amity.Cached<Amity.InternalChannel>>;
+export declare const updateChannel: (channelId: Amity.Channel["channelId"], patch: Patch<Amity.Channel, "displayName" | "avatarFileId" | "tags" | "metadata">) => Promise<Amity.Cached<Amity.InternalChannel>>;

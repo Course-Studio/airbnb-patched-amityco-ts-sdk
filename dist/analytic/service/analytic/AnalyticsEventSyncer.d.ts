@@ -1,4 +1,3 @@
-/// <reference types="node" />
 export declare class AnalyticsEventSyncer {
     _timer: NodeJS.Timeout | undefined;
     _high_priority_timer: NodeJS.Timeout | undefined;

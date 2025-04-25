@@ -13,4 +13,4 @@
  * @async
  * @private
  */
-export declare const getMessageMarkers: (messageIds: Amity.RawMessage['messageFeedId'][]) => Promise<Amity.Cached<Amity.MessageMarker[]>>;
+export declare const getMessageMarkers: (messageIds: Amity.RawMessage["messageFeedId"][]) => Promise<Amity.Cached<Amity.MessageMarker[]>>;

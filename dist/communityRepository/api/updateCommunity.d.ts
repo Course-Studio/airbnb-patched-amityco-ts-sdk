@@ -13,4 +13,4 @@
  * @category Community API
  * @async
  */
-export declare const updateCommunity: (communityId: Amity.Community['communityId'], patch: Patch<Amity.Community, 'displayName' | 'avatarFileId' | 'description' | 'postSetting' | 'tags' | 'metadata'> & Amity.CommunityStorySettings) => Promise<Amity.Cached<Amity.Community>>;
+export declare const updateCommunity: (communityId: Amity.Community["communityId"], patch: Patch<Amity.Community, "displayName" | "avatarFileId" | "description" | "postSetting" | "tags" | "metadata"> & Amity.CommunityStorySettings) => Promise<Amity.Cached<Amity.Community>>;

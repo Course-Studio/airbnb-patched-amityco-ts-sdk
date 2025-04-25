@@ -13,4 +13,4 @@
  * @category Channel API
  * @async
  */
-export declare const addMembers: (channelId: Amity.Channel['channelId'], userIds: Amity.InternalUser['userId'][]) => Promise<boolean>;
+export declare const addMembers: (channelId: Amity.Channel["channelId"], userIds: Amity.InternalUser["userId"][]) => Promise<boolean>;

@@ -1,1 +1,1 @@
-export declare const isCommentFlaggedByMe: (commentId: Amity.InternalComment['commentId']) => Promise<boolean>;
+export declare const isCommentFlaggedByMe: (commentId: Amity.InternalComment["commentId"]) => Promise<boolean>;

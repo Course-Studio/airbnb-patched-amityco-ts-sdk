@@ -13,19 +13,6 @@
  * @async
  */
 export declare const softDeleteMessage: {
-    (messageId: Amity.Message['messageId']): Promise<Amity.Message>;
-    /**
-     * ```js
-     * import { softDeleteMessage } from '@amityco/ts-sdk'
-     * const success = softDeleteMessage.optimistically('foobar')
-     * ```
-     *
-     * Deletes a {@link Amity.Message}
-     *
-     * @param messageId The {@link Amity.Message} ID to delete
-     * @return A success boolean if the {@link Amity.Message} was deleted
-     *
-     * @category Message API
-     */
-    optimistically(messageId: Amity.Message['messageId']): Amity.Cached<Amity.Message> | undefined;
+    (messageId: Amity.Message["messageId"]): Promise<Amity.Message>;
+    optimistically(messageId: Amity.Message["messageId"]): Amity.Cached<Amity.Message> | undefined;
 };

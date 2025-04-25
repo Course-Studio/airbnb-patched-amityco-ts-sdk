@@ -13,4 +13,4 @@
  * @category Message API
  * @async
  */
-export declare const markAsDelivered: (subChannelId: Amity.Message['subChannelId'], messageId: Amity.Message['messageId']) => Promise<boolean>;
+export declare const markAsDelivered: (subChannelId: Amity.Message["subChannelId"], messageId: Amity.Message["messageId"]) => Promise<boolean>;

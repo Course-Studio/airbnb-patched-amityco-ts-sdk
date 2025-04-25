@@ -22,7 +22,7 @@ export declare const filterByPropIntersection: <T extends Record<string, unknown
  *
  * @hidden
  */
-export declare const filterByChannelMembership: (collection: Amity.Channel[], membership: Amity.ChannelLiveCollection['membership'], userId: Amity.Membership<'channel'>['userId']) => Amity.Channel[];
+export declare const filterByChannelMembership: (collection: Amity.Channel[], membership: Amity.ChannelLiveCollection["membership"], userId: Amity.Membership<"channel">["userId"]) => Amity.Channel[];
 /**
  * Filter a channel collection by membership of the userId
  *
@@ -32,7 +32,7 @@ export declare const filterByChannelMembership: (collection: Amity.Channel[], me
  *
  * @hidden
  */
-export declare const filterByFeedType: <T extends Amity.InternalPost<any>>(collection: T[], feedType: Amity.Feed['feedType']) => T[];
+export declare const filterByFeedType: <T extends Amity.InternalPost>(collection: T[], feedType: Amity.Feed["feedType"]) => T[];
 /**
  * Filter a community collection by membership of the userId
  *
@@ -43,7 +43,7 @@ export declare const filterByFeedType: <T extends Amity.InternalPost<any>>(colle
  *
  * @hidden
  */
-export declare const filterByCommunityMembership: <T extends Amity.Community>(collection: T[], membership: Amity.CommunityLiveCollection['membership'], userId: Amity.Membership<'community'>['userId']) => T[];
+export declare const filterByCommunityMembership: <T extends Amity.Community>(collection: T[], membership: Amity.CommunityLiveCollection["membership"], userId: Amity.Membership<"community">["userId"]) => T[];
 /**
  * Filter a post collection by dataType
  *
@@ -53,7 +53,7 @@ export declare const filterByCommunityMembership: <T extends Amity.Community>(co
  *
  * @hidden
  */
-export declare const filterByPostDataTypes: <T extends Amity.InternalPost<any>>(collection: T[], dataTypes: Amity.PostLiveCollection['dataTypes']) => T[];
+export declare const filterByPostDataTypes: <T extends Amity.InternalPost>(collection: T[], dataTypes: Amity.PostLiveCollection["dataTypes"]) => T[];
 /**
  * Filter a collection by search term
  * Check if userId matches first if not filter by displayName
@@ -65,6 +65,6 @@ export declare const filterByPostDataTypes: <T extends Amity.InternalPost<any>>(
  * @hidden
  */
 export declare const filterBySearchTerm: <T extends {
-    userId: Amity.InternalUser['userId'];
+    userId: Amity.InternalUser["userId"];
     user?: Amity.InternalUser;
 }>(collection: T[], searchTerm: string) => T[];

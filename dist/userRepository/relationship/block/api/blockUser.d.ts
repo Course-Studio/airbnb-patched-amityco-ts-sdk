@@ -12,4 +12,4 @@
  * @category Post API
  * @async
  */
-export declare const blockUser: (userId: Amity.InternalUser['userId']) => Promise<Amity.BlockedPayload>;
+export declare const blockUser: (userId: Amity.InternalUser["userId"]) => Promise<Amity.BlockedPayload>;

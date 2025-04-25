@@ -13,4 +13,4 @@
  * @category Channel API
  * @async
  */
-export declare const updateSubChannel: (subChannelId: Amity.SubChannel['subChannelId'], patch: Patch<Amity.SubChannel, 'displayName'>) => Promise<Amity.Cached<Amity.SubChannel>>;
+export declare const updateSubChannel: (subChannelId: Amity.SubChannel["subChannelId"], patch: Patch<Amity.SubChannel, "displayName">) => Promise<Amity.Cached<Amity.SubChannel>>;

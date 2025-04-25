@@ -17,4 +17,4 @@
  *
  * @category Poll Live Object
  */
-export declare const getPoll: (pollId: Amity.Poll['pollId'], callback: Amity.LiveObjectCallback<Amity.Poll>) => Amity.Unsubscriber;
+export declare const getPoll: (pollId: Amity.Poll["pollId"], callback: Amity.LiveObjectCallback<Amity.Poll>) => Amity.Unsubscriber;

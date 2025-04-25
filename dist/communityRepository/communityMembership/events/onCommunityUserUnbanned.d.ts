@@ -13,4 +13,4 @@
  *
  * @category Community Events
  */
-export declare const onCommunityUserUnbanned: (callback: (community: Amity.Community, member: Amity.Membership<'community'>[]) => void) => Amity.Unsubscriber;
+export declare const onCommunityUserUnbanned: (callback: (community: Amity.Community, member: Amity.Membership<"community">[]) => void) => Amity.Unsubscriber;

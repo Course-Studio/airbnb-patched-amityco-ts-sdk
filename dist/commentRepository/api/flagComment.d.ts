@@ -10,4 +10,4 @@
  * @category Comment API
  * @async
  * */
-export declare const flagComment: (commentId: Amity.Comment['commentId']) => Promise<boolean>;
+export declare const flagComment: (commentId: Amity.Comment["commentId"]) => Promise<boolean>;

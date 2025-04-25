@@ -12,4 +12,4 @@
  * @category Follow API
  * @async
  */
-export declare const acceptMyFollower: (userId: Amity.InternalUser['userId']) => Promise<boolean>;
+export declare const acceptMyFollower: (userId: Amity.InternalUser["userId"]) => Promise<boolean>;

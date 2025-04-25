@@ -14,4 +14,4 @@
  * @category File API
  * @async
  */
-export declare const uploadVideo: (formData: FormData, feedType?: Amity.ContentFeedType, onProgress?: (percent: number) => void) => Promise<Amity.Cached<Amity.File<'video'>[]>>;
+export declare const uploadVideo: (formData: FormData, feedType?: Amity.ContentFeedType, onProgress?: (percent: number) => void) => Promise<Amity.Cached<Amity.File<"video">[]>>;

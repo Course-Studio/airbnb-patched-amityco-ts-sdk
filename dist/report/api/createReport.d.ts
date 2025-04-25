@@ -11,4 +11,4 @@
  * @category Report API
  * @async
  * */
-export declare const createReport: (referenceType: 'post' | 'comment' | 'message' | 'user', referenceId: string) => Promise<boolean>;
+export declare const createReport: (referenceType: "post" | "comment" | "message" | "user", referenceId: string) => Promise<boolean>;

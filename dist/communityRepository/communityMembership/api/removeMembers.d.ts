@@ -13,4 +13,4 @@
  * @category Community API
  * @async
  */
-export declare const removeMembers: (communityId: Amity.Community['communityId'], userIds: Amity.InternalUser['userId'][]) => Promise<boolean>;
+export declare const removeMembers: (communityId: Amity.Community["communityId"], userIds: Amity.InternalUser["userId"][]) => Promise<boolean>;

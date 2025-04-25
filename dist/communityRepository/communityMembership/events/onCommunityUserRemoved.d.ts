@@ -13,4 +13,4 @@
  *
  * @category Community Events
  */
-export declare const onCommunityUserRemoved: (callback: (community: Amity.Community, member: Amity.Membership<'community'>[]) => void) => Amity.Unsubscriber;
+export declare const onCommunityUserRemoved: (callback: (community: Amity.Community, member: Amity.Membership<"community">[]) => void) => Amity.Unsubscriber;

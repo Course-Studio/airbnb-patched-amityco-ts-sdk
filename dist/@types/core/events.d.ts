@@ -1,5 +1,3 @@
-/// <reference types="node" />
-/// <reference types="node" />
 import { IConnectPacket, IDisconnectPacket, IPublishPacket } from 'mqtt/dist/mqtt';
 export {};
 declare global {

@@ -15,4 +15,4 @@
  *
  * @category Events
  * */
-export declare const onReactorAdded: (referenceType: Amity.ReactableType, referenceId: Amity.Reaction['referenceId'], callback: Amity.Listener<Amity.InternalReactor>) => Amity.Unsubscriber;
+export declare const onReactorAdded: (referenceType: Amity.ReactableType, referenceId: Amity.Reaction["referenceId"], callback: Amity.Listener<Amity.InternalReactor>) => Amity.Unsubscriber;

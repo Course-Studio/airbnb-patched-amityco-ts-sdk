@@ -5,9 +5,9 @@ import { PaginationController } from '~/core/liveCollection/PaginationController
  */
 export declare class SearchChannelMemberPaginationController extends PaginationController<'channelUser', Amity.ChannelMembersLiveCollection> {
     getRequest(queryParams: Amity.ChannelMembersLiveCollection, token: string | undefined): Promise<{
-        channels: Amity.RawChannel<any>[];
+        channels: Amity.RawChannel[];
         channelUsers: Amity.RawMembership<"channel">[];
-        messagePreviews: Amity.MessagePreviewPayload<any>[];
+        messagePreviews: Amity.MessagePreviewPayload[];
         users: Amity.RawUser[];
     } & Omit<Amity.UserPayload, "users"> & Amity.Pagination>;
 }

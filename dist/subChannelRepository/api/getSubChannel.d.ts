@@ -13,19 +13,6 @@
  * @async
  */
 export declare const getSubChannel: {
-    (subChannelId: Amity.SubChannel['subChannelId']): Promise<Amity.Cached<Amity.SubChannel>>;
-    /**
-     * ```js
-     * import { getSubChannel } from '@amityco/ts-sdk'
-     * const subChannel = getSubChannel.locally('foobar')
-     * ```
-     *
-     * Fetches a {@link Amity.SubChannel} object from cache
-     *
-     * @param subChannelId the ID of the {@link Amity.SubChannel} to fetch
-     * @returns the associated {@link Amity.SubChannel} object
-     *
-     * @category Channel API
-     */
-    locally(subChannelId: Amity.SubChannel['subChannelId']): Amity.Cached<Amity.SubChannel> | undefined;
+    (subChannelId: Amity.SubChannel["subChannelId"]): Promise<Amity.Cached<Amity.SubChannel>>;
+    locally(subChannelId: Amity.SubChannel["subChannelId"]): Amity.Cached<Amity.SubChannel> | undefined;
 };

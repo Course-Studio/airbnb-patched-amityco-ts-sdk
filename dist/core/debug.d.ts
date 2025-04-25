@@ -1,4 +1,3 @@
-/// <reference types="debug" />
 /**
  * Creates a pre-configured logger instance
  *

@@ -13,4 +13,4 @@
  * @category User API
  * @async
  */
-export declare const updateUser: (userId: Amity.User['userId'], patch: Patch<Amity.User, 'displayName' | 'description' | 'avatarFileId' | 'avatarCustomUrl' | 'metadata'>) => Promise<Amity.Cached<Amity.User>>;
+export declare const updateUser: (userId: Amity.User["userId"], patch: Patch<Amity.User, "displayName" | "description" | "avatarFileId" | "avatarCustomUrl" | "metadata">) => Promise<Amity.Cached<Amity.User>>;

@@ -12,10 +12,10 @@
  */
 export declare const getToken: ({ params, options, }: {
     params: {
-        userId: Amity.InternalUser['userId'];
-        displayName?: Amity.InternalUser['displayName'];
+        userId: Amity.InternalUser["userId"];
+        displayName?: Amity.InternalUser["displayName"];
         authToken?: string;
-        deviceId: Amity.Device['deviceId'];
+        deviceId: Amity.Device["deviceId"];
     };
     options?: {
         setAccessTokenCookie?: boolean;

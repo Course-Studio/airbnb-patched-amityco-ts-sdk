@@ -11,4 +11,4 @@
  * @async
  * @private
  */
-export declare const getChannelMarkers: (channelIds: Amity.Channel['channelId'][]) => Promise<Amity.Cached<Amity.ChannelMarker[]>>;
+export declare const getChannelMarkers: (channelIds: Amity.Channel["channelId"][]) => Promise<Amity.Cached<Amity.ChannelMarker[]>>;

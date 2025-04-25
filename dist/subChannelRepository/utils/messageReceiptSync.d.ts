@@ -12,7 +12,7 @@
  * @category subChannel API
  * @async
  */
-export declare const startMessageReceiptSync: (subChannelId: Amity.SubChannel['subChannelId']) => Promise<boolean>;
+export declare const startMessageReceiptSync: (subChannelId: Amity.SubChannel["subChannelId"]) => Promise<boolean>;
 /**
  * ```js
  * import { SubChannelRepository } from '@amityco/ts-sdk'
@@ -27,4 +27,4 @@ export declare const startMessageReceiptSync: (subChannelId: Amity.SubChannel['s
  * @category subChannel API
  * @async
  */
-export declare const stopMessageReceiptSync: (subChannelId: Amity.SubChannel['subChannelId']) => boolean;
+export declare const stopMessageReceiptSync: (subChannelId: Amity.SubChannel["subChannelId"]) => boolean;

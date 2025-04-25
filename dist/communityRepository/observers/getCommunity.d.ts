@@ -17,4 +17,4 @@
  *
  * @category Community Live Object
  */
-export declare const getCommunity: (communityId: Amity.Community['communityId'], callback: Amity.LiveObjectCallback<Amity.Community>) => Amity.Unsubscriber;
+export declare const getCommunity: (communityId: Amity.Community["communityId"], callback: Amity.LiveObjectCallback<Amity.Community>) => Amity.Unsubscriber;

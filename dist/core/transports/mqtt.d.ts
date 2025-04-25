@@ -1,4 +1,4 @@
-import { IClientOptions, MqttClient } from 'mqtt/dist/mqtt';
+import { IClientOptions } from 'mqtt/dist/mqtt';
 export declare function getMqttOptions(params: {
     username: string;
     password: string;

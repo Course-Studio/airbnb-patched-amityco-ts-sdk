@@ -12,4 +12,4 @@
  * @category Channel API
  * @async
  */
-export declare const createSubChannel: <T extends Amity.ChannelType>(bundle: Pick<Amity.SubChannel, 'channelId' | 'displayName'>) => Promise<Amity.Cached<Amity.SubChannel>>;
+export declare const createSubChannel: <T extends Amity.ChannelType>(bundle: Pick<Amity.SubChannel, "channelId" | "displayName">) => Promise<Amity.Cached<Amity.SubChannel>>;

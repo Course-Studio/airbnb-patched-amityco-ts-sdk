@@ -13,4 +13,4 @@
  * @category Channel API
  * @async
  */
-export declare const muteChannel: (channelId: Amity.Channel['channelId'], mutePeriod?: number) => Promise<boolean>;
+export declare const muteChannel: (channelId: Amity.Channel["channelId"], mutePeriod?: number) => Promise<boolean>;

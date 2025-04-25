@@ -12,6 +12,6 @@
  * @category File API
  * @async
  */
-export declare const deleteFile: (fileId: Amity.File<any>['fileId']) => Promise<{
+export declare const deleteFile: (fileId: Amity.File<any>["fileId"]) => Promise<{
     success: boolean;
 }>;

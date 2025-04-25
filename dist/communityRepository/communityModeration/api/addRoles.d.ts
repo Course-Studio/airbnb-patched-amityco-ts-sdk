@@ -14,4 +14,4 @@
  * @category Community API
  * @async
  */
-export declare const addRoles: (communityId: Amity.Community['communityId'], roleIds: Amity.Role['roleId'][], userIds: Amity.InternalUser['userId'][]) => Promise<boolean>;
+export declare const addRoles: (communityId: Amity.Community["communityId"], roleIds: Amity.Role["roleId"][], userIds: Amity.InternalUser["userId"][]) => Promise<boolean>;

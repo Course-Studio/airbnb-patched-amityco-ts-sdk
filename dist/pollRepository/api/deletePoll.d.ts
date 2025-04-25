@@ -12,4 +12,4 @@
  * @category Poll API
  * @async
  */
-export declare const deletePoll: (pollId: Amity.Poll['pollId']) => Promise<boolean>;
+export declare const deletePoll: (pollId: Amity.Poll["pollId"]) => Promise<boolean>;

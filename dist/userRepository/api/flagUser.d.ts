@@ -10,4 +10,4 @@
  * @category User API
  * @async
  * */
-export declare const flagUser: (userId: Amity.User['userId']) => Promise<boolean>;
+export declare const flagUser: (userId: Amity.User["userId"]) => Promise<boolean>;

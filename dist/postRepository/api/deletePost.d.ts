@@ -12,4 +12,4 @@
  * @private
  * @async
  */
-export declare const deletePost: (postId: Amity.Post['postId'], permanent?: boolean) => Promise<Amity.Post>;
+export declare const deletePost: (postId: Amity.Post["postId"], permanent?: boolean) => Promise<Amity.Post>;

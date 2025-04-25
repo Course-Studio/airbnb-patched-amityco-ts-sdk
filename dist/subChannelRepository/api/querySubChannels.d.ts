@@ -14,18 +14,5 @@
  */
 export declare const querySubChannels: {
     (query: Amity.QuerySubChannels): Promise<Amity.Cached<Amity.Paged<Amity.SubChannel>> & Amity.Pagination>;
-    /**
-     * ```js
-     * import { querySubChannels } from '@amityco/ts-sdk'
-     * const subChannels = querySubChannels.locally({ channelId: 'channelId' })
-     * ```
-     *
-     * Queries a paginable list of {@link Amity.SubChannel} objects from cache
-     *
-     * @param query The query parameters
-     * @returns sub channels
-     *
-     * @category Channel API
-     */
     locally(query: Parameters<typeof querySubChannels>[0]): Amity.Cached<Amity.Paged<Amity.SubChannel> & Amity.Pagination> | undefined;
 };

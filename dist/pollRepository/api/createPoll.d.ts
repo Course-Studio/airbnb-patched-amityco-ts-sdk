@@ -19,6 +19,6 @@
  * @category Poll API
  * @async
  */
-export declare const createPoll: (bundle: Pick<Amity.Poll, 'question' | 'answerType' | 'closedIn'> & {
-    answers: Pick<Amity.PollAnswer, 'dataType' | 'data'>[];
+export declare const createPoll: (bundle: Pick<Amity.Poll, "question" | "answerType" | "closedIn"> & {
+    answers: Pick<Amity.PollAnswer, "dataType" | "data">[];
 }) => Promise<Amity.Cached<Amity.Poll>>;

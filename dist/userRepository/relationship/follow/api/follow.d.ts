@@ -12,4 +12,4 @@
  * @category Follow API
  * @async
  */
-export declare const follow: (userId: Amity.InternalUser['userId']) => Promise<Amity.Cached<Amity.FollowStatus>>;
+export declare const follow: (userId: Amity.InternalUser["userId"]) => Promise<Amity.Cached<Amity.FollowStatus>>;

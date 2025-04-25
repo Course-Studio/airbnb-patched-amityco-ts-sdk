@@ -12,4 +12,4 @@
  * @category Channel API
  * @async
  */
-export declare const joinChannel: (channelId: Amity.Channel['channelId']) => Promise<boolean>;
+export declare const joinChannel: (channelId: Amity.Channel["channelId"]) => Promise<boolean>;

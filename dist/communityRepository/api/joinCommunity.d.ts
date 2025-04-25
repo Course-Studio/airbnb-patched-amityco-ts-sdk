@@ -12,4 +12,4 @@
  * @category Community API
  * @async
  */
-export declare const joinCommunity: (communityId: Amity.Community['communityId']) => Promise<boolean>;
+export declare const joinCommunity: (communityId: Amity.Community["communityId"]) => Promise<boolean>;

@@ -28,23 +28,11 @@ export declare const emptyPostPayload: {
     files: any[];
 };
 export declare const postQueryResponse: {
-    data: Omit<Amity.PostPayload<any>, "communityUsers" | "communities" | "posts"> & {
-        posts: Amity.InternalPost<any>[];
-        communities: Amity.Community[];
-        communityUsers: Amity.Membership<"community">[];
-    } & Amity.Pagination;
+    data: Amity.ProcessedPostPayload & Amity.Pagination;
 };
 export declare const postQueryResponse2: {
-    data: Omit<Amity.PostPayload<any>, "communityUsers" | "communities" | "posts"> & {
-        posts: Amity.InternalPost<any>[];
-        communities: Amity.Community[];
-        communityUsers: Amity.Membership<"community">[];
-    } & Amity.Pagination;
+    data: Amity.ProcessedPostPayload & Amity.Pagination;
 };
 export declare const postQueryResponsePage2: {
-    data: Omit<Amity.PostPayload<any>, "communityUsers" | "communities" | "posts"> & {
-        posts: Amity.InternalPost<any>[];
-        communities: Amity.Community[];
-        communityUsers: Amity.Membership<"community">[];
-    } & Amity.Pagination;
+    data: Amity.ProcessedPostPayload & Amity.Pagination;
 };

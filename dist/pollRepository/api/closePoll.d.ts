@@ -12,4 +12,4 @@
  * @category Poll API
  * @async
  */
-export declare const closePoll: (pollId: Amity.Poll['pollId']) => Promise<Amity.Cached<Amity.Poll>>;
+export declare const closePoll: (pollId: Amity.Poll["pollId"]) => Promise<Amity.Cached<Amity.Poll>>;

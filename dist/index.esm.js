@@ -8,6 +8,35 @@ import uuid$1 from 'react-native-uuid';
 import hash from 'object-hash';
 import Hls from 'hls.js';
 
+const CommunityPostSettings = Object.freeze({
+    ONLY_ADMIN_CAN_POST: 'ONLY_ADMIN_CAN_POST',
+    ADMIN_REVIEW_POST_REQUIRED: 'ADMIN_REVIEW_POST_REQUIRED',
+    ANYONE_CAN_POST: 'ANYONE_CAN_POST',
+});
+const CommunityPostSettingMaps = Object.freeze({
+    ONLY_ADMIN_CAN_POST: {
+        needApprovalOnPostCreation: false,
+        onlyAdminCanPost: true,
+    },
+    ADMIN_REVIEW_POST_REQUIRED: {
+        needApprovalOnPostCreation: true,
+        onlyAdminCanPost: false,
+    },
+    ANYONE_CAN_POST: {
+        needApprovalOnPostCreation: false,
+        onlyAdminCanPost: false,
+    },
+});
+const DefaultCommunityPostSetting = 'ONLY_ADMIN_CAN_POST';
+
+const ContentFeedType = Object.freeze({
+    STORY: 'story',
+    CLIP: 'clip',
+    CHAT: 'chat',
+    POST: 'post',
+    MESSAGE: 'message',
+});
+
 const FileType = Object.freeze({
     FILE: 'file',
     IMAGE: 'image',
@@ -37,35 +66,6 @@ var FileAccessTypeEnum;
     FileAccessTypeEnum["PUBLIC"] = "public";
     FileAccessTypeEnum["NETWORK"] = "network";
 })(FileAccessTypeEnum || (FileAccessTypeEnum = {}));
-
-const CommunityPostSettings = Object.freeze({
-    ONLY_ADMIN_CAN_POST: 'ONLY_ADMIN_CAN_POST',
-    ADMIN_REVIEW_POST_REQUIRED: 'ADMIN_REVIEW_POST_REQUIRED',
-    ANYONE_CAN_POST: 'ANYONE_CAN_POST',
-});
-const CommunityPostSettingMaps = Object.freeze({
-    ONLY_ADMIN_CAN_POST: {
-        needApprovalOnPostCreation: false,
-        onlyAdminCanPost: true,
-    },
-    ADMIN_REVIEW_POST_REQUIRED: {
-        needApprovalOnPostCreation: true,
-        onlyAdminCanPost: false,
-    },
-    ANYONE_CAN_POST: {
-        needApprovalOnPostCreation: false,
-        onlyAdminCanPost: false,
-    },
-});
-const DefaultCommunityPostSetting = 'ONLY_ADMIN_CAN_POST';
-
-const ContentFeedType = Object.freeze({
-    STORY: 'story',
-    CLIP: 'clip',
-    CHAT: 'chat',
-    POST: 'post',
-    MESSAGE: 'message',
-});
 
 const MessageContentType = Object.freeze({
     TEXT: 'text',
@@ -25431,8 +25431,8 @@ const getMarkerSyncConsistentMode = () => isConsistentMode;
  * than the one already connected, in which case the existing subscriptions need
  * to be cleared
  */
-let subscriptions = [];
-async function runMqtt() {
+let subscriptions$1 = [];
+async function runMqtt$1() {
     await modifyMqttConnection();
 }
 /* begin_public_function
@@ -25467,8 +25467,8 @@ const login = async (params, sessionHandler, config) => {
     if (client.userId && client.userId !== params.userId) {
         await logout();
         // Remove subscription to ban and delete
-        subscriptions.forEach(fn => fn());
-        subscriptions = [];
+        subscriptions$1.forEach(fn => fn());
+        subscriptions$1 = [];
     }
     // default values
     const defaultDeviceId = await getDeviceId();
@@ -25514,42 +25514,42 @@ const login = async (params, sessionHandler, config) => {
         throw error;
     }
     if ((config === null || config === void 0 ? void 0 : config.disableRTE) !== true) {
-        runMqtt();
+        runMqtt$1();
     }
     await initializeMessagePreviewSetting();
-    if (subscriptions.length === 0) {
-        subscriptions.push(
+    if (subscriptions$1.length === 0) {
+        subscriptions$1.push(
         // GLOBAL_BAN
         onClientBanned((_) => {
             terminateClient("globalBan" /* Amity.TokenTerminationReason.GLOBAL_BAN */);
-            subscriptions.forEach(fn => fn());
+            subscriptions$1.forEach(fn => fn());
             unsubWatcher();
         }), onTokenTerminated(_ => {
             terminateClient();
-            subscriptions.forEach(fn => fn());
+            subscriptions$1.forEach(fn => fn());
             unsubWatcher();
         }), onUserDeleted$2((user) => {
             if (user.userId === client.userId) {
                 terminateClient("userDeleted" /* Amity.TokenTerminationReason.USER_DELETED */);
-                subscriptions.forEach(fn => fn());
+                subscriptions$1.forEach(fn => fn());
                 unsubWatcher();
             }
         }), onTokenExpired(state => {
             SessionWatcher$1.getInstance().setSessionState(state);
             logout();
-            subscriptions.forEach(fn => fn());
+            subscriptions$1.forEach(fn => fn());
         }), 
         // NOTE: This is a temporary solution to handle the channel marker when the user is forced to leave
         // the channel because currently backend can't handle this, so every time a user is banned from
         // a channel or the channel is deleted the channel's unread count will not be reset to zero
         onChannelDeleted(removeChannelMarkerCache), onChannelMemberBanned(removeChannelMarkerCache), markReadEngineOnLoginHandler(), analyticsEngineOnLoginHandler(), objectResolverEngineOnLoginHandler());
         if (client.useLegacyUnreadCount) {
-            subscriptions.push(readReceiptSyncEngineOnLoginHandler());
+            subscriptions$1.push(readReceiptSyncEngineOnLoginHandler());
         }
         else
-            subscriptions.push(legacyReadReceiptSyncEngineOnLoginHandler());
+            subscriptions$1.push(legacyReadReceiptSyncEngineOnLoginHandler());
         const markerSyncUnsubscriber = await startMarkerSync();
-        subscriptions.push(markerSyncUnsubscriber);
+        subscriptions$1.push(markerSyncUnsubscriber);
     }
     return true;
 };
@@ -25780,6 +25780,166 @@ const createClient = (apiKey, apiRegion = API_REGIONS.SG, { debugSession = DEFAU
         setActiveClient(client);
     }
     return client;
+};
+
+/* eslint-disable no-param-reassign */
+/*
+ * declared earlier to accomodate case when logging in with a different user
+ * than the one already connected, in which case the existing subscriptions need
+ * to be cleared
+ */
+let subscriptions = [];
+async function runMqtt() {
+    await modifyMqttConnection();
+}
+/* begin_public_function
+  id: client.login
+*/
+/**
+ * ```js
+ * import { login } from '@amityco/ts-sdk/client/api'
+ * const success = await login({
+ *   userId: 'XYZ123456789',
+ * })
+ * ```
+ *
+ * Connects an {@link Amity.Client} instance to ASC servers
+ *
+ * @param params the connect parameters
+ * @param params.userId the user ID for the current session
+ * @param params.displayName the user's displayName for the current session
+ * @param params.deviceId Manual override of the user's device id (for device management)
+ * @param params.authToken The authentication token - necessary when network option is set to secure
+ * @returns a success boolean if connected
+ *
+ * @category Client API
+ * @async
+ */
+const useAccessToken = async (params, sessionHandler, config) => {
+    var _a;
+    const client = getActiveClient();
+    let unsubWatcher;
+    client.log('client/api/useAuthToken', Object.assign({ apiKey: client.apiKey, sessionState: client.sessionState }, params));
+    // if connecting to a different userId than the one that is connected currently
+    if (client.userId && client.userId !== params.userId) {
+        await logout();
+        // Remove subscription to ban and delete
+        subscriptions.forEach((fn) => fn());
+        subscriptions = [];
+    }
+    try {
+        const user = await validateAccessToken(params);
+        if (user == null) {
+            throw new ASCError(`${params.userId} has not been founded`, 800000 /* Amity.ClientError.UNKNOWN_ERROR */, "error" /* Amity.ErrorLevel.ERROR */);
+        }
+        if (user.isDeleted) {
+            terminateClient("userDeleted" /* Amity.TokenTerminationReason.USER_DELETED */);
+            return false;
+        }
+        if (user.isGlobalBanned) {
+            terminateClient("globalBan" /* Amity.TokenTerminationReason.GLOBAL_BAN */);
+            return false;
+        }
+        // FIXME: events are duplicated if connectClient is called few times without disconnectClient
+        // wire websocket events to our event emitter
+        proxyWebsocketEvents(client.ws, client.emitter);
+        (_a = client.ws) === null || _a === void 0 ? void 0 : _a.open();
+        client.userId = user.userId;
+        client.sessionHandler = sessionHandler;
+        /*
+         * Cannot push to subscriptions as watcher needs to continue working even if
+         * token expires
+         */
+        unsubWatcher = client.accessTokenExpiryWatcher(sessionHandler);
+        setActiveUser(user);
+    }
+    catch (error) {
+        /*
+         * if getting token failed session state reverts to initial state when app
+         * is first launched
+         */
+        SessionWatcher$1.getInstance().setSessionState("notLoggedIn" /* Amity.SessionStates.NOT_LOGGED_IN */);
+        // pass error down tree so the calling function handle it
+        throw error;
+    }
+    if ((config === null || config === void 0 ? void 0 : config.disableRTE) !== true) {
+        runMqtt();
+    }
+    await initializeMessagePreviewSetting();
+    if (subscriptions.length === 0) {
+        subscriptions.push(
+        // GLOBAL_BAN
+        onClientBanned((_) => {
+            terminateClient("globalBan" /* Amity.TokenTerminationReason.GLOBAL_BAN */);
+            subscriptions.forEach((fn) => fn());
+            unsubWatcher();
+        }), onTokenTerminated((_) => {
+            terminateClient();
+            subscriptions.forEach((fn) => fn());
+            unsubWatcher();
+        }), onUserDeleted$2((user) => {
+            if (user.userId === client.userId) {
+                terminateClient("userDeleted" /* Amity.TokenTerminationReason.USER_DELETED */);
+                subscriptions.forEach((fn) => fn());
+                unsubWatcher();
+            }
+        }), onTokenExpired((state) => {
+            SessionWatcher$1.getInstance().setSessionState(state);
+            logout();
+            subscriptions.forEach((fn) => fn());
+        }), 
+        // NOTE: This is a temporary solution to handle the channel marker when the user is forced to leave
+        // the channel because currently backend can't handle this, so every time a user is banned from
+        // a channel or the channel is deleted the channel's unread count will not be reset to zero
+        onChannelDeleted(removeChannelMarkerCache), onChannelMemberBanned(removeChannelMarkerCache), markReadEngineOnLoginHandler(), analyticsEngineOnLoginHandler(), objectResolverEngineOnLoginHandler());
+        if (client.useLegacyUnreadCount) {
+            subscriptions.push(readReceiptSyncEngineOnLoginHandler());
+        }
+        else
+            subscriptions.push(legacyReadReceiptSyncEngineOnLoginHandler());
+        const markerSyncUnsubscriber = await startMarkerSync();
+        subscriptions.push(markerSyncUnsubscriber);
+    }
+    return true;
+};
+/* end_public_function */
+/**
+ * A util to validate client token and get current user data
+ *
+ * @param params.userId the user ID for the current session
+ * @param params.displayName the user's displayName for the current session
+ * @param params.deviceId Manual override of the user's device id (for device management)
+ * @param params.authToken The authentication token - necessary when network option is set to secure
+ * @returns token & user info
+ *
+ * @category private
+ * @async
+ */
+const validateAccessToken = async ({ token, userId }) => {
+    const client = getActiveClient();
+    // begin establishing session
+    setSessionState("establishing" /* Amity.SessionStates.ESTABLISHING */);
+    // manually setup the token for http transport
+    client.http.defaults.headers.common.Authorization = `Bearer ${token.accessToken}`;
+    const { data: { users }, } = await client.http.get(`/api/v3/users/${userId}`);
+    const user = users.find((u) => u.userId === userId);
+    client.http.defaults.metadata = {
+        tokenExpiry: token.expiresAt,
+        isGlobalBanned: false,
+        isUserDeleted: false,
+    };
+    client.upload.defaults.headers.common.Authorization = `Bearer ${token.accessToken}`;
+    client.upload.defaults.metadata = {
+        tokenExpiry: token.expiresAt,
+        isGlobalBanned: false,
+        isUserDeleted: false,
+    };
+    // manually setup the token for ws transport
+    if (client.ws)
+        client.ws.io.opts.query = { token: token.accessToken };
+    client.token = token;
+    setSessionState("established" /* Amity.SessionStates.ESTABLISHED */);
+    return user;
 };
 
 /* begin_public_function
@@ -26241,6 +26401,8 @@ var index$m = /*#__PURE__*/Object.freeze({
   createClient: createClient,
   login: login,
   logout: logout,
+  useAccessToken: useAccessToken,
+  validateAccessToken: validateAccessToken,
   secureLogout: secureLogout,
   isConnected: isConnected,
   getFeedSettings: getFeedSettings,
@@ -40905,7 +41067,7 @@ const createImageStory = async (targetType, targetId, formData, metadata = {}, i
     }
     let payload = {
         data: {
-            text: '',
+            text: '', // Still not in used now
             fileId: undefined,
             fileData: null,
             imageDisplayMode,
@@ -40971,7 +41133,7 @@ const createVideoStory = async (targetType, targetId, formData, metadata = {}, i
         throw new Error('The formData object must have a `files` key.');
     let payload = {
         data: {
-            text: '',
+            text: '', // Still not in used now
             fileId: undefined,
             fileData: null,
         },

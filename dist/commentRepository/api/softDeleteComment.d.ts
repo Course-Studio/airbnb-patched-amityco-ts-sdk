@@ -12,4 +12,4 @@
  * @category Comment API
  * @async
  */
-export declare const softDeleteComment: (commentId: Amity.Comment['commentId']) => Promise<Amity.Comment>;
+export declare const softDeleteComment: (commentId: Amity.Comment["commentId"]) => Promise<Amity.Comment>;

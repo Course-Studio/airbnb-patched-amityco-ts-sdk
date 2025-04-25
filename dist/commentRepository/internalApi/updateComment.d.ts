@@ -1,1 +1,1 @@
-export declare const updateComment: (commentId: Amity.InternalComment['commentId'], patch: Patch<Amity.InternalComment, 'data' | 'metadata' | 'mentionees'>) => Promise<Amity.Cached<Amity.InternalComment>>;
+export declare const updateComment: (commentId: Amity.InternalComment["commentId"], patch: Patch<Amity.InternalComment, "data" | "metadata" | "mentionees">) => Promise<Amity.Cached<Amity.InternalComment>>;

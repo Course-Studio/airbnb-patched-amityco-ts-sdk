@@ -14,4 +14,4 @@
  * @async
  * @private
  */
-export declare const getUserMessageFeedMakers: (channelIds: Amity.RawChannel['channelId'][]) => Promise<Amity.UserMessageFeedMarkerPayload>;
+export declare const getUserMessageFeedMakers: (channelIds: Amity.RawChannel["channelId"][]) => Promise<Amity.UserMessageFeedMarkerPayload>;

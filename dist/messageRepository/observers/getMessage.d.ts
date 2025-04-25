@@ -17,4 +17,4 @@
  *
  * @category Message Live Object
  */
-export declare const getMessage: (messageId: Amity.Message['messageId'], callback: Amity.LiveObjectCallback<Amity.Message>) => Amity.Unsubscriber;
+export declare const getMessage: (messageId: Amity.Message["messageId"], callback: Amity.LiveObjectCallback<Amity.Message>) => Amity.Unsubscriber;

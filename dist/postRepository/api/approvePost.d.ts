@@ -13,4 +13,4 @@
  * @category Post API
  * @async
  */
-export declare const approvePost: (postId: Amity.Post['postId']) => Promise<Amity.Cached<Amity.Post>>;
+export declare const approvePost: (postId: Amity.Post["postId"]) => Promise<Amity.Cached<Amity.Post>>;

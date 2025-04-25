@@ -49,16 +49,16 @@ export declare const flaggedUser: {
         bits: number;
         hashes: number;
         hash: string;
-    };
-    roles: string[];
+    } | null;
+    roles: Amity.Role["displayName"][];
     permissions: Amity.Permission[];
-    createdAt: string;
-    updatedAt?: string;
-    deletedAt?: string;
+    createdAt: Amity.timestamp;
+    updatedAt?: Amity.timestamp;
+    deletedAt?: Amity.timestamp;
     isDeleted?: boolean;
     path: string;
     isGlobalBanned: boolean;
-    avatar?: Amity.File<"image">;
+    avatar?: Amity.File<"image"> | null;
 };
 export declare const flaggedUserQueryResponse: {
     data: {
@@ -80,16 +80,16 @@ export declare const flaggedUserQueryResponse: {
                 bits: number;
                 hashes: number;
                 hash: string;
-            };
-            roles: string[];
+            } | null;
+            roles: Amity.Role["displayName"][];
             permissions: Amity.Permission[];
-            createdAt: string;
-            updatedAt?: string;
-            deletedAt?: string;
+            createdAt: Amity.timestamp;
+            updatedAt?: Amity.timestamp;
+            deletedAt?: Amity.timestamp;
             isDeleted?: boolean;
             path: string;
             isGlobalBanned: boolean;
-            avatar?: Amity.File<"image">;
+            avatar?: Amity.File<"image"> | null;
         }[];
         files: any[];
     };

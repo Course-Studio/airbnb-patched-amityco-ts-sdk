@@ -10,4 +10,4 @@
  * @category Report API
  * @async
  * */
-export declare const unflagMessage: (messageId: Amity.Message['messageId']) => Promise<boolean>;
+export declare const unflagMessage: (messageId: Amity.Message["messageId"]) => Promise<boolean>;

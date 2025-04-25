@@ -12,4 +12,4 @@
  * @category Stream API
  * @async
  */
-export declare const deleteStream: (streamId: Amity.InternalStream['streamId']) => Promise<boolean>;
+export declare const deleteStream: (streamId: Amity.InternalStream["streamId"]) => Promise<boolean>;

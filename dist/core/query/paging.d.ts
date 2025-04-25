@@ -24,7 +24,7 @@ export declare const isAfterBefore: (json: Record<string, unknown>) => json is A
  *
  * @hidden
  */
-export declare const isAfterBeforeRaw: (json: Record<string, unknown>) => json is Amity.PageRaw;
+export declare const isAfterBeforeRaw: (json: Record<string, unknown>) => json is Amity.AfterBeforeRawPagination;
 /**
  * Type guard to find if the a given object is wrapped around Amity.Paged<>
  *
@@ -33,10 +33,8 @@ export declare const isAfterBeforeRaw: (json: Record<string, unknown>) => json i
  *
  * @hidden
  */
-export declare const isPaged: <T extends unknown>(payload: any) => payload is {
-    data: T[];
-} & Amity.Pages<any> & {
-    paging?: Amity.Pagination['paging'];
+export declare const isPaged: <T extends unknown>(payload: any) => payload is Amity.Paged<T, any> & {
+    paging?: Amity.Pagination["paging"];
 };
 /**
  * Converts a paging object into a b64 string token

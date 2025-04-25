@@ -16,4 +16,4 @@
  *
  * @category Community Live Collection
  */
-export declare const searchMembers: (params: Amity.SearchCommunityMemberLiveCollection, callback: Amity.LiveCollectionCallback<Amity.Membership<'community'>>, config?: Amity.LiveCollectionConfig) => () => void;
+export declare const searchMembers: (params: Amity.SearchCommunityMemberLiveCollection, callback: Amity.LiveCollectionCallback<Amity.Membership<"community">>, config?: Amity.LiveCollectionConfig) => () => void;

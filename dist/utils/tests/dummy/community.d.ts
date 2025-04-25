@@ -23,8 +23,8 @@ export declare const communityPayload: Amity.CommunityPayload;
 export declare const communityUserQueryResponse: {
     data: {
         paging: {
-            previous?: string;
-            next?: string;
+            previous?: Amity.Token;
+            next?: Amity.Token;
         };
         communities: Amity.Community[];
         communityUsers: Amity.RawMembership<"community">[];
@@ -37,8 +37,8 @@ export declare const communityUserQueryResponse: {
 export declare const communityUserQueryResponsePage2: {
     data: {
         paging: {
-            previous?: string;
-            next?: string;
+            previous?: Amity.Token;
+            next?: Amity.Token;
         };
         communities: Amity.Community[];
         communityUsers: Amity.RawMembership<"community">[];
@@ -53,13 +53,13 @@ export declare const communityUserModel: {
     isBanned: boolean;
     isMuted: boolean;
     muteTimeout: string;
-    lastActivity: string;
-    userId: string;
-    communityId: string;
+    lastActivity: Amity.timestamp;
+    userId: Amity.InternalUser["userId"];
+    communityId: Amity.Community["communityId"];
     communityMembership: Amity.GroupMembership;
-    createdAt: string;
-    updatedAt?: string;
-    roles: string[];
+    createdAt: Amity.timestamp;
+    updatedAt?: Amity.timestamp;
+    roles: Amity.Role["displayName"][];
     permissions: Amity.Permission[];
 }[];
 export declare const communityRaw1: {

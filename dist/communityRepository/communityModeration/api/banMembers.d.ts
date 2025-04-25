@@ -12,4 +12,4 @@
  * @category Community API
  * @async
  * */
-export declare const banMembers: (communityId: Amity.Community['communityId'], userIds: Amity.InternalUser['userId'][]) => Promise<Amity.Cached<Amity.Membership<'community'>[]>>;
+export declare const banMembers: (communityId: Amity.Community["communityId"], userIds: Amity.InternalUser["userId"][]) => Promise<Amity.Cached<Amity.Membership<"community">[]>>;

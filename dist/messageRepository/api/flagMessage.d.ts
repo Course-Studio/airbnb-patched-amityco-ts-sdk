@@ -10,4 +10,4 @@
  * @category Message API
  * @async
  * */
-export declare const flagMessage: (messageId: Amity.Message['messageId']) => Promise<boolean>;
+export declare const flagMessage: (messageId: Amity.Message["messageId"]) => Promise<boolean>;

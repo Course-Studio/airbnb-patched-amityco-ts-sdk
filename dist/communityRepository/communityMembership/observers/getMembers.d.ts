@@ -17,4 +17,4 @@ export declare const applyFilter: <T extends Amity.Membership<"community">>(data
  *
  * @category Community Live Collection
  */
-export declare const getMembers: (params: Amity.CommunityMemberLiveCollection, callback: Amity.LiveCollectionCallback<Amity.Membership<'community'>>, config?: Amity.LiveCollectionConfig) => () => void;
+export declare const getMembers: (params: Amity.CommunityMemberLiveCollection, callback: Amity.LiveCollectionCallback<Amity.Membership<"community">>, config?: Amity.LiveCollectionConfig) => () => void;

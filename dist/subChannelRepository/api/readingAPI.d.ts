@@ -13,4 +13,4 @@
  * @async
  * @private
  */
-export declare const readingAPI: (messageFeedIds: Amity.SubChannel['subChannelId'][]) => Promise<boolean>;
+export declare const readingAPI: (messageFeedIds: Amity.SubChannel["subChannelId"][]) => Promise<boolean>;

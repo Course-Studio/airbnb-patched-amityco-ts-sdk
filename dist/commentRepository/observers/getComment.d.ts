@@ -17,4 +17,4 @@
  *
  * @category Comment Live Object
  */
-export declare const getComment: (commentId: Amity.Comment['commentId'], callback: Amity.LiveObjectCallback<Amity.Comment>) => Amity.Unsubscriber;
+export declare const getComment: (commentId: Amity.Comment["commentId"], callback: Amity.LiveObjectCallback<Amity.Comment>) => Amity.Unsubscriber;

@@ -12,4 +12,4 @@
  * @category Comment API
  * @async
  */
-export declare const deleteComment: (commentId: Amity.Comment['commentId'], permanent?: boolean) => Promise<Amity.Comment>;
+export declare const deleteComment: (commentId: Amity.Comment["commentId"], permanent?: boolean) => Promise<Amity.Comment>;

@@ -10,4 +10,4 @@
  * @category Comment API
  * @async
  * */
-export declare const isCommentFlaggedByMe: (commentId: Amity.Comment['commentId']) => Promise<boolean>;
+export declare const isCommentFlaggedByMe: (commentId: Amity.Comment["commentId"]) => Promise<boolean>;

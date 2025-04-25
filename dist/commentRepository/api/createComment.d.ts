@@ -12,4 +12,4 @@
  * @category Comment API
  * @async
  */
-export declare const createComment: (bundle: Pick<Amity.Comment<Amity.CommentContentType>, 'data' | 'referenceType' | 'referenceId' | 'parentId' | 'metadata' | 'mentionees' | 'attachments'>) => Promise<Amity.Cached<Amity.Comment>>;
+export declare const createComment: (bundle: Pick<Amity.Comment<Amity.CommentContentType>, "data" | "referenceType" | "referenceId" | "parentId" | "metadata" | "mentionees" | "attachments">) => Promise<Amity.Cached<Amity.Comment>>;

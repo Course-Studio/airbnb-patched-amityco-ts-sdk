@@ -2,7 +2,7 @@ export declare const MARKER_INCLUDED_SUB_CHANNEL_TYPE: string[];
 /**
  * Filter sub channel by type. Only conversation, community and broadcast type are included.
  */
-export declare const isUnreadCountSupport: ({ channelType }: Pick<Amity.RawSubChannel, 'channelType'>) => boolean;
+export declare const isUnreadCountSupport: ({ channelType }: Pick<Amity.RawSubChannel, "channelType">) => boolean;
 export declare const preUpdateSubChannelCache: (rawPayload: Amity.SubChannelPayload) => void;
 export declare const prepareSubChannelPayload: (rawPayload: Amity.SubChannelPayload) => Promise<Amity.ProcessedSubChannelPayload>;
 type RawQuerySubChannels = Omit<Amity.QuerySubChannels, 'excludeDefaultSubChannel'> & {

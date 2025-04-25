@@ -10,4 +10,4 @@
  * @category Post API
  * @async
  * */
-export declare const unflagPost: (postId: Amity.Post['postId']) => Promise<boolean>;
+export declare const unflagPost: (postId: Amity.Post["postId"]) => Promise<boolean>;

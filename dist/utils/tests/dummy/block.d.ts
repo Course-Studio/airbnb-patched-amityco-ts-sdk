@@ -4,7 +4,7 @@ export declare const generateFollowCount: (user: Amity.InternalUser) => {
     followerCount: number;
     pendingCount: number;
 };
-export declare const generateBlockResult: (blockUser: Amity.InternalUser, status: Exclude<Amity.FollowStatusType, 'all'>) => {
+export declare const generateBlockResult: (blockUser: Amity.InternalUser, status: Exclude<Amity.FollowStatusType, "all">) => {
     data: {
         follows: Amity.RawFollowStatus[];
         followCounts: {

@@ -13,19 +13,6 @@
  * @async
  */
 export declare const getComment: {
-    (commentId: Amity.Comment['commentId']): Promise<Amity.Cached<Amity.Comment>>;
-    /**
-     * ```js
-     * import { getComment } from '@amityco/ts-sdk'
-     * const comment = getComment.locally('foobar')
-     * ```
-     *
-     * Fetches a {@link Amity.Comment} object
-     *
-     * @param commentId the ID of the {@link Amity.Comment} to fetch
-     * @returns the associated {@link Amity.Comment} object
-     *
-     * @category Comment API
-     */
-    locally(commentId: Amity.Comment['commentId']): Amity.Cached<Amity.Comment> | undefined;
+    (commentId: Amity.Comment["commentId"]): Promise<Amity.Cached<Amity.Comment>>;
+    locally(commentId: Amity.Comment["commentId"]): Amity.Cached<Amity.Comment> | undefined;
 };

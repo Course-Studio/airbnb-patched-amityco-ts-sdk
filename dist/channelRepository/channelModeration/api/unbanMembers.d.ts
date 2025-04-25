@@ -12,4 +12,4 @@
  * @category Channel API
  * @async
  * */
-export declare const unbanMembers: (channelId: Amity.Channel['channelId'], userIds: Amity.InternalUser['userId'][]) => Promise<Amity.Cached<Amity.Membership<'channel'>[]>>;
+export declare const unbanMembers: (channelId: Amity.Channel["channelId"], userIds: Amity.InternalUser["userId"][]) => Promise<Amity.Cached<Amity.Membership<"channel">[]>>;

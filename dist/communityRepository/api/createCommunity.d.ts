@@ -12,7 +12,7 @@
  * @category Community API
  * @async
  */
-export declare const createCommunity: (bundle: Pick<Amity.Community, 'displayName' | 'avatarFileId' | 'description' | 'isPublic' | 'isOfficial' | 'postSetting' | 'tags' | 'metadata'> & Amity.CommunityStorySettings & {
+export declare const createCommunity: (bundle: Pick<Amity.Community, "displayName" | "avatarFileId" | "description" | "isPublic" | "isOfficial" | "postSetting" | "tags" | "metadata"> & Amity.CommunityStorySettings & {
     userIds?: string[];
     categoryIds?: string[];
     isUniqueDisplayName?: boolean;

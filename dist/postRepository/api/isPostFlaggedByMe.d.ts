@@ -10,4 +10,4 @@
  * @category Post API
  * @async
  * */
-export declare const isPostFlaggedByMe: (postId: Amity.Post['postId']) => Promise<boolean>;
+export declare const isPostFlaggedByMe: (postId: Amity.Post["postId"]) => Promise<boolean>;

@@ -16,13 +16,13 @@
  * @category Post API
  * @async
  */
-export declare const createPost: <T extends string>(bundle: Pick<Amity.Post<T>, "targetType" | "targetId"> & Partial<Pick<Amity.Post<T>, "metadata" | "tags" | "mentionees">> & {
+export declare const createPost: <T extends Amity.PostContentType | string>(bundle: Pick<Amity.Post<T>, "targetType" | "targetId"> & Partial<Pick<Amity.Post<T>, "metadata" | "mentionees" | "tags">> & {
     dataType?: T;
     data?: {
         [k: string]: any;
     };
     attachments?: {
         type: T;
-        fileId: Amity.File['fileId'];
+        fileId: Amity.File["fileId"];
     }[];
 }) => Promise<Amity.Cached<Amity.Post>>;

@@ -13,19 +13,6 @@
  * @async
  */
 export declare const getUser: {
-    (userId: Amity.User['userId']): Promise<Amity.Cached<Amity.User>>;
-    /**
-     * ```js
-     * import { getUser } from '@amityco/ts-sdk'
-     * const { data: user } = getUser.locally('foobar')
-     * ```
-     *
-     * Fetches a {@link Amity.User} object from cache
-     *
-     * @param userId the ID of the {@link Amity.User} to fetch
-     * @returns the associated {@link Amity.User} object
-     *
-     * @category User API
-     */
-    locally(userId: Amity.User['userId']): Amity.Cached<Amity.User> | undefined;
+    (userId: Amity.User["userId"]): Promise<Amity.Cached<Amity.User>>;
+    locally(userId: Amity.User["userId"]): Amity.Cached<Amity.User> | undefined;
 };

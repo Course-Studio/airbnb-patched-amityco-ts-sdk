@@ -13,4 +13,4 @@
  *
  * @category Cache API
  */
-export declare const queryCache: <T extends unknown>(key: Amity.CacheKey) => Amity.CacheEntry<T>[];
+export declare const queryCache: <T extends unknown>(key: Amity.CacheKey) => Amity.CacheEntry<T>[] | undefined;

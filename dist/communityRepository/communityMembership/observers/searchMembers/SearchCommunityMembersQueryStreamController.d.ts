@@ -6,7 +6,7 @@ export declare class SearchCommunityMembersQueryStreamController extends QuerySt
     constructor(query: Amity.SearchCommunityMemberLiveCollection, cacheKey: string[], notifyChange: (params: Amity.LiveCollectionNotifyParams) => void, preparePayload: (response: Amity.CommunityMembershipPayload) => Amity.ProcessedCommunityMembershipPayload);
     saveToMainDB(response: Amity.CommunityMembershipPayload): Promise<void>;
     appendToQueryStream(response: Amity.CommunityMembershipPayload & Partial<Amity.Pagination>, direction: Amity.LiveCollectionPageDirection, refresh?: boolean): void;
-    reactor(action: EnumCommunityMemberActions): (community: Amity.Community, communityMembers: Amity.Membership<'community'>[]) => void;
+    reactor(action: EnumCommunityMemberActions): (community: Amity.Community, communityMembers: Amity.Membership<"community">[]) => void;
     subscribeRTE(createSubscriber: {
         fn: (reactor: (channel: Amity.Community, communityUser: Amity.Membership<'community'>[]) => void) => Amity.Unsubscriber;
         action: EnumCommunityMemberActions;

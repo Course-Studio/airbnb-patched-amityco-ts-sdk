@@ -12,4 +12,4 @@
  * @category Channel API
  * @async
  */
-export declare const deleteChannel: (channelId: Amity.Channel['channelId']) => Promise<Amity.InternalChannel>;
+export declare const deleteChannel: (channelId: Amity.Channel["channelId"]) => Promise<Amity.InternalChannel>;

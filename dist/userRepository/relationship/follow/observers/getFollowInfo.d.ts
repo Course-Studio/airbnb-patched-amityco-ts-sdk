@@ -17,4 +17,4 @@
  *
  * @category FollowInfo Live Object
  */
-export declare const getFollowInfo: (userId: Amity.FollowInfo['userId'], callback: Amity.LiveObjectCallback<Amity.FollowInfo>) => Amity.Unsubscriber;
+export declare const getFollowInfo: (userId: Amity.FollowInfo["userId"], callback: Amity.LiveObjectCallback<Amity.FollowInfo>) => Amity.Unsubscriber;

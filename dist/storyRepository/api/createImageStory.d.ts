@@ -13,4 +13,4 @@
  * @param items The story items
  * @returns The created story
  */
-export declare const createImageStory: (targetType: Amity.InternalStory['targetType'], targetId: Amity.InternalStory['targetId'], formData: FormData, metadata?: Amity.Metadata, imageDisplayMode?: Amity.ImageDisplayMode, items?: Amity.StoryItem[]) => Promise<Amity.Cached<Amity.Story | undefined>>;
+export declare const createImageStory: (targetType: Amity.InternalStory["targetType"], targetId: Amity.InternalStory["targetId"], formData: FormData, metadata?: Amity.Metadata, imageDisplayMode?: Amity.ImageDisplayMode, items?: Amity.StoryItem[]) => Promise<Amity.Cached<Amity.Story | undefined>>;

@@ -15,21 +15,6 @@
  * @async
  * */
 export declare const removeReaction: {
-    (referenceType: Amity.Reaction['referenceType'], referenceId: Amity.Reaction['referenceId'], reactionName: Amity.InternalReactor['reactionName']): Promise<boolean>;
-    /**
-     * ```js
-     * import { removeReaction } from '@amityco/ts-sdk'
-     * const success = removeReaction.optimistically('post', postId, 'like')
-     * ```
-     *
-     * Removes a {@link Amity.Reaction} from a {@link Amity.Reactable} object optimistically
-     *
-     * @param referenceType The type of thing to add a {@link Amity.Reaction} to, such as a post or a comment.
-     * @param referenceId The ID of the thing to add a new {@link Amity.Reaction} to.
-     * @param reactionName Reaction name, such as a `like` or `love`.
-     * @returns The added result.
-     *
-     * @category Reaction API
-     * */
-    optimistically(referenceType: Amity.ReactableType, referenceId: Amity.Reaction['referenceId'], reactionName: Amity.InternalReactor['reactionName']): boolean | undefined;
+    (referenceType: Amity.Reaction["referenceType"], referenceId: Amity.Reaction["referenceId"], reactionName: Amity.InternalReactor["reactionName"]): Promise<boolean>;
+    optimistically(referenceType: Amity.ReactableType, referenceId: Amity.Reaction["referenceId"], reactionName: Amity.InternalReactor["reactionName"]): boolean | undefined;
 };

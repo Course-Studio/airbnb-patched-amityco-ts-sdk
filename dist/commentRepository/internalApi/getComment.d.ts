@@ -1,4 +1,4 @@
 export declare const getComment: {
-    (commentId: Amity.InternalComment['commentId']): Promise<Amity.Cached<Amity.InternalComment>>;
-    locally(commentId: Amity.InternalComment['commentId']): Amity.Cached<Amity.InternalComment> | undefined;
+    (commentId: Amity.InternalComment["commentId"]): Promise<Amity.Cached<Amity.InternalComment>>;
+    locally(commentId: Amity.InternalComment["commentId"]): Amity.Cached<Amity.InternalComment> | undefined;
 };

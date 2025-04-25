@@ -6,4 +6,4 @@
  * If not, the function will return the value from the channelMarker cache.
  * If not found in the both cache, use `false` as defaul value.
  */
-export declare const getChannelIsMentioned: (channel: Omit<Amity.RawChannel, 'messageCount'>, marker?: Amity.ChannelMarker) => boolean;
+export declare const getChannelIsMentioned: (channel: Omit<Amity.RawChannel, "messageCount">, marker?: Amity.ChannelMarker) => boolean;

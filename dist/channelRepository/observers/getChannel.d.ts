@@ -17,4 +17,4 @@
  *
  * @category Message Live Object
  */
-export declare const getChannel: (channelId: Amity.Channel['channelId'], callback: Amity.LiveObjectCallback<Amity.Channel>) => Amity.Unsubscriber;
+export declare const getChannel: (channelId: Amity.Channel["channelId"], callback: Amity.LiveObjectCallback<Amity.Channel>) => Amity.Unsubscriber;

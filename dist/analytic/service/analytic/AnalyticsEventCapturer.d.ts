@@ -1,4 +1,3 @@
-/// <reference types="node" />
 export declare class AnalyticsEventCapturer {
     _expireTime: number;
     _poolLimit: number;

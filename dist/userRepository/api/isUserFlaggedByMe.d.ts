@@ -10,4 +10,4 @@
  * @category Report API
  * @async
  * */
-export declare const isUserFlaggedByMe: (userId: Amity.User['userId']) => Promise<boolean>;
+export declare const isUserFlaggedByMe: (userId: Amity.User["userId"]) => Promise<boolean>;

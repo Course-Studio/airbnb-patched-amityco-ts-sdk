@@ -11,4 +11,4 @@
  * @category Report API
  * @async
  * */
-export declare const deleteReport: (referenceType: 'user' | 'message' | 'post' | 'comment', referenceId: string) => Promise<boolean>;
+export declare const deleteReport: (referenceType: "user" | "message" | "post" | "comment", referenceId: string) => Promise<boolean>;

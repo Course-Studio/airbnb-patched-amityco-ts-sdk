@@ -12,6 +12,6 @@
  * @category Stream API
  * @async
  */
-export declare const createStream: (bundle: Pick<Amity.InternalStream, 'title' | 'thumbnailFileId' | 'description'> & {
+export declare const createStream: (bundle: Pick<Amity.InternalStream, "title" | "thumbnailFileId" | "description"> & {
     isSecure?: boolean;
 }) => Promise<Amity.Cached<Amity.Stream>>;

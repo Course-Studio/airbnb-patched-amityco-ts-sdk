@@ -13,19 +13,6 @@
  * @async
  * */
 export declare const queryChannelMembers: {
-    (query: Amity.QueryChannelMembers): Promise<Amity.Cached<Amity.Paged<Amity.Membership<'channel'>>>>;
-    /**
-     * ```js
-     * import { queryChannelMembers } from '@amityco/ts-sdk'
-     * const channelMembers = await queryChannelMembers(query)
-     * ```
-     *
-     * Queries a paginable list of {@link Amity.InternalPost} objects from cache
-     *
-     * @param query The query parameters
-     * @returns posts
-     *
-     * @category Post API
-     */
-    locally(query: Parameters<typeof queryChannelMembers>[0]): Amity.Cached<Amity.Paged<Amity.Membership<'channel'>>> | undefined;
+    (query: Amity.QueryChannelMembers): Promise<Amity.Cached<Amity.Paged<Amity.Membership<"channel">>>>;
+    locally(query: Parameters<typeof queryChannelMembers>[0]): Amity.Cached<Amity.Paged<Amity.Membership<"channel">>> | undefined;
 };

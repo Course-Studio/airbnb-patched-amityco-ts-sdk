@@ -2,7 +2,7 @@ export declare const convertChannelFromRaw: (channel: Amity.RawChannel) => Amity
 export declare const convertRawChannelPayload: (rawPayload: Amity.ChannelPayload) => Amity.ProcessedChannelPayload;
 export declare function generateRawChannel(params?: Partial<Amity.RawChannel>): Amity.RawChannel;
 export declare function generateRawChannelUser(params?: Partial<Amity.RawMembership<'channel'>>): Amity.RawMembership<'channel'>;
-export declare const convertChannelUserFromRaw: (member: Amity.RawMembership<'channel'>, user: Amity.InternalUser | undefined) => Amity.Membership<'channel'>;
+export declare const convertChannelUserFromRaw: (member: Amity.RawMembership<"channel">, user: Amity.InternalUser | undefined) => Amity.Membership<"channel">;
 export declare const mockPage: {
     paging: {
         previous: string;

@@ -5,7 +5,7 @@ export declare class GlobalPinnedPostPaginationController extends PaginationCont
         pins: Amity.RawPin[];
         posts: Amity.RawPost<any>[];
         postChildren: Amity.RawPost<any>[];
-        comments: Amity.RawComment<any>[];
+        comments: Amity.RawComment[];
         videoStreamings: Amity.RawStream[];
         polls: Amity.RawPoll[];
     } & Amity.CommunityPayload & Amity.Pagination>;

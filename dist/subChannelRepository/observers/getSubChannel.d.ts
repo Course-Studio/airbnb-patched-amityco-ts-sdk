@@ -17,4 +17,4 @@
  *
  * @category SubChannel Live Object
  */
-export declare const getSubChannel: (subChannelId: Amity.SubChannel['subChannelId'], callback: Amity.LiveObjectCallback<Amity.SubChannel>) => Amity.Unsubscriber;
+export declare const getSubChannel: (subChannelId: Amity.SubChannel["subChannelId"], callback: Amity.LiveObjectCallback<Amity.SubChannel>) => Amity.Unsubscriber;

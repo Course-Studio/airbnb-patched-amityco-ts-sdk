@@ -10,6 +10,6 @@
  * @async
  */
 export declare const markChannelsAsReadBySegment: (readings: {
-    channelId: Amity.Channel['channelId'];
+    channelId: Amity.Channel["channelId"];
     readToSegment: number;
 }[]) => Promise<boolean>;

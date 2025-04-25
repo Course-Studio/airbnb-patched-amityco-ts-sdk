@@ -13,4 +13,4 @@
  * @category Stream API
  * @async
  */
-export declare const updateStream: (streamId: Amity.Stream['streamId'], patch: Patch<Amity.Stream, 'title' | 'thumbnailFileId' | 'description' | 'metadata'>) => Promise<Amity.Cached<Amity.Stream>>;
+export declare const updateStream: (streamId: Amity.Stream["streamId"], patch: Patch<Amity.Stream, "title" | "thumbnailFileId" | "description" | "metadata">) => Promise<Amity.Cached<Amity.Stream>>;

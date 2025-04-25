@@ -11,5 +11,5 @@ type Resolver<T extends Amity.Domain> = (model: Amity.Minimal[T]) => string;
  * @param name the domain name for the resolve
  * @returns an idResolver function for the given domain name
  */
-export declare const getResolver: <T extends keyof Amity.Models>(name: T) => Resolver<T>;
+export declare const getResolver: <T extends Amity.Domain>(name: T) => Resolver<T>;
 export {};

@@ -12,4 +12,4 @@
  * @category Post API
  * @async
  */
-export declare const hardDeletePost: (postId: Amity.Post['postId']) => Promise<Amity.Post>;
+export declare const hardDeletePost: (postId: Amity.Post["postId"]) => Promise<Amity.Post>;

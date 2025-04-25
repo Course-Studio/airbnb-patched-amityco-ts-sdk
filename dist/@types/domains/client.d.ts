@@ -1,4 +1,3 @@
-/// <reference types="socket.io-client" />
 import { AxiosInstance } from 'axios';
 import { Emitter } from 'mitt';
 declare global {

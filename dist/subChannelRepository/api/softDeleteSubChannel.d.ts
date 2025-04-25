@@ -12,4 +12,4 @@
  * @category Channel API
  * @async
  */
-export declare const softDeleteSubChannel: (subChannelId: Amity.SubChannel['subChannelId']) => Promise<Amity.SubChannel>;
+export declare const softDeleteSubChannel: (subChannelId: Amity.SubChannel["subChannelId"]) => Promise<Amity.SubChannel>;

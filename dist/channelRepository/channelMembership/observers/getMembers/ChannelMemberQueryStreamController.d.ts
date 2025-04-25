@@ -5,7 +5,7 @@ export declare class ChannelMemberQueryStreamController extends QueryStreamContr
     constructor(query: Amity.ChannelMembersLiveCollection, cacheKey: string[], notifyChange: (params: Amity.LiveCollectionNotifyParams) => void, preparePayload: (response: Amity.ChannelMembershipPayload) => Promise<Amity.ProcessedChannelPayload>);
     saveToMainDB(response: Amity.ChannelMembershipPayload): Promise<void>;
     appendToQueryStream(response: Amity.ChannelPayload & Partial<Amity.Pagination>, direction: Amity.LiveCollectionPageDirection, refresh?: boolean): void;
-    reactor(action: string): (channel: Amity.StaticInternalChannel, channelMember: Amity.Membership<'channel'>) => void;
+    reactor(action: string): (channel: Amity.StaticInternalChannel, channelMember: Amity.Membership<"channel">) => void;
     subscribeRTE(createSubscriber: {
         fn: (reactor: (channel: Amity.StaticInternalChannel, channelMember: Amity.Membership<'channel'>) => void) => Amity.Unsubscriber;
         action: string;

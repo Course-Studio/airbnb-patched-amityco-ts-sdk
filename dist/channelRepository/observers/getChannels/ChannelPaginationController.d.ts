@@ -7,7 +7,7 @@ export declare class ChannelPaginationController extends PaginationController<'c
     getRequest(queryParams: Amity.ChannelLiveCollection, token: string | undefined): Promise<Amity.UserPayload & {
         channels: Amity.RawChannel<any>[];
         channelUsers: Amity.RawMembership<"channel">[];
-        messagePreviews: Amity.MessagePreviewPayload<any>[];
+        messagePreviews: Amity.MessagePreviewPayload[];
         messageFeedsInfo?: Amity.messageFeedsInfoPayload[];
     } & Amity.Pagination>;
 }

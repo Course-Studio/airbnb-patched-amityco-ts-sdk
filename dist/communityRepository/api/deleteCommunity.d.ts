@@ -12,4 +12,4 @@
  * @category Community API
  * @async
  */
-export declare const deleteCommunity: (communityId: Amity.Community['communityId']) => Promise<Amity.Community>;
+export declare const deleteCommunity: (communityId: Amity.Community["communityId"]) => Promise<Amity.Community>;

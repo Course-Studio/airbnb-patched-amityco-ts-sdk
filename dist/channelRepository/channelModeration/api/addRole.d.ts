@@ -14,4 +14,4 @@
  * @category Channel API
  * @async
  */
-export declare const addRole: (channelId: Amity.Channel['channelId'], roleId: Amity.Role['roleId'], userIds: Amity.InternalUser['userId'][]) => Promise<boolean>;
+export declare const addRole: (channelId: Amity.Channel["channelId"], roleId: Amity.Role["roleId"], userIds: Amity.InternalUser["userId"][]) => Promise<boolean>;

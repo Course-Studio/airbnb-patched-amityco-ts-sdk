@@ -13,4 +13,4 @@
  * @category Stream API
  * @async
  */
-export declare const disposeStream: (streamId: Amity.InternalStream['streamId']) => Promise<Amity.Cached<Amity.InternalStream>>;
+export declare const disposeStream: (streamId: Amity.InternalStream["streamId"]) => Promise<Amity.Cached<Amity.InternalStream>>;
