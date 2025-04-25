@@ -11,4 +11,3 @@ export * from './onCommunityJoined';
 export * from './onCommunityLeft';
 export * from './onLocalCommunityJoined';
 export * from './onLocalCommunityLeft';
-//# sourceMappingURL=index.d.ts.map

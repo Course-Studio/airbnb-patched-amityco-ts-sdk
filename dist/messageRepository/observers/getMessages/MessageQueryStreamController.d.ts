@@ -13,4 +13,3 @@ export declare class MessageQueryStreamController extends QueryStreamController<
         action: string;
     }[]): Amity.Unsubscriber[];
 }
-//# sourceMappingURL=MessageQueryStreamController.d.ts.map

@@ -17,4 +17,3 @@ export declare const createCommunity: (bundle: Pick<Amity.Community, 'displayNam
     categoryIds?: string[];
     isUniqueDisplayName?: boolean;
 }) => Promise<Amity.Cached<Amity.Community>>;
-//# sourceMappingURL=createCommunity.d.ts.map

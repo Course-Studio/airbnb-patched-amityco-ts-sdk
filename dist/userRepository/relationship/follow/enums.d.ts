@@ -8,4 +8,3 @@ export declare enum EnumFollowActions {
     OnDeleted = "onDeleted",
     OnUserDeleted = "onUserDeleted"
 }
-//# sourceMappingURL=enums.d.ts.map

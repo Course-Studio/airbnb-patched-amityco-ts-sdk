@@ -5,4 +5,3 @@ export declare const convertToInternalComment: (commentPayload: Amity.CommentPay
     files: Amity.File<any>[];
     communityUsers: Amity.Membership<"community">[];
 };
-//# sourceMappingURL=convertToInternalComment.d.ts.map

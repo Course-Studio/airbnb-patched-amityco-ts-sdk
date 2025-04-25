@@ -13,4 +13,3 @@
  * @async
  */
 export declare const unmuteChannel: (channelId: Amity.Channel['channelId']) => Promise<boolean>;
-//# sourceMappingURL=unmuteChannel.d.ts.map

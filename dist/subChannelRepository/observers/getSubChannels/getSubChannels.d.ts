@@ -18,4 +18,3 @@
  * @category SubChannel Live Collection
  */
 export declare const getSubChannels: (params: Amity.SubChannelLiveCollection, callback: Amity.LiveCollectionCallback<Amity.SubChannel>, config?: Amity.LiveCollectionConfig) => () => void;
-//# sourceMappingURL=getSubChannels.d.ts.map

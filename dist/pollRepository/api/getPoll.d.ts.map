@@ -1,1 +1,0 @@
-{"version":3,"file":"getPoll.d.ts","sourceRoot":"","sources":["../../../src/pollRepository/api/getPoll.ts"],"names":[],"mappings":"AAQA;;;;;;;;;;;;;GAaG;AACH,eAAO,MAAM,OAAO;aAAkB,MAAM,IAAI,CAAC,QAAQ,CAAC,GAAG,QAAQ,MAAM,MAAM,CAAC,MAAM,IAAI,CAAC,CAAC;IAkB9F;;;;;;;;;;;;OAYG;oBACwB,MAAM,IAAI,CAAC,QAAQ,CAAC,GAAG,MAAM,MAAM,CAAC,MAAM,IAAI,CAAC,GAAG,SAAS;CAhBrF,CAAC"}

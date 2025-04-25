@@ -29,4 +29,3 @@ export declare const getSubChannel: {
      */
     locally(subChannelId: Amity.SubChannel['subChannelId']): Amity.Cached<Amity.SubChannel> | undefined;
 };
-//# sourceMappingURL=getSubChannel.d.ts.map

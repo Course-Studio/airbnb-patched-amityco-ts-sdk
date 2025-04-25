@@ -1,1 +1,0 @@
-{"version":3,"file":"AnalyticsEventSyncer.d.ts","sourceRoot":"","sources":["../../../../src/analytic/service/analytic/AnalyticsEventSyncer.ts"],"names":[],"mappings":";AAMA,qBAAa,oBAAoB;IAC/B,MAAM,EAAE,MAAM,CAAC,OAAO,GAAG,SAAS,CAAa;IAE/C,oBAAoB,EAAE,MAAM,CAAC,OAAO,GAAG,SAAS,CAAa;IAE7D,KAAK;IAYL,IAAI;IAYE,iBAAiB;IAsBjB,6BAA6B;CAuBpC"}

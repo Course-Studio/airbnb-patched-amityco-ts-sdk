@@ -14,4 +14,3 @@
  * @private
  */
 export declare const getMessageMarkers: (messageIds: Amity.RawMessage['messageFeedId'][]) => Promise<Amity.Cached<Amity.MessageMarker[]>>;
-//# sourceMappingURL=getMessageMarkers.d.ts.map

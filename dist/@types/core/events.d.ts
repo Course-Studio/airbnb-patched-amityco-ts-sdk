@@ -1,4 +1,5 @@
 /// <reference types="node" />
+/// <reference types="node" />
 import { IConnectPacket, IDisconnectPacket, IPublishPacket } from 'mqtt/dist/mqtt';
 export {};
 declare global {
@@ -255,4 +256,3 @@ declare global {
         type Events = WsEvents & MqttEvents & MqttRTE & LocalEvents;
     }
 }
-//# sourceMappingURL=events.d.ts.map

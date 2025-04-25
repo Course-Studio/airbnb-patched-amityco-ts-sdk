@@ -9,4 +9,3 @@ export * from './declinePost';
 export * from './flagPost';
 export * from './unflagPost';
 export * from './isPostFlaggedByMe';
-//# sourceMappingURL=index.d.ts.map

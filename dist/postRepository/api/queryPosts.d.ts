@@ -13,4 +13,3 @@
  * @async
  */
 export declare const queryPosts: (query: Amity.QueryPosts) => Promise<Amity.Cached<Amity.PageToken<Amity.Post>>>;
-//# sourceMappingURL=queryPosts.d.ts.map

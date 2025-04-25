@@ -35,4 +35,3 @@ export declare const updateMessage: {
      */
     optimistically(messageId: Amity.Message['messageId'], patch: Patch<Amity.Message, 'data' | 'tags' | 'metadata' | 'mentionees'>): Amity.Cached<Amity.Message> | undefined;
 };
-//# sourceMappingURL=updateMessage.d.ts.map

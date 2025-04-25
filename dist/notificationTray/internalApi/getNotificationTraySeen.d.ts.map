@@ -1,1 +1,0 @@
-{"version":3,"file":"getNotificationTraySeen.d.ts","sourceRoot":"","sources":["../../../src/notificationTray/internalApi/getNotificationTraySeen.ts"],"names":[],"mappings":"AAMA;;;;;;;;;;;KAWK;AACL,eAAO,MAAM,uBAAuB;QAAa,QAC/C,MAAM,MAAM,CAAC,MAAM,4BAA4B,CAAC,CACjD;IA+BD;;;;;;;;;;;;SAYK;eAED,MAAM,MAAM,CAAC,MAAM,4BAA4B,CAAC,GAChD,SAAS;CAlBZ,CAAC"}

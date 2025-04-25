@@ -11,4 +11,3 @@ export declare class SemanticSearchCommunityLiveCollectionController extends Liv
     notifyChange({ origin, loading, error }: Amity.LiveCollectionNotifyParams): void;
     applyFilter(data: Amity.Community[]): Amity.Community[];
 }
-//# sourceMappingURL=SemanticSearchCommunityLiveCollectionController.d.ts.map

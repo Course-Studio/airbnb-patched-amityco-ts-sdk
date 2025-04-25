@@ -97,4 +97,3 @@ declare global {
         };
     }
 }
-//# sourceMappingURL=channel.d.ts.map

@@ -11,4 +11,3 @@ export declare class SemanticSearchPostLiveCollectionController extends LiveColl
     notifyChange({ origin, loading, error }: Amity.LiveCollectionNotifyParams): void;
     applyFilter(data: Amity.InternalPost[]): Amity.InternalPost<any>[];
 }
-//# sourceMappingURL=SemanticSearchPostLiveCollectionController.d.ts.map

@@ -14,4 +14,3 @@
  * @category Client Events
  */
 export declare const onClientBanned: (callback: Amity.Listener<Amity.UserPayload>) => Amity.Unsubscriber;
-//# sourceMappingURL=onClientBanned.d.ts.map

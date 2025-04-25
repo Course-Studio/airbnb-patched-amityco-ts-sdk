@@ -4,4 +4,3 @@ export declare const isAboutToExpire: (params: {
     issuedAt: Amity.Tokens['issuedAt'];
 }) => boolean;
 export declare const accessTokenExpiryWatcher: (sessionHandler: Amity.SessionHandler) => Amity.Unsubscriber;
-//# sourceMappingURL=accessTokenExpiryWatcher.d.ts.map

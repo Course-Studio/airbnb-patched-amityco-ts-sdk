@@ -7,4 +7,3 @@ export declare const generateFeedMarker: ({ feedId, entityId, ...params }: MakeR
 export declare const generateUserMarker: (params?: Partial<Amity.UserMarker>) => Amity.UserMarker;
 export declare const generateUserMarkerResponse: (params?: Partial<Amity.UserMarker>) => Amity.UserMarkerResponse;
 export declare const generateFeedMarkerResponse: (params?: Partial<Amity.FeedMarker>) => Amity.FeedMarker;
-//# sourceMappingURL=marker.d.ts.map

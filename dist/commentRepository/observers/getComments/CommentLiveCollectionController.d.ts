@@ -11,4 +11,3 @@ export declare class CommentLiveCollectionController extends LiveCollectionContr
     notifyChange({ origin, loading, error }: Amity.LiveCollectionNotifyParams): void;
     applyFilter(data: Amity.InternalComment[]): Amity.InternalComment<any>[];
 }
-//# sourceMappingURL=CommentLiveCollectionController.d.ts.map

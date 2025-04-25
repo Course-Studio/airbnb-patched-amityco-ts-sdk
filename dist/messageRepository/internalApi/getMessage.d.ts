@@ -29,4 +29,3 @@ export declare const getMessage: {
      */
     locally(messageId: Amity.Message['messageId']): Amity.Cached<Amity.InternalMessage> | undefined;
 };
-//# sourceMappingURL=getMessage.d.ts.map

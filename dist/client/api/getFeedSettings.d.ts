@@ -13,4 +13,3 @@
  * @async
  */
 export declare const getFeedSettings: () => Promise<Amity.FeedSettings>;
-//# sourceMappingURL=getFeedSettings.d.ts.map

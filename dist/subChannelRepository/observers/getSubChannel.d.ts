@@ -18,4 +18,3 @@
  * @category SubChannel Live Object
  */
 export declare const getSubChannel: (subChannelId: Amity.SubChannel['subChannelId'], callback: Amity.LiveObjectCallback<Amity.SubChannel>) => Amity.Unsubscriber;
-//# sourceMappingURL=getSubChannel.d.ts.map

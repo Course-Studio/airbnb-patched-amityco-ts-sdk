@@ -4,7 +4,7 @@
  * to avoid using any and give some typing security at the
  * resolver's level.
  */
-declare type Resolver<T extends Amity.Domain> = (model: Amity.Minimal[T]) => string;
+type Resolver<T extends Amity.Domain> = (model: Amity.Minimal[T]) => string;
 /**
  * Retrieve the id resolver matching a domain name
  *
@@ -13,4 +13,3 @@ declare type Resolver<T extends Amity.Domain> = (model: Amity.Minimal[T]) => str
  */
 export declare const getResolver: <T extends keyof Amity.Models>(name: T) => Resolver<T>;
 export {};
-//# sourceMappingURL=idResolvers.d.ts.map

@@ -43,4 +43,3 @@ export declare const startUnreadSync: () => Promise<void>;
  */
 export declare const stopUnreadSync: () => void;
 export declare const getMarkerSyncConsistentMode: () => boolean;
-//# sourceMappingURL=markerSyncEngine.d.ts.map

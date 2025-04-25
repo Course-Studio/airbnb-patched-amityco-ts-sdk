@@ -22,4 +22,3 @@ export declare abstract class LiveCollectionController<TPayloadDomain extends ke
     protected shouldNotify(data: TPublicPayload[]): boolean;
     getCacheKey(): string[];
 }
-//# sourceMappingURL=LiveCollectionController.d.ts.map

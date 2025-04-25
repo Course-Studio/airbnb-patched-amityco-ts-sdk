@@ -3,5 +3,4 @@ export declare function syncUsage({ bufferCurrentUsage, getActiveStreams, update
     getActiveStreams: () => string[];
     updateUsage: (data: Amity.UsageDataModel) => void;
     dispose: () => void;
-}): Promise<boolean | undefined>;
-//# sourceMappingURL=syncUsage.d.ts.map
+}): Promise<boolean>;

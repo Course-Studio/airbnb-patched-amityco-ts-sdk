@@ -15,4 +15,3 @@
  * @category Cache API
  */
 export declare const enableCache: (prevState?: Amity.Cache['data'], persistIf?: Amity.Cache['persistIf']) => void;
-//# sourceMappingURL=enableCache.d.ts.map

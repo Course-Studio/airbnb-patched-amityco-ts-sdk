@@ -6,4 +6,3 @@
  * @returns the computed url for the selected size
  */
 export declare const fileUrlWithSize: (fileUrl: Amity.File['fileUrl'], size: 'small' | 'medium' | 'large' | 'full') => string;
-//# sourceMappingURL=fileUrlWithSize.d.ts.map

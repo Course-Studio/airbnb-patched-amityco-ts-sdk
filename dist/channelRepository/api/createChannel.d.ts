@@ -14,6 +14,5 @@
  */
 export declare const createChannel: <T extends Amity.ChannelType>(bundle: {
     type: T;
-    userIds?: string[] | undefined;
+    userIds?: Amity.InternalUser['userId'][];
 } & Pick<Amity.Channel<T>, "displayName" | "avatarFileId" | "isPublic" | "metadata" | "tags">) => Promise<Amity.Cached<Amity.InternalChannel>>;
-//# sourceMappingURL=createChannel.d.ts.map

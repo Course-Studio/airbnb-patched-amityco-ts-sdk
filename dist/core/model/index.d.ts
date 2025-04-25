@@ -11,4 +11,3 @@ export declare const isOutdated: <T extends Amity.UpdatedAt>(prevData: T, nextDa
 export declare function getFutureDate(date?: string | undefined): string;
 /** hidden */
 export declare function getPastDate(date?: string | undefined): string;
-//# sourceMappingURL=index.d.ts.map

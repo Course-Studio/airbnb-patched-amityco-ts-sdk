@@ -14,4 +14,3 @@
  * @private
  */
 export declare const getTrendingCommunities: (query?: Amity.PageLimit) => Promise<Amity.Cached<Amity.Community[]>>;
-//# sourceMappingURL=getTrendingCommunities.d.ts.map

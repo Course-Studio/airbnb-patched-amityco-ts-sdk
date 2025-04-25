@@ -1,5 +1,5 @@
 import { PaginationController } from '~/core/liveCollection/PaginationController';
-declare type GlobalStoryFeedResult = Amity.GlobalStoryFeedPayload & Amity.Pagination;
+type GlobalStoryFeedResult = Amity.GlobalStoryFeedPayload & Amity.Pagination;
 export declare class GlobalStoryPageController extends PaginationController<'globalStoryFeed', Amity.LiveCollectionParams<Amity.StoryGlobalQuery>> {
     private smartFilterState;
     getRequest(queryParams: Amity.LiveCollectionParams<Amity.StoryGlobalQuery>, token: string | undefined): Promise<GlobalStoryFeedResult>;
@@ -10,4 +10,3 @@ export declare class GlobalStoryPageController extends PaginationController<'glo
     }): Promise<GlobalStoryFeedResult>;
 }
 export {};
-//# sourceMappingURL=GlobalStoryPageController.d.ts.map

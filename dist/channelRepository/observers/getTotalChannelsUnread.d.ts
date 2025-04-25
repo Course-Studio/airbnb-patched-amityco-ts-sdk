@@ -17,4 +17,3 @@
  *
  */
 export declare const getTotalChannelsUnread: (callback: Amity.LiveObjectCallback<Amity.UserUnread | undefined>) => Amity.Unsubscriber;
-//# sourceMappingURL=getTotalChannelsUnread.d.ts.map

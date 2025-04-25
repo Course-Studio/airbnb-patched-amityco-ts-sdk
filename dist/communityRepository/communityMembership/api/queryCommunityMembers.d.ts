@@ -29,4 +29,3 @@ export declare const queryCommunityMembers: {
      */
     locally(query: Parameters<typeof queryCommunityMembers>[0]): Amity.Cached<Amity.PageToken<Amity.Membership<'community'>>> | undefined;
 };
-//# sourceMappingURL=queryCommunityMembers.d.ts.map

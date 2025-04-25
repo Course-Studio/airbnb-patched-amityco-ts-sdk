@@ -1,4 +1,4 @@
-declare type SessionStateCallback = (state: Amity.SessionStates) => void;
+type SessionStateCallback = (state: Amity.SessionStates) => void;
 declare class SessionWatcher {
     private _sessionState;
     private _listener;
@@ -10,4 +10,3 @@ declare const _default: {
     getInstance: () => SessionWatcher;
 };
 export default _default;
-//# sourceMappingURL=SessionWatcher.d.ts.map

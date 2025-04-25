@@ -29,4 +29,3 @@ export declare const softDeleteMessage: {
      */
     optimistically(messageId: Amity.Message['messageId']): Amity.Cached<Amity.Message> | undefined;
 };
-//# sourceMappingURL=softDeleteMessage.d.ts.map

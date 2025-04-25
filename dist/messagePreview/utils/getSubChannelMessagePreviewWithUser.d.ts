@@ -1,23 +1,23 @@
 export declare const getSubChannelMessagePreviewWithUser: (subChannel: Amity.SubChannel) => {
     messagePreview: {
-        user: Amity.InternalUser | undefined;
+        user: Amity.InternalUser;
         messagePreviewId: string;
         subChannelName: string;
-        data?: string | Amity.ContentDataText | Amity.ContentDataFile | Amity.ContentDataImage | Amity.ContentDataVideo | Amity.ContentDataPoll | Record<string, unknown> | undefined;
+        data?: string | Amity.ContentDataText | Amity.ContentDataFile | Amity.ContentDataImage | Amity.ContentDataVideo | Amity.ContentDataPoll | Record<string, unknown>;
         dataType?: any;
         channelId: string;
         subChannelId: string;
-        isDeleted?: boolean | undefined;
+        isDeleted?: boolean;
         segment: number;
         subChannelUpdatedAt: string;
         creatorId: string;
         createdAt: string;
-        updatedAt?: string | undefined;
-    } | null;
+        updatedAt?: string;
+    };
     channelId: string;
     creatorId: string;
     displayName: string;
-    editedAt?: string | undefined;
+    editedAt?: string;
     isDeleted: boolean;
     messageCount: number;
     lastActivity: string;
@@ -26,9 +26,8 @@ export declare const getSubChannelMessagePreviewWithUser: (subChannel: Amity.Sub
     isUnreadCountSupport: boolean;
     unreadCount: number;
     isMentioned: boolean;
-    messagePreviewId?: string | null | undefined;
+    messagePreviewId?: string;
     createdAt: string;
-    updatedAt?: string | undefined;
+    updatedAt?: string;
     path: string;
 };
-//# sourceMappingURL=getSubChannelMessagePreviewWithUser.d.ts.map

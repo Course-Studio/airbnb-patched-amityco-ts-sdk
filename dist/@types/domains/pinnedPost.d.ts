@@ -26,4 +26,3 @@ declare global {
         type GlobalPinnedPostLiveCollection = Amity.LiveCollectionParams<Record<string, never>>;
     }
 }
-//# sourceMappingURL=pinnedPost.d.ts.map

@@ -14,4 +14,3 @@
  * @category SubChannelMarker Events
  */
 export declare const onSubChannelMarkerFetched: (callback: Amity.Listener<Amity.SubChannelMarker>) => Amity.Unsubscriber;
-//# sourceMappingURL=onSubChannelMarkerFetched.d.ts.map

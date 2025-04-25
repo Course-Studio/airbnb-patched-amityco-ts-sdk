@@ -9,4 +9,3 @@
  * @category MessageMarker Events
  */
 export declare const onUserMessageFeedMarkerResolved: (callback: Amity.Listener<Amity.Events['local.userMessageFeedMarkers.resolved']>) => Amity.Unsubscriber;
-//# sourceMappingURL=onUserMessageFeedMarkerResolved.d.ts.map

@@ -6,4 +6,3 @@ import { PaginationController } from '~/core/liveCollection/PaginationController
 export declare class SubChannelPaginationController extends PaginationController<'subChannel', Amity.SubChannelLiveCollection> {
     getRequest(queryParams: Amity.SubChannelLiveCollection, token: string | undefined): Promise<Amity.SubChannelPayload<any> & Amity.Pagination>;
 }
-//# sourceMappingURL=SubChannelPaginationController.d.ts.map

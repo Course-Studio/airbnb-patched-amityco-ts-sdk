@@ -1,4 +1,4 @@
-declare type NetworkActivitiesCallback = (request: Request, response: {
+type NetworkActivitiesCallback = (request: Request, response: {
     data: unknown;
     status: number;
     statusText: string;
@@ -19,4 +19,3 @@ declare const _default: {
     getInstance: () => NetworkActivitiesWatcher;
 };
 export default _default;
-//# sourceMappingURL=NetworkActivitiesWatcher.d.ts.map

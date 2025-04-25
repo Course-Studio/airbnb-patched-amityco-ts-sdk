@@ -14,4 +14,3 @@
  * @private
  */
 export declare const readingAPI: (messageFeedIds: Amity.SubChannel['subChannelId'][]) => Promise<boolean>;
-//# sourceMappingURL=readingAPI.d.ts.map

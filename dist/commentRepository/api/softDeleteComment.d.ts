@@ -13,4 +13,3 @@
  * @async
  */
 export declare const softDeleteComment: (commentId: Amity.Comment['commentId']) => Promise<Amity.Comment>;
-//# sourceMappingURL=softDeleteComment.d.ts.map

@@ -13,4 +13,3 @@ export declare class BlockedUserQueryStreamController extends QueryStreamControl
         action: EnumUserActions | EnumFollowActions;
     }[]): Amity.Unsubscriber[];
 }
-//# sourceMappingURL=BlockedUserQueryStreamController.d.ts.map

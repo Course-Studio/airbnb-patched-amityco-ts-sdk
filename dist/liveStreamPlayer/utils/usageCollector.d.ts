@@ -20,4 +20,3 @@ export declare class UsageCollector {
     dispose(): void;
     _startInterval(): void;
 }
-//# sourceMappingURL=usageCollector.d.ts.map

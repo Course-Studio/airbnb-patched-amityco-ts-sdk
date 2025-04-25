@@ -14,4 +14,3 @@
  * @async
  */
 export declare const queryCommunities: (query?: Amity.QueryCommunities) => Promise<Amity.Cached<Amity.PageToken<Amity.Community>>>;
-//# sourceMappingURL=queryCommunities.d.ts.map

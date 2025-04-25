@@ -1,1 +1,0 @@
-{"version":3,"file":"softDeleteMessage.d.ts","sourceRoot":"","sources":["../../../src/messageRepository/api/softDeleteMessage.ts"],"names":[],"mappings":"AAUA;;;;;;;;;;;;;GAaG;AACH,eAAO,MAAM,iBAAiB;gBACjB,MAAM,OAAO,CAAC,WAAW,CAAC,GACpC,QAAQ,MAAM,OAAO,CAAC;IAgBzB;;;;;;;;;;;;OAYG;8BAEU,MAAM,OAAO,CAAC,WAAW,CAAC,GACpC,MAAM,MAAM,CAAC,MAAM,OAAO,CAAC,GAAG,SAAS;CAjBzC,CAAC"}

@@ -7,14 +7,14 @@ export declare const user22: Amity.User;
 export declare const viewedUserQueryResponse: {
     data: {
         users: Amity.User[];
-        files: never[];
+        files: any[];
         paging: {};
     };
 };
 export declare const userQueryResponse: {
     data: {
         users: Amity.User[];
-        files: never[];
+        files: any[];
         paging: {
             previous: string;
             next: string;
@@ -24,7 +24,7 @@ export declare const userQueryResponse: {
 export declare const userQueryResponsePage2: {
     data: {
         users: Amity.User[];
-        files: never[];
+        files: any[];
         paging: {
             previous: string;
             next: string;
@@ -37,28 +37,28 @@ export declare const flaggedUser: {
     _id: string;
     userInternalId: string;
     userPublicId: string;
-    displayName?: string | undefined;
-    avatarFileId?: string | undefined;
-    avatarCustomUrl?: string | undefined;
-    description?: string | undefined;
+    displayName?: string;
+    avatarFileId?: string;
+    avatarCustomUrl?: string;
+    description?: string;
     isBrand: boolean;
     isGlobalBan: boolean;
-    metadata?: Record<string, any> | undefined;
-    tags?: string[] | undefined;
+    metadata?: Record<string, any>;
+    tags?: string[];
     hashFlag: {
         bits: number;
         hashes: number;
         hash: string;
-    } | null;
+    };
     roles: string[];
     permissions: Amity.Permission[];
     createdAt: string;
-    updatedAt?: string | undefined;
-    deletedAt?: string | undefined;
-    isDeleted?: boolean | undefined;
+    updatedAt?: string;
+    deletedAt?: string;
+    isDeleted?: boolean;
     path: string;
     isGlobalBanned: boolean;
-    avatar?: Amity.File<"image"> | null | undefined;
+    avatar?: Amity.File<"image">;
 };
 export declare const flaggedUserQueryResponse: {
     data: {
@@ -68,30 +68,30 @@ export declare const flaggedUserQueryResponse: {
             _id: string;
             userInternalId: string;
             userPublicId: string;
-            displayName?: string | undefined;
-            avatarFileId?: string | undefined;
-            avatarCustomUrl?: string | undefined;
-            description?: string | undefined;
+            displayName?: string;
+            avatarFileId?: string;
+            avatarCustomUrl?: string;
+            description?: string;
             isBrand: boolean;
             isGlobalBan: boolean;
-            metadata?: Record<string, any> | undefined;
-            tags?: string[] | undefined;
+            metadata?: Record<string, any>;
+            tags?: string[];
             hashFlag: {
                 bits: number;
                 hashes: number;
                 hash: string;
-            } | null;
+            };
             roles: string[];
             permissions: Amity.Permission[];
             createdAt: string;
-            updatedAt?: string | undefined;
-            deletedAt?: string | undefined;
-            isDeleted?: boolean | undefined;
+            updatedAt?: string;
+            deletedAt?: string;
+            isDeleted?: boolean;
             path: string;
             isGlobalBanned: boolean;
-            avatar?: Amity.File<"image"> | null | undefined;
+            avatar?: Amity.File<"image">;
         }[];
-        files: never[];
+        files: any[];
     };
 };
 export declare const userUpdateResponse: {
@@ -101,17 +101,16 @@ export declare const userUpdateResponse: {
             displayName: string;
             userId: string;
             metadata: {};
-            roles: never[];
-            permissions: never[];
+            roles: any[];
+            permissions: any[];
             flagCount: number;
-            hashFlag: null;
+            hashFlag: any;
             avatarCustomUrl: string;
-            avatarFileId: null;
+            avatarFileId: any;
             isGlobalBanned: boolean;
         }[];
-        files: never[];
+        files: any[];
     };
 };
 export declare const users: Amity.User[];
 export declare const userPayload: Amity.UserPayload;
-//# sourceMappingURL=user.d.ts.map

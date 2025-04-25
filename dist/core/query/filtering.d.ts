@@ -66,6 +66,5 @@ export declare const filterByPostDataTypes: <T extends Amity.InternalPost<any>>(
  */
 export declare const filterBySearchTerm: <T extends {
     userId: Amity.InternalUser['userId'];
-    user?: Amity.InternalUser | undefined;
+    user?: Amity.InternalUser;
 }>(collection: T[], searchTerm: string) => T[];
-//# sourceMappingURL=filtering.d.ts.map

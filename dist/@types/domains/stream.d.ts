@@ -88,4 +88,3 @@ declare global {
         type StreamActionType = 'onStreamRecorded' | 'onStreamStarted' | 'onStreamStopped';
     }
 }
-//# sourceMappingURL=stream.d.ts.map

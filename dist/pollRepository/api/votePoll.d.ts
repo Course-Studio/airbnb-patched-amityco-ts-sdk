@@ -14,4 +14,3 @@
  * @async
  */
 export declare const votePoll: (pollId: Amity.Poll['pollId'], answerIds: string[]) => Promise<Amity.Cached<Amity.Poll>>;
-//# sourceMappingURL=votePoll.d.ts.map

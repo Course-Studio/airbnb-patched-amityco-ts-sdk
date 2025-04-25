@@ -45,4 +45,3 @@ export declare const getSmartFeedSubChannelTopic: () => string;
 export declare const getSmartFeedMessageTopic: () => string;
 export declare function subscribeTopic(topic: string, callback?: Amity.Listener<ASCError | void>): Amity.Unsubscriber;
 export declare const getLiveStreamTopic: () => string;
-//# sourceMappingURL=subscription.d.ts.map

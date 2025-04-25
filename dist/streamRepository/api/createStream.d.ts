@@ -15,4 +15,3 @@
 export declare const createStream: (bundle: Pick<Amity.InternalStream, 'title' | 'thumbnailFileId' | 'description'> & {
     isSecure?: boolean;
 }) => Promise<Amity.Cached<Amity.Stream>>;
-//# sourceMappingURL=createStream.d.ts.map

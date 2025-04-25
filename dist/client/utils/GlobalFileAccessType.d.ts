@@ -7,4 +7,3 @@ declare const _default: {
     getInstance: () => GlobalFileAccessType;
 };
 export default _default;
-//# sourceMappingURL=GlobalFileAccessType.d.ts.map

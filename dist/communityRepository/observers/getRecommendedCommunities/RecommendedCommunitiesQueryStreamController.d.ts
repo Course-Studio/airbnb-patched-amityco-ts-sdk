@@ -13,4 +13,3 @@ export declare class RecommendedCommunitiesQueryStreamController extends QuerySt
         action: EnumCommunityActions | EnumCommunityMemberActions;
     }[]): Amity.Unsubscriber[];
 }
-//# sourceMappingURL=RecommendedCommunitiesQueryStreamController.d.ts.map

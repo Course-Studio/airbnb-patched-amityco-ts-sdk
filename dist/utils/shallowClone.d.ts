@@ -13,4 +13,3 @@
  * @private
  */
 export declare function shallowClone(source: object, target: object): any;
-//# sourceMappingURL=shallowClone.d.ts.map

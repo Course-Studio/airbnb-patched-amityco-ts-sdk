@@ -4,4 +4,3 @@ export * from './observers';
 export * from './utils';
 export * as Membership from './channelMembership';
 export * as Moderation from './channelModeration';
-//# sourceMappingURL=index.d.ts.map

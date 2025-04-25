@@ -29,4 +29,3 @@ export declare const getPost: {
      */
     locally(postId: Amity.Post['postId']): Amity.Cached<Amity.Post> | undefined;
 };
-//# sourceMappingURL=getPost.d.ts.map

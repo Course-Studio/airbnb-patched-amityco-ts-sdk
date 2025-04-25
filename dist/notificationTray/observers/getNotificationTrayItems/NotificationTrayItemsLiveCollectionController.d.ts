@@ -10,4 +10,3 @@ export declare class NotificationTrayItemsLiveCollectionController extends LiveC
     startSubscription(): Amity.Unsubscriber[];
     notifyChange({ origin, loading, error }: Amity.LiveCollectionNotifyParams): void;
 }
-//# sourceMappingURL=NotificationTrayItemsLiveCollectionController.d.ts.map

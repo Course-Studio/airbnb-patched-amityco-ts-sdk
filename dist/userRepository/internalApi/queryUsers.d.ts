@@ -31,4 +31,3 @@ export declare const queryUsers: {
      */
     locally(query?: Parameters<typeof queryUsers>[0]): Amity.Cached<Amity.PageToken<Amity.InternalUser>> | undefined;
 };
-//# sourceMappingURL=queryUsers.d.ts.map

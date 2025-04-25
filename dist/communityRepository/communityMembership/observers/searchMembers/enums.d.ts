@@ -7,4 +7,3 @@ export declare enum EnumCommunityMemberActions {
     OnCommunityUserRoleRemoved = "onCommunityUserRoleRemoved",
     OnCommunityUserUnbanned = "onCommunityUserUnbanned"
 }
-//# sourceMappingURL=enums.d.ts.map

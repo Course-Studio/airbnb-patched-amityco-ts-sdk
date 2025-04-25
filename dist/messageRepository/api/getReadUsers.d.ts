@@ -35,4 +35,3 @@ export declare const getReadUsers: {
      */
     locally(query: Amity.QueryReadUsers): Amity.Cached<Amity.Paged<Amity.InternalUser>> | undefined;
 };
-//# sourceMappingURL=getReadUsers.d.ts.map

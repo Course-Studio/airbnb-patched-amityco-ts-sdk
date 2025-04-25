@@ -15,4 +15,3 @@
  * @private
  */
 export declare const getSubChannelMarkers: (messageFeedIds: Amity.RawSubChannel['messageFeedId'][], page?: Amity.Page) => Promise<Amity.Cached<Amity.Paged<Amity.SubChannelMarker>>>;
-//# sourceMappingURL=getSubChannelMarkers.d.ts.map

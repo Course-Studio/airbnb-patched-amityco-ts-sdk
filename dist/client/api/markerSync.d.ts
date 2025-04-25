@@ -19,4 +19,3 @@ export declare const markerSync: (deviceLastSyncAt: string) => Promise<{
     data: Amity.MarkerSyncPayload;
     hasMore: boolean;
 }>;
-//# sourceMappingURL=markerSync.d.ts.map

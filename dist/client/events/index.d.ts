@@ -3,4 +3,3 @@ export * from './onClientDisconnected';
 export * from './onClientBanned';
 export * from './onSessionStateChange';
 export * from './onNetworkActivities';
-//# sourceMappingURL=index.d.ts.map

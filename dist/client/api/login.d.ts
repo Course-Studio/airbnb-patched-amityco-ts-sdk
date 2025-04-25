@@ -19,4 +19,3 @@
  * @async
  */
 export declare const login: (params: Amity.ConnectClientParams, sessionHandler: Amity.SessionHandler, config?: Amity.ConnectClientConfig) => Promise<boolean>;
-//# sourceMappingURL=login.d.ts.map

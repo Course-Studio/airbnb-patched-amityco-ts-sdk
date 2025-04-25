@@ -14,4 +14,3 @@
  * @category User Events
  */
 export declare const onUserFlagCleared: (callback: Amity.Listener<Amity.InternalUser>) => Amity.Unsubscriber;
-//# sourceMappingURL=onUserFlagCleared.d.ts.map

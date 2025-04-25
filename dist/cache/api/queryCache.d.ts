@@ -13,5 +13,4 @@
  *
  * @category Cache API
  */
-export declare const queryCache: <T extends unknown>(key: Amity.CacheKey) => Amity.CacheEntry<T>[] | undefined;
-//# sourceMappingURL=queryCache.d.ts.map
+export declare const queryCache: <T extends unknown>(key: Amity.CacheKey) => Amity.CacheEntry<T>[];

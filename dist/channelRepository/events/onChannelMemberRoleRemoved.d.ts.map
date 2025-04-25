@@ -1,1 +1,0 @@
-{"version":3,"file":"onChannelMemberRoleRemoved.d.ts","sourceRoot":"","sources":["../../../src/channelRepository/events/onChannelMemberRoleRemoved.ts"],"names":[],"mappings":"AAuBA,eAAO,MAAM,0BAA0B,uBACjB,MAAM,qBAAqB,UAAU,MAAM,UAAU,CAAC,SAAS,CAAC,KAAK,IAAI,KAC5F,MAAM,YAmBR,CAAC"}

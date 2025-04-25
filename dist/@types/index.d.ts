@@ -29,4 +29,3 @@ export * from './domains/post';
 export * from './domains/story';
 export * from './domains/ad';
 export * from './domains/notification';
-//# sourceMappingURL=index.d.ts.map

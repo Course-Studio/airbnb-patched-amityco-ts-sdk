@@ -52,4 +52,3 @@ declare global {
         }>;
     }
 }
-//# sourceMappingURL=comment.d.ts.map

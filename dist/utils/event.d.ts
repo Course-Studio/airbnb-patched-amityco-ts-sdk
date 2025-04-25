@@ -1,2 +1,1 @@
 export declare const convertEventPayload: <SourceModel extends Amity.Model, DestinationDomain extends keyof Amity.Models, DestinationModel extends Amity.Models[DestinationDomain]>(eventHandler: (callback: Amity.Listener<SourceModel>) => Amity.Unsubscriber, sourceModelProp: keyof SourceModel, destinationDomain: DestinationDomain) => (callback: Amity.Listener<DestinationModel>) => Amity.Unsubscriber;
-//# sourceMappingURL=event.d.ts.map

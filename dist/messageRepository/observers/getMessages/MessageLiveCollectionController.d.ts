@@ -11,4 +11,3 @@ export declare class MessageLiveCollectionController extends LiveCollectionContr
     protected persistModel(response: Amity.MessagePayload & Amity.Pagination): Promise<void>;
     protected persistQueryStream({ response, direction, refresh, }: Amity.LiveCollectionPersistQueryStreamParams<'message'>): void;
 }
-//# sourceMappingURL=MessageLiveCollectionController.d.ts.map

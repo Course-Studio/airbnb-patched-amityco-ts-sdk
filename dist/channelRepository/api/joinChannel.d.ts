@@ -13,4 +13,3 @@
  * @async
  */
 export declare const joinChannel: (channelId: Amity.Channel['channelId']) => Promise<boolean>;
-//# sourceMappingURL=joinChannel.d.ts.map

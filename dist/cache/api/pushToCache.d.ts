@@ -14,4 +14,3 @@
  * @category Cache API
  */
 export declare const pushToCache: (key: Amity.CacheKey, data: unknown, options?: Amity.CacheOptions) => boolean;
-//# sourceMappingURL=pushToCache.d.ts.map

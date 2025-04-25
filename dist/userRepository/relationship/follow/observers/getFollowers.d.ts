@@ -17,4 +17,3 @@
  * @category Followers Live Collection
  */
 export declare const getFollowers: (params: Amity.FollowerLiveCollection, callback: Amity.LiveCollectionCallback<Amity.FollowStatus>, config?: Amity.LiveCollectionConfig) => Amity.Unsubscriber;
-//# sourceMappingURL=getFollowers.d.ts.map

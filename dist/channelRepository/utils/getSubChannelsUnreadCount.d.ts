@@ -7,4 +7,3 @@
  * If not found in the both cache, use `0` as defaul value.
  */
 export declare const getSubChannelsUnreadCount: (channel: Omit<Amity.RawChannel, 'messageCount'>, marker?: Amity.ChannelMarker) => number;
-//# sourceMappingURL=getSubChannelsUnreadCount.d.ts.map

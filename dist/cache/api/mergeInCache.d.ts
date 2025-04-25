@@ -17,4 +17,3 @@
  * @category Cache API
  */
 export declare const mergeInCache: <T extends Record<string, unknown>>(key: Amity.CacheKey, mutation: Partial<T> | ((oldVal: T) => T), options?: Amity.CacheOptions) => boolean;
-//# sourceMappingURL=mergeInCache.d.ts.map

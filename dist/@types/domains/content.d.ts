@@ -55,4 +55,3 @@ declare global {
         type ContentSetting<T extends ContentType = 'text' | 'video'> = T extends 'text' ? ContentSettingText : T extends 'video' ? ContentSettingVideo : never;
     }
 }
-//# sourceMappingURL=content.d.ts.map

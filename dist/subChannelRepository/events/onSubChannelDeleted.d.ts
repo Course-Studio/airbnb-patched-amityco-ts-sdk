@@ -14,4 +14,3 @@
  * @category Channel Events
  */
 export declare const onSubChannelDeleted: (callback: Amity.Listener<Amity.SubChannel>) => () => void;
-//# sourceMappingURL=onSubChannelDeleted.d.ts.map

@@ -16,4 +16,3 @@
  * @hidden
  */
 export declare const upsertInCache: <T extends Record<string, unknown>>(key: Amity.CacheKey, data: T, options?: Amity.CacheOptions) => boolean;
-//# sourceMappingURL=upsertInCache.d.ts.map

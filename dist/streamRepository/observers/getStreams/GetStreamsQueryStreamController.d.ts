@@ -12,4 +12,3 @@ export declare class GetStreamsQueryStreamController extends QueryStreamControll
         action: string;
     }[]): Amity.Unsubscriber[];
 }
-//# sourceMappingURL=GetStreamsQueryStreamController.d.ts.map

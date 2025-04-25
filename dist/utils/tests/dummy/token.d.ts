@@ -4,7 +4,6 @@ export declare const sessionResponse: {
         issuedAt: Date;
         expiresAt: Date;
         users: Amity.User[];
-        files: never[];
+        files: any[];
     };
 };
-//# sourceMappingURL=token.d.ts.map

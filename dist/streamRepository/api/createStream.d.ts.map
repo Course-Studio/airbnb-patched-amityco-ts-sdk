@@ -1,1 +1,0 @@
-{"version":3,"file":"createStream.d.ts","sourceRoot":"","sources":["../../../src/streamRepository/api/createStream.ts"],"names":[],"mappings":"AAQA;;;;;;;;;;;;;GAaG;AACH,eAAO,MAAM,YAAY,WACf,KAAK,MAAM,cAAc,EAAE,OAAO,GAAG,iBAAiB,GAAG,aAAa,CAAC,GAAG;IAChF,QAAQ,CAAC,EAAE,OAAO,CAAC;CACpB,KACA,QAAQ,MAAM,MAAM,CAAC,MAAM,MAAM,CAAC,CAepC,CAAC"}

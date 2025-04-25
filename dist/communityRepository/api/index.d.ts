@@ -4,4 +4,3 @@ export * from './updateCommunity';
 export * from './deleteCommunity';
 export * from './joinCommunity';
 export * from './leaveCommunity';
-//# sourceMappingURL=index.d.ts.map

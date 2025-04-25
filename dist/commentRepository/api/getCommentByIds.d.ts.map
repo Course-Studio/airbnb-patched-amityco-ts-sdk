@@ -1,1 +1,0 @@
-{"version":3,"file":"getCommentByIds.d.ts","sourceRoot":"","sources":["../../../src/commentRepository/api/getCommentByIds.ts"],"names":[],"mappings":"AAWA;;;;;;;;;;;;;GAaG;AACH,eAAO,MAAM,eAAe;iBACd,aAAa,CAAC,WAAW,CAAC,EAAE,GACvC,QAAQ,MAAM,MAAM,CAAC,aAAa,EAAE,CAAC,CAAC;IAmCzC;;;;;;;;;;;;OAYG;wBAEW,aAAa,CAAC,WAAW,CAAC,EAAE,GACvC,MAAM,MAAM,CAAC,aAAa,EAAE,CAAC,GAAG,SAAS;CAlB3C,CAAC"}

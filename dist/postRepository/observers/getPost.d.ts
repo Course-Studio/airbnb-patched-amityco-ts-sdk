@@ -18,4 +18,3 @@
  * @category Post Live Object
  */
 export declare const getPost: (postId: Amity.Post['postId'], callback: Amity.LiveObjectCallback<Amity.Post>) => Amity.Unsubscriber;
-//# sourceMappingURL=getPost.d.ts.map

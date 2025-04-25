@@ -13,4 +13,3 @@
  * @async
  */
 export declare const acceptMyFollower: (userId: Amity.InternalUser['userId']) => Promise<boolean>;
-//# sourceMappingURL=acceptMyFollower.d.ts.map

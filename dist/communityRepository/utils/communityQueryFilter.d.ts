@@ -1,2 +1,1 @@
 export declare const communityQueryFilter: (data: Amity.Community[], params: Amity.CommunityLiveCollection, userId: string) => Amity.Community[];
-//# sourceMappingURL=communityQueryFilter.d.ts.map

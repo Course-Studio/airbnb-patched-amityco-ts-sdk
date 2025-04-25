@@ -1,4 +1,4 @@
-import debug from 'debug';
+/// <reference types="debug" />
 /**
  * Creates a pre-configured logger instance
  *
@@ -10,6 +10,5 @@ import debug from 'debug';
  */
 export declare const createLogger: (session?: string) => {
     (topic: string, ...args: any[]): void;
-    __instance__: debug.Debugger;
+    __instance__: import("debug").Debugger;
 };
-//# sourceMappingURL=debug.d.ts.map

@@ -10,4 +10,3 @@ export declare class GlobalPinnedPostLiveCollectionController extends LiveCollec
     startSubscription(): Amity.Unsubscriber[];
     notifyChange({ origin, loading, error }: Amity.LiveCollectionNotifyParams): void;
 }
-//# sourceMappingURL=GlobalPinnedPostLiveCollectionController.d.ts.map

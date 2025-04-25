@@ -14,4 +14,3 @@
  * @category Comment Events
  */
 export declare const onLocalCommentReactionAdded: (callback: Amity.Listener<Amity.InternalComment>) => Amity.Unsubscriber;
-//# sourceMappingURL=onLocalCommentReactionAdded.d.ts.map

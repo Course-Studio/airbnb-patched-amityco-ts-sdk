@@ -36,4 +36,3 @@ export declare const queryRoles: {
      */
     locally(query: Parameters<typeof queryRoles>[0]): void;
 };
-//# sourceMappingURL=queryRoles.d.ts.map

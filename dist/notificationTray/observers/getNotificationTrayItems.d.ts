@@ -9,4 +9,3 @@
  *
  */
 export declare const getNotificationTrayItems: (params: Amity.LiveCollectionParams<Amity.NotificationTrayItemLiveCollection>, callback: Amity.LiveCollectionCallback<Amity.NotificationTrayItem>, config?: Amity.LiveCollectionConfig) => () => void;
-//# sourceMappingURL=getNotificationTrayItems.d.ts.map

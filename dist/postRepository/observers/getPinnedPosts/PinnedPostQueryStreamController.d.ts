@@ -6,4 +6,3 @@ export declare class PinnedPostQueryStreamController extends QueryStreamControll
     saveToMainDB(response: Amity.PinnedPostPayload): Promise<void>;
     appendToQueryStream(response: Amity.PinnedPostPayload & Partial<Amity.Pagination>, direction: Amity.LiveCollectionPageDirection, refresh?: boolean): void;
 }
-//# sourceMappingURL=PinnedPostQueryStreamController.d.ts.map

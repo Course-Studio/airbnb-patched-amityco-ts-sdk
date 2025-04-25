@@ -57,4 +57,3 @@ export declare class ASCInvalidParameterError extends ASCError {
      */
     constructor(message: string);
 }
-//# sourceMappingURL=errors.d.ts.map

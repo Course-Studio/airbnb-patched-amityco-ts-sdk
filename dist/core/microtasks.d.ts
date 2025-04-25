@@ -10,4 +10,3 @@ export declare const scheduleTask: (task: Function) => void;
  * @param task function to be removed from later execution
  */
 export declare const cancelTask: (task: Function) => void;
-//# sourceMappingURL=microtasks.d.ts.map

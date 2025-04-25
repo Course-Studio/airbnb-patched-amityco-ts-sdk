@@ -19,4 +19,3 @@
  * @category SubChannel Live Object
  */
 export declare const getActiveStoriesByTarget: (params: Amity.GetStoriesByTargetParam, callback: Amity.LiveCollectionCallback<Amity.Story | undefined>) => () => void;
-//# sourceMappingURL=getActiveStoriesByTarget.d.ts.map

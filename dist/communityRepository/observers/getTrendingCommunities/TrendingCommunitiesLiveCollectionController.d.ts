@@ -10,4 +10,3 @@ export declare class TrendingCommunityLiveCollectionController extends LiveColle
     startSubscription(): Amity.Unsubscriber[];
     notifyChange({ origin, loading, error }: Amity.LiveCollectionNotifyParams): void;
 }
-//# sourceMappingURL=TrendingCommunitiesLiveCollectionController.d.ts.map

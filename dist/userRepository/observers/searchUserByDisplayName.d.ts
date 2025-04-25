@@ -16,4 +16,3 @@
  * @category Category Live Collection
  */
 export declare const searchUserByDisplayName: (params: Amity.UserSearchLiveCollection, callback: Amity.LiveCollectionCallback<Amity.InternalUser>, config?: Amity.LiveCollectionConfig) => () => void;
-//# sourceMappingURL=searchUserByDisplayName.d.ts.map

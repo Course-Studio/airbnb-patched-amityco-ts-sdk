@@ -26,4 +26,3 @@ declare global {
         type Poll = InternalPoll;
     }
 }
-//# sourceMappingURL=poll.d.ts.map

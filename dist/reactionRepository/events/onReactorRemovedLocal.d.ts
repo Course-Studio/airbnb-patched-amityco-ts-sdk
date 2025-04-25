@@ -16,4 +16,3 @@
  * @category Events
  * */
 export declare const onReactorRemovedLocal: (referenceType: Amity.ReactableType, referenceId: Amity.Reaction['referenceId'], callback: Amity.Listener<Amity.InternalReactor>) => Amity.Unsubscriber;
-//# sourceMappingURL=onReactorRemovedLocal.d.ts.map

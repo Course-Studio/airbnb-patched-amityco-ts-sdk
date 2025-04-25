@@ -9,4 +9,3 @@ export declare enum EnumPostActions {
     OnPostApproved = "onPostApproved",
     OnPostDeclined = "onPostDeclined"
 }
-//# sourceMappingURL=enums.d.ts.map

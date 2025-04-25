@@ -9,4 +9,3 @@ export declare const preUpdateChannelCache: (rawPayload: Amity.ChannelPayload, o
 export declare const prepareChannelPayload: (rawPayload: Amity.ChannelPayload, options?: {
     isMessagePreviewUpdated?: boolean;
 }) => Promise<Amity.ProcessedChannelPayload>;
-//# sourceMappingURL=prepareChannelPayload.d.ts.map

@@ -7,4 +7,3 @@ export declare class SemanticSearchCommunityPaginationController extends Paginat
         }[];
     } & Amity.Pagination>;
 }
-//# sourceMappingURL=SemanticSearchCommunityPaginationController.d.ts.map

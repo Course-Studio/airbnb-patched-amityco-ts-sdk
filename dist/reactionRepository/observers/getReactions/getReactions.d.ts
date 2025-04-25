@@ -19,4 +19,3 @@
  * @category Reactions Live Collection
  */
 export declare const getReactions: (params: Amity.ReactionLiveCollection, callback: Amity.LiveCollectionCallback<Amity.Reactor>, config?: Amity.LiveCollectionConfig) => Amity.Unsubscriber;
-//# sourceMappingURL=getReactions.d.ts.map

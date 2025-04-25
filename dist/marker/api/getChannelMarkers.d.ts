@@ -12,4 +12,3 @@
  * @private
  */
 export declare const getChannelMarkers: (channelIds: Amity.Channel['channelId'][]) => Promise<Amity.Cached<Amity.ChannelMarker[]>>;
-//# sourceMappingURL=getChannelMarkers.d.ts.map

@@ -23,4 +23,3 @@ declare const _default: {
     getInstance: () => ObjectResolverEngine;
 };
 export default _default;
-//# sourceMappingURL=objectResolverEngine.d.ts.map

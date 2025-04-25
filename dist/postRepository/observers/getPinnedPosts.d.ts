@@ -9,4 +9,3 @@
  *
  */
 export declare const getPinnedPosts: (params: Amity.LiveCollectionParams<Amity.PinnedPostLiveCollection>, callback: Amity.LiveCollectionCallback<Amity.PinnedPost>, config?: Amity.LiveCollectionConfig) => () => void;
-//# sourceMappingURL=getPinnedPosts.d.ts.map

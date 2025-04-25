@@ -13,4 +13,3 @@
  * @async
  */
 export declare const deleteComment: (commentId: Amity.Comment['commentId'], permanent?: boolean) => Promise<Amity.Comment>;
-//# sourceMappingURL=deleteComment.d.ts.map

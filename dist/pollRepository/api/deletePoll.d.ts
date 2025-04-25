@@ -13,4 +13,3 @@
  * @async
  */
 export declare const deletePoll: (pollId: Amity.Poll['pollId']) => Promise<boolean>;
-//# sourceMappingURL=deletePoll.d.ts.map

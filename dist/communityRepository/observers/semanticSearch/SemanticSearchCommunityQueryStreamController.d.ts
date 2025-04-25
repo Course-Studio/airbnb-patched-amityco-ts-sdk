@@ -13,4 +13,3 @@ export declare class SemanticSearchCommunityQueryStreamController extends QueryS
         action: EnumCommunityActions | EnumCommunityMemberActions;
     }[]): Amity.Unsubscriber[];
 }
-//# sourceMappingURL=SemanticSearchCommunityQueryStreamController.d.ts.map

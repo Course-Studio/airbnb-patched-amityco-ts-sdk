@@ -12,4 +12,3 @@
  * @async
  */
 export declare const markAsRead: (channelId: Amity.Channel['channelInternalId']) => Promise<boolean>;
-//# sourceMappingURL=markAsRead.d.ts.map

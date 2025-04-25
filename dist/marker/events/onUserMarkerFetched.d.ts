@@ -15,4 +15,3 @@
  */
 export declare const onUserMarkerFetched: (callback: Amity.Listener<Amity.UserMarker[]>) => Amity.Unsubscriber;
 export declare const onUserMarkerFetchedLegacy: (callback: Amity.Listener<Amity.UserMarker>) => Amity.Unsubscriber;
-//# sourceMappingURL=onUserMarkerFetched.d.ts.map

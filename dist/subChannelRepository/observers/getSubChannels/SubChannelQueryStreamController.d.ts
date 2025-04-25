@@ -11,4 +11,3 @@ export declare class SubChannelQueryStreamController extends QueryStreamControll
         action: string;
     }[]): Amity.Unsubscriber[];
 }
-//# sourceMappingURL=SubChannelQueryStreamController.d.ts.map

@@ -16,13 +16,12 @@ import { API_REGIONS } from '~/client/utils/endpoints';
  * @category Client API
  * */
 export declare const createClient: (apiKey: string, apiRegion?: (typeof API_REGIONS)[keyof typeof API_REGIONS], { debugSession, apiEndpoint, prefixDeviceIdKey, rteEnabled, }?: {
-    debugSession?: string | undefined;
+    debugSession?: string;
     apiEndpoint?: {
-        http?: string | undefined;
-        mqtt?: string | undefined;
-        upload?: string | undefined;
-    } | undefined;
-    prefixDeviceIdKey?: string | undefined;
-    rteEnabled?: boolean | undefined;
+        http?: string;
+        mqtt?: string;
+        upload?: string;
+    };
+    prefixDeviceIdKey?: string;
+    rteEnabled?: boolean;
 }) => Amity.Client;
-//# sourceMappingURL=createClient.d.ts.map

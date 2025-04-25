@@ -105,5 +105,4 @@ export declare const queryOptions: (policy: Amity.QueryPolicy, lifeSpan?: number
  *
  * @category Query
  */
-export declare const runQuery: <Args extends any[], Returned extends unknown>({ func, args }: Amity.Query<Args, Returned>, callback?: ((args: Amity.Snapshot<Returned>) => void) | undefined, options?: Amity.QueryOptions) => void;
-//# sourceMappingURL=query.d.ts.map
+export declare const runQuery: <Args extends any[], Returned extends unknown>({ func, args }: Amity.Query<Args, Returned>, callback?: (args: Amity.Snapshot<Returned>) => void, options?: Amity.QueryOptions) => void;

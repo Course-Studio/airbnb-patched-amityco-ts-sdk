@@ -12,4 +12,3 @@ export declare class CommentQueryStreamController extends QueryStreamController<
         action: EnumCommentActions;
     }[]): Amity.Unsubscriber[];
 }
-//# sourceMappingURL=CommentQueryStreamController.d.ts.map

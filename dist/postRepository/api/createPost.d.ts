@@ -17,13 +17,12 @@
  * @async
  */
 export declare const createPost: <T extends string>(bundle: Pick<Amity.Post<T>, "targetType" | "targetId"> & Partial<Pick<Amity.Post<T>, "metadata" | "tags" | "mentionees">> & {
-    dataType?: T | undefined;
+    dataType?: T;
     data?: {
         [k: string]: any;
-    } | undefined;
+    };
     attachments?: {
         type: T;
         fileId: Amity.File['fileId'];
-    }[] | undefined;
+    }[];
 }) => Promise<Amity.Cached<Amity.Post>>;
-//# sourceMappingURL=createPost.d.ts.map

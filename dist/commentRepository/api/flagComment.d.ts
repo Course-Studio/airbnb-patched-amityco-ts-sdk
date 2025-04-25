@@ -11,4 +11,3 @@
  * @async
  * */
 export declare const flagComment: (commentId: Amity.Comment['commentId']) => Promise<boolean>;
-//# sourceMappingURL=flagComment.d.ts.map

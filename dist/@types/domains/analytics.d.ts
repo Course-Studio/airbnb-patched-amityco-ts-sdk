@@ -37,4 +37,3 @@ declare global {
         }>;
     }
 }
-//# sourceMappingURL=analytics.d.ts.map

@@ -14,4 +14,3 @@
  * @async
  */
 export declare const removeMembers: (communityId: Amity.Community['communityId'], userIds: Amity.InternalUser['userId'][]) => Promise<boolean>;
-//# sourceMappingURL=removeMembers.d.ts.map

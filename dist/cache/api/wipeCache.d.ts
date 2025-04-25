@@ -18,4 +18,3 @@
  * @category Cache API
  */
 export declare const wipeCache: (storageKey?: string) => Promise<boolean>;
-//# sourceMappingURL=wipeCache.d.ts.map

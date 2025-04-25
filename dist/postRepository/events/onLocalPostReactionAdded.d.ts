@@ -14,4 +14,3 @@
  * @category Post Events
  */
 export declare const onLocalPostReactionAdded: (callback: Amity.Listener<Amity.InternalPost>) => Amity.Unsubscriber;
-//# sourceMappingURL=onLocalPostReactionAdded.d.ts.map

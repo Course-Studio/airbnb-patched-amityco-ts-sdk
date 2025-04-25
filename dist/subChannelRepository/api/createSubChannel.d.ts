@@ -13,4 +13,3 @@
  * @async
  */
 export declare const createSubChannel: <T extends Amity.ChannelType>(bundle: Pick<Amity.SubChannel, 'channelId' | 'displayName'>) => Promise<Amity.Cached<Amity.SubChannel>>;
-//# sourceMappingURL=createSubChannel.d.ts.map

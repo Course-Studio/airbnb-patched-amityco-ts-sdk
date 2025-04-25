@@ -8,9 +8,8 @@ export declare abstract class PaginationController<TPayloadDomain extends keyof 
     loadFirstPage(): Promise<(Amity.Payloads[TPayloadDomain] & Amity.Pagination) | undefined>;
     loadNextPage(): Promise<(Amity.Payloads[TPayloadDomain] & Amity.Pagination) | undefined>;
     loadPreviousPage(): Promise<(Amity.Payloads[TPayloadDomain] & Amity.Pagination) | undefined>;
-    onFetch(direction?: Amity.LiveCollectionPageDirection): Promise<(Amity.Payloads[TPayloadDomain] & Amity.Pagination) | undefined>;
+    onFetch(direction?: Amity.LiveCollectionPageDirection): Promise<Amity.Payloads[TPayloadDomain] & Amity.Pagination>;
     abstract getRequest(queryParams: TQueryParams, token: string | undefined): Promise<Amity.Payloads[TPayloadDomain] & Amity.Pagination>;
     getNextToken(): string | undefined;
     getPrevToken(): string | undefined;
 }
-//# sourceMappingURL=PaginationController.d.ts.map

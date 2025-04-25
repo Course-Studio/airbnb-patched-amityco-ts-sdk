@@ -14,4 +14,3 @@ export declare function getMqttOptions(params: {
  * @hidden
  */
 export declare const createMqttTransport: (endpoint: string) => Amity.MqttClient;
-//# sourceMappingURL=mqtt.d.ts.map

@@ -8,4 +8,3 @@ export declare class SemanticSearchPostPaginationController extends PaginationCo
         polls: Amity.RawPoll[];
     } & Amity.Pagination>;
 }
-//# sourceMappingURL=SemanticSearchPostPaginationController.d.ts.map

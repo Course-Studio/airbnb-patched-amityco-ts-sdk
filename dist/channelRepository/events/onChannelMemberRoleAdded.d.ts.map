@@ -1,1 +1,0 @@
-{"version":3,"file":"onChannelMemberRoleAdded.d.ts","sourceRoot":"","sources":["../../../src/channelRepository/events/onChannelMemberRoleAdded.ts"],"names":[],"mappings":"AAoBA,eAAO,MAAM,wBAAwB,uBACf,MAAM,qBAAqB,UAAU,MAAM,UAAU,CAAC,SAAS,CAAC,KAAK,IAAI,KAC5F,MAAM,YAqBR,CAAC"}

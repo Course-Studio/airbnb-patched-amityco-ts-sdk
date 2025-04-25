@@ -40,26 +40,26 @@ export declare const channelQueryResponse: {
             next: string;
         };
         channels: Amity.RawChannel<any>[];
-        channelUsers: never[];
-        files: never[];
-        users: never[];
-        messagePreviews: never[];
+        channelUsers: any[];
+        files: any[];
+        users: any[];
+        messagePreviews: any[];
     };
 };
 export declare const channelQueryResponseWithoutPaging: {
     data: {
         channels: Amity.RawChannel<any>[];
-        channelUsers: never[];
-        files: never[];
-        users: never[];
-        messagePreviews: never[];
+        channelUsers: any[];
+        files: any[];
+        users: any[];
+        messagePreviews: any[];
     };
 };
 export declare const channelGetResponseWithMessagePreview: {
     data: {
         channels: Amity.RawChannel<any>[];
-        channelUsers: never[];
-        files: never[];
+        channelUsers: any[];
+        files: any[];
         users: Amity.User[];
         messagePreviews: Amity.MessagePreviewPayload<any>[];
         messageFeedsInfo: Amity.messageFeedsInfoPayload[];
@@ -68,11 +68,11 @@ export declare const channelGetResponseWithMessagePreview: {
 export declare const channelGetResponseWithNoMessagePreview: {
     data: {
         channels: Amity.RawChannel<any>[];
-        channelUsers: never[];
-        files: never[];
+        channelUsers: any[];
+        files: any[];
         users: Amity.User[];
-        messagePreviews: never[];
-        messageFeedsInfo: never[];
+        messagePreviews: any[];
+        messageFeedsInfo: any[];
     };
 };
 export declare const channelQueryResponseWithMessagePreview: {
@@ -82,8 +82,8 @@ export declare const channelQueryResponseWithMessagePreview: {
             next: string;
         };
         channels: Amity.RawChannel<any>[];
-        channelUsers: never[];
-        files: never[];
+        channelUsers: any[];
+        files: any[];
         users: Amity.User[];
         messagePreviews: Amity.MessagePreviewPayload<any>[];
         messageFeedsInfo: Amity.messageFeedsInfoPayload[];
@@ -96,11 +96,11 @@ export declare const channelQueryResponseWithNoMessagePreview: {
             next: string;
         };
         channels: Amity.RawChannel<any>[];
-        channelUsers: never[];
-        files: never[];
+        channelUsers: any[];
+        files: any[];
         users: Amity.User[];
-        messagePreviews: never[];
-        messageFeedsInfo: never[];
+        messagePreviews: any[];
+        messageFeedsInfo: any[];
     };
 };
 export declare const getChannelsResponse: {
@@ -110,10 +110,10 @@ export declare const getChannelsResponse: {
             next: string;
         };
         channels: Amity.RawChannel<any>[];
-        channelUsers: never[];
-        files: never[];
-        users: never[];
-        messagePreviews: never[];
+        channelUsers: any[];
+        files: any[];
+        users: any[];
+        messagePreviews: any[];
     };
 };
 export declare const channelQueryResponsePage2: {
@@ -123,10 +123,10 @@ export declare const channelQueryResponsePage2: {
             next: string;
         };
         channels: Amity.RawChannel<any>[];
-        channelUsers: never[];
-        files: never[];
-        users: never[];
-        messagePreviews: never[];
+        channelUsers: any[];
+        files: any[];
+        users: any[];
+        messagePreviews: any[];
     };
 };
 export declare const channelTagQueryResponse: {
@@ -136,10 +136,10 @@ export declare const channelTagQueryResponse: {
             next: string;
         };
         channels: Amity.RawChannel<any>[];
-        channelUsers: never[];
-        files: never[];
-        users: never[];
-        messagePreviews: never[];
+        channelUsers: any[];
+        files: any[];
+        users: any[];
+        messagePreviews: any[];
     };
 };
 export declare const channelExcludeTagQueryResponse: {
@@ -149,10 +149,10 @@ export declare const channelExcludeTagQueryResponse: {
             next: string;
         };
         channels: Amity.RawChannel<any>[];
-        channelUsers: never[];
-        files: never[];
-        users: never[];
-        messagePreviews: never[];
+        channelUsers: any[];
+        files: any[];
+        users: any[];
+        messagePreviews: any[];
     };
 };
 export declare const channelUserQueryResponse: {
@@ -164,8 +164,8 @@ export declare const channelUserQueryResponse: {
         channels: Amity.RawChannel<any>[];
         channelUsers: Amity.RawMembership<"channel">[];
         users: Amity.User[];
-        files: never[];
-        messagePreviews: never[];
+        files: any[];
+        messagePreviews: any[];
     };
 };
 export declare const emptyChannelUserQueryResponse: {
@@ -175,10 +175,10 @@ export declare const emptyChannelUserQueryResponse: {
             next: string;
         };
         channels: Amity.RawChannel<any>[];
-        channelUsers: never[];
-        users: never[];
-        files: never[];
-        messagePreviews: never[];
+        channelUsers: any[];
+        users: any[];
+        files: any[];
+        messagePreviews: any[];
     };
 };
 export declare const channelUserModel: Amity.Membership<"channel">[];
@@ -191,8 +191,8 @@ export declare const channelUserQueryResponsePage2: {
         channels: Amity.RawChannel<any>[];
         channelUsers: Amity.RawMembership<"channel">[];
         users: Amity.User[];
-        files: never[];
-        messagePreviews: never[];
+        files: any[];
+        messagePreviews: any[];
     };
 };
 export declare const channelUserQueryResponsePage3: {
@@ -204,8 +204,8 @@ export declare const channelUserQueryResponsePage3: {
         channels: Amity.RawChannel<any>[];
         channelUsers: Amity.RawMembership<"channel">[];
         users: Amity.User[];
-        files: never[];
-        messagePreviews: never[];
+        files: any[];
+        messagePreviews: any[];
     };
 };
 export declare const rawChannelPayload: Amity.ChannelPayload;
@@ -215,14 +215,14 @@ export declare const liveChannelPayload: {
     channelUsers: Amity.RawMembership<"channel">[];
     users: Amity.User[];
     files: Amity.File<"image">[];
-    messagePreviews: never[];
+    messagePreviews: any[];
 };
 export declare const conversationChannelPayload: {
     channels: Amity.RawChannel<any>[];
     channelUsers: Amity.RawMembership<"channel">[];
     users: Amity.User[];
     files: Amity.File<"image">[];
-    messagePreviews: never[];
+    messagePreviews: any[];
 };
 export declare const channelDisplayName1: Amity.RawChannel<any>;
 export declare const channelDisplayName2: Amity.RawChannel<any>;
@@ -234,4 +234,3 @@ export declare const channelCreatedAt3: Amity.RawChannel<any>;
 export declare const channelLastActivity1: Amity.RawChannel<any>;
 export declare const channelLastActivity2: Amity.RawChannel<any>;
 export declare const channelLastActivity3: Amity.RawChannel<any>;
-//# sourceMappingURL=channel.d.ts.map

@@ -10,4 +10,3 @@
  * @category Cache API
  */
 export declare const disableCache: () => void;
-//# sourceMappingURL=disableCache.d.ts.map

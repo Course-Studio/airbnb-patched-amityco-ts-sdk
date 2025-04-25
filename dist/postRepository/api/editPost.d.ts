@@ -19,6 +19,5 @@ export declare const editPost: <T extends string>(postId: Amity.Post['postId'], 
     attachments?: {
         type: T;
         fileId: Amity.File['fileId'];
-    }[] | undefined;
+    }[];
 }) => Promise<Amity.Cached<Amity.Post>>;
-//# sourceMappingURL=editPost.d.ts.map

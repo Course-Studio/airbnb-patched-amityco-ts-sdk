@@ -29,4 +29,3 @@ export declare const getFile: {
      */
     locally(fileId: Amity.File<any>['fileId']): Amity.Cached<Amity.File> | undefined;
 };
-//# sourceMappingURL=getFile.d.ts.map

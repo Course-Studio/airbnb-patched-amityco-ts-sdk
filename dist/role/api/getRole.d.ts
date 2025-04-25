@@ -29,4 +29,3 @@ export declare const getRole: {
      */
     locally(roleId: Amity.Role['roleId']): Amity.Cached<Amity.Role> | undefined;
 };
-//# sourceMappingURL=getRole.d.ts.map

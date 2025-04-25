@@ -1,4 +1,4 @@
-declare type SortingFunc<T = Record<string, unknown>> = (a: T, b: T) => number;
+type SortingFunc<T = Record<string, unknown>> = (a: T, b: T) => number;
 /**
  * Alphabetic sorting of objects having a displayName
  */
@@ -62,4 +62,3 @@ export declare const sortByLastActivity: SortingFunc<{
     lastActivity: Date | number | string;
 }>;
 export {};
-//# sourceMappingURL=sorting.d.ts.map

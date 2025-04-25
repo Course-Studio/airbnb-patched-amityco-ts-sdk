@@ -6,4 +6,3 @@ export declare class NotificationTrayItemsQuerystreamController extends QueryStr
     saveToMainDB(response: Amity.NotificationTrayPayload): Promise<void>;
     appendToQueryStream(response: Amity.NotificationTrayPayload & Partial<Amity.Pagination>, direction: Amity.LiveCollectionPageDirection, refresh?: boolean): void;
 }
-//# sourceMappingURL=NotificationTrayItemsQuerystreamController.d.ts.map

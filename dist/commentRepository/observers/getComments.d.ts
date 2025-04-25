@@ -19,4 +19,3 @@
  * @category Comments Live Collection
  */
 export declare const getComments: (params: Amity.CommentLiveCollection, callback: Amity.LiveCollectionCallback<Amity.Comment>, config?: Amity.LiveCollectionConfig) => Amity.Unsubscriber;
-//# sourceMappingURL=getComments.d.ts.map

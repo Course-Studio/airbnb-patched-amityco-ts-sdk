@@ -13,4 +13,3 @@
  * @async
  */
 export declare const follow: (userId: Amity.InternalUser['userId']) => Promise<Amity.Cached<Amity.FollowStatus>>;
-//# sourceMappingURL=follow.d.ts.map

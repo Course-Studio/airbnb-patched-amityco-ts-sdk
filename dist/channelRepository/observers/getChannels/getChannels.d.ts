@@ -17,4 +17,3 @@
  * @category Channel Live Collection
  */
 export declare const getChannels: (params: Amity.ChannelLiveCollection, callback: Amity.LiveCollectionCallback<Amity.Channel>, config?: Amity.LiveCollectionConfig) => () => void;
-//# sourceMappingURL=getChannels.d.ts.map

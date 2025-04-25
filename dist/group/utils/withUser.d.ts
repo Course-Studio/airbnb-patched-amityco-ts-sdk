@@ -25,7 +25,7 @@ export declare const convertRawMembershipToMembership: <T extends "channel" | "c
  * @returns The membership model object that is already mapped to user
  * @hidden
  */
-export declare const withUser: <M extends Record<any, any>, I extends keyof M = "userId", U extends string = "user">(member: M, userIdProp?: I, userProp?: U) => Record<U, Amity.InternalUser | undefined> & M;
+export declare const withUser: <M extends Record<any, any>, I extends keyof M = "userId", U extends string = "user">(member: M, userIdProp?: I, userProp?: U) => Record<U, Amity.InternalUser> & M;
 /**
  * Mapping membership model with user object
  *
@@ -36,7 +36,7 @@ export declare const withUser: <M extends Record<any, any>, I extends keyof M = 
  * mapped to users
  * @hidden
  */
-export declare const withUsers: <M extends Record<any, any>[], I extends keyof M[number] = "userId", U extends string = "user">(members: M, userIdProp?: I, userProp?: U) => (Record<U, Amity.InternalUser | undefined> & M[number])[];
+export declare const withUsers: <M extends Record<any, any>[], I extends keyof M[number] = "userId", U extends string = "user">(members: M, userIdProp?: I, userProp?: U) => (Record<U, Amity.InternalUser> & M[number])[];
 /**
  * Transform members prop in any payload with attached users members
  *
@@ -47,5 +47,4 @@ export declare const withUsers: <M extends Record<any, any>[], I extends keyof M
  * @returns The transforming payload
  * @hidden
  */
-export declare const prepareMembershipPayload: <P extends Record<any, any>, M extends keyof P, I extends keyof P[M][number] = "userId", U extends string = "user">(payload: P, memberProp: M, userIdProp?: I, userProp?: U) => Omit<P, M> & Record<M, (Record<U, Amity.InternalUser | undefined> & P[M][number])[]>;
-//# sourceMappingURL=withUser.d.ts.map
+export declare const prepareMembershipPayload: <P extends Record<any, any>, M extends keyof P, I extends keyof P[M][number] = "userId", U extends string = "user">(payload: P, memberProp: M, userIdProp?: I, userProp?: U) => Omit<P, M> & Record<M, (Record<U, Amity.InternalUser> & P[M][number])[]>;

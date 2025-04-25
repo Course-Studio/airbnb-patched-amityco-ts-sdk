@@ -30,4 +30,3 @@ declare const _default: {
     getInstance: () => LegacyMessageReadReceiptSyncEngine;
 };
 export default _default;
-//# sourceMappingURL=legacyReadReceiptSyncEngine.d.ts.map

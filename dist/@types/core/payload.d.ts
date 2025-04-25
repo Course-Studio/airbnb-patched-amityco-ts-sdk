@@ -428,4 +428,3 @@ declare global {
         } & Amity.Content<T> & Amity.Flaggable & Amity.Taggable & Amity.Timestamps;
     }
 }
-//# sourceMappingURL=payload.d.ts.map

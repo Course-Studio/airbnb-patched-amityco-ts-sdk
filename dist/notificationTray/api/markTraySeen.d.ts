@@ -16,4 +16,3 @@
  * @async
  */
 export declare const markTraySeen: (lastSeenAt: Amity.timestamp) => Promise<Amity.Cached<Amity.NotificationTraySeenUpdatedPayload>>;
-//# sourceMappingURL=markTraySeen.d.ts.map

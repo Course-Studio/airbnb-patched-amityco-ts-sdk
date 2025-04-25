@@ -14,4 +14,3 @@
  * @async
  */
 export declare const updateChannel: (channelId: Amity.Channel['channelId'], patch: Patch<Amity.Channel, 'displayName' | 'avatarFileId' | 'tags' | 'metadata'>) => Promise<Amity.Cached<Amity.InternalChannel>>;
-//# sourceMappingURL=updateChannel.d.ts.map

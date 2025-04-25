@@ -1,1 +1,0 @@
-{"version":3,"file":"getStream.d.ts","sourceRoot":"","sources":["../../../src/streamRepository/internalApi/getStream.ts"],"names":[],"mappings":"AAQA;;;;;;;;;;;;;GAaG;AACH,eAAO,MAAM,SAAS;eACV,MAAM,MAAM,CAAC,UAAU,CAAC,GACjC,QAAQ,MAAM,MAAM,CAAC,MAAM,MAAM,CAAC,CAAC;IAoBtC;;;;;;;;;;;;OAYG;sBAES,MAAM,MAAM,CAAC,UAAU,CAAC,GACjC,MAAM,MAAM,CAAC,MAAM,MAAM,CAAC,GAAG,SAAS;CAlBxC,CAAC"}

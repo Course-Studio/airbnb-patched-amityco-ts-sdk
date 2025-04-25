@@ -13,4 +13,3 @@
  * @async
  */
 export declare const unBlockUser: (userId: Amity.InternalUser['userId']) => Promise<Amity.BlockedPayload>;
-//# sourceMappingURL=unBlockUser.d.ts.map

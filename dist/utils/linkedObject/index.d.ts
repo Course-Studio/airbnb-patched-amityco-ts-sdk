@@ -13,4 +13,3 @@ export declare const LinkedObject: {
     pinnedPost: (pinnedPost: Amity.RawPin) => Amity.PinnedPost;
     notificationTray: (noti: Amity.RawNotificationTrayItem) => Amity.NotificationTrayItem;
 };
-//# sourceMappingURL=index.d.ts.map

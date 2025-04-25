@@ -10,4 +10,3 @@ export * from './onChannelMemberBanned';
 export * from './onChannelMemberUnbanned';
 export * from './onChannelMemberRoleAdded';
 export * from './onChannelMemberRoleRemoved';
-//# sourceMappingURL=index.d.ts.map

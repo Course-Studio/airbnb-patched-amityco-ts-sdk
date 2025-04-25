@@ -15,4 +15,3 @@
 export declare const deleteFile: (fileId: Amity.File<any>['fileId']) => Promise<{
     success: boolean;
 }>;
-//# sourceMappingURL=deleteFile.d.ts.map

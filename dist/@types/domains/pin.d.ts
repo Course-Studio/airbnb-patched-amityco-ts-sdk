@@ -19,4 +19,3 @@ declare global {
         type PinTarget = InternalPinTarget;
     }
 }
-//# sourceMappingURL=pin.d.ts.map

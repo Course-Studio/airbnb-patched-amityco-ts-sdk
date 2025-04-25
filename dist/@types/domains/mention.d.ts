@@ -20,4 +20,3 @@ declare global {
         };
     }
 }
-//# sourceMappingURL=mention.d.ts.map

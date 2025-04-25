@@ -11,4 +11,3 @@ export declare class SearchChannelMemberLiveCollectionController extends LiveCol
     notifyChange({ origin, loading, error }: Amity.LiveCollectionNotifyParams): void;
     applyFilter(data: Amity.Membership<'channel'>[]): Amity.Membership<"channel">[];
 }
-//# sourceMappingURL=SearchChannelMemberLiveCollectionController.d.ts.map

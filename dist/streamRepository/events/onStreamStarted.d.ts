@@ -14,4 +14,3 @@
  * @category Stream Events
  */
 export declare const onStreamStarted: (callback: Amity.Listener<Amity.InternalStream>) => Amity.Unsubscriber;
-//# sourceMappingURL=onStreamStarted.d.ts.map

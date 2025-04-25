@@ -11,4 +11,3 @@ export declare class FollowerLiveCollectionController extends LiveCollectionCont
     notifyChange({ origin, loading, error }: Amity.LiveCollectionNotifyParams): void;
     applyFilter(data: Amity.InternalFollowStatus[]): Amity.RawFollowStatus[];
 }
-//# sourceMappingURL=FollowerLiveCollectionController.d.ts.map

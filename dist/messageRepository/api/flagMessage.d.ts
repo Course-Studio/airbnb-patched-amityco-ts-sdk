@@ -11,4 +11,3 @@
  * @async
  * */
 export declare const flagMessage: (messageId: Amity.Message['messageId']) => Promise<boolean>;
-//# sourceMappingURL=flagMessage.d.ts.map

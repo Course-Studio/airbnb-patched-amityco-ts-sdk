@@ -18,4 +18,3 @@
  * @category Messages Live Collection
  */
 export declare const getMessages: (params: Amity.MessagesLiveCollection, callback: Amity.LiveCollectionCallback<Amity.Message>, config?: Amity.LiveCollectionConfig) => Amity.Unsubscriber;
-//# sourceMappingURL=getMessages.d.ts.map

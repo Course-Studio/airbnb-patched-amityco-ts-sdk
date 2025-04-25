@@ -3,4 +3,3 @@ export declare const hasPermission: (permission: string) => {
     community: (communityId: Amity.Community['communityId']) => boolean;
     channel: (channelId: Amity.Channel['channelId']) => boolean;
 };
-//# sourceMappingURL=hasPermission.d.ts.map

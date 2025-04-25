@@ -6,4 +6,3 @@ export * from './joinChannel';
 export * from './leaveChannel';
 export * from './muteChannel';
 export * from './unmuteChannel';
-//# sourceMappingURL=index.d.ts.map

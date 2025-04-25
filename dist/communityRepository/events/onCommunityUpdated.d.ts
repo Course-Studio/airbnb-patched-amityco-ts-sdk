@@ -14,4 +14,3 @@
  * @category Community Events
  */
 export declare const onCommunityUpdated: (callback: Amity.Listener<Amity.Community>) => Amity.Unsubscriber;
-//# sourceMappingURL=onCommunityUpdated.d.ts.map

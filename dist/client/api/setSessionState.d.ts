@@ -9,4 +9,3 @@ export declare const isValidStateChange: (prevState: Amity.SessionStates, nextSt
  * @category private
  */
 export declare const setSessionState: (state: Amity.SessionStates) => boolean;
-//# sourceMappingURL=setSessionState.d.ts.map

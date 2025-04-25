@@ -11,4 +11,3 @@
  * @async
  * */
 export declare const unflagUser: (userId: Amity.User['userId']) => Promise<boolean>;
-//# sourceMappingURL=unflagUser.d.ts.map

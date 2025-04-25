@@ -14,4 +14,3 @@
  * @async
  */
 export declare const disposeStream: (streamId: Amity.InternalStream['streamId']) => Promise<Amity.Cached<Amity.InternalStream>>;
-//# sourceMappingURL=disposeStream.d.ts.map

@@ -1,1 +1,0 @@
-{"version":3,"file":"getStoryByStoryId.d.ts","sourceRoot":"","sources":["../../../src/storyRepository/internalApi/getStoryByStoryId.ts"],"names":[],"mappings":"AASA,eAAO,MAAM,iBAAiB;cACnB,MAAM,KAAK,CAAC,SAAS,CAAC,GAC9B,QAAQ,MAAM,MAAM,CAAC,MAAM,QAAQ,CAAC,CAAC;qBAuC7B,MAAM,KAAK,CAAC,SAAS,CAAC,GAC9B,MAAM,MAAM,CAAC,MAAM,aAAa,CAAC,GAAG,SAAS;CAJ/C,CAAC"}

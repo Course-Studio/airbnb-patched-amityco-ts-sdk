@@ -29,4 +29,3 @@ export declare const getFollowInfo: {
      */
     locally(userId: Amity.InternalUser['userId']): Amity.Cached<Amity.FollowInfo> | undefined;
 };
-//# sourceMappingURL=getFollowInfo.d.ts.map

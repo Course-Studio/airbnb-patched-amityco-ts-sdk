@@ -57,4 +57,3 @@ declare global {
         };
     }
 }
-//# sourceMappingURL=partials.d.ts.map

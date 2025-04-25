@@ -13,4 +13,3 @@
  * @async
  */
 export declare const deletePost: (postId: Amity.Post['postId'], permanent?: boolean) => Promise<Amity.Post>;
-//# sourceMappingURL=deletePost.d.ts.map

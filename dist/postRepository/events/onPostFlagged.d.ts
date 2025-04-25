@@ -14,4 +14,3 @@
  * @category Post Events
  */
 export declare const onPostFlagged: (callback: Amity.Listener<Amity.InternalPost>) => Amity.Unsubscriber;
-//# sourceMappingURL=onPostFlagged.d.ts.map

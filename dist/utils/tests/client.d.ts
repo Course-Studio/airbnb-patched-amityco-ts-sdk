@@ -4,4 +4,3 @@ export declare const connectClient: () => Promise<void>;
 export declare const disconnectClient: () => Promise<void>;
 declare const _default: {};
 export default _default;
-//# sourceMappingURL=client.d.ts.map

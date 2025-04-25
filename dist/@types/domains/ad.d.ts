@@ -83,4 +83,3 @@ declare global {
         };
     }
 }
-//# sourceMappingURL=ad.d.ts.map

@@ -29,4 +29,3 @@ export declare const queryChannelMembers: {
      */
     locally(query: Parameters<typeof queryChannelMembers>[0]): Amity.Cached<Amity.Paged<Amity.Membership<'channel'>>> | undefined;
 };
-//# sourceMappingURL=queryChannelMembers.d.ts.map

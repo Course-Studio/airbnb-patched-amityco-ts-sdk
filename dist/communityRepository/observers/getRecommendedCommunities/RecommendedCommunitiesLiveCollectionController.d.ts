@@ -10,4 +10,3 @@ export declare class RecommendedCommunityLiveCollectionController extends LiveCo
     startSubscription(): Amity.Unsubscriber[];
     notifyChange({ origin, loading, error }: Amity.LiveCollectionNotifyParams): void;
 }
-//# sourceMappingURL=RecommendedCommunitiesLiveCollectionController.d.ts.map

@@ -18,4 +18,3 @@ export declare class StoryComputedValue {
     get syncingStoriesCount(): number;
     get failedStoriesCount(): number;
 }
-//# sourceMappingURL=StoryComputedValue.d.ts.map

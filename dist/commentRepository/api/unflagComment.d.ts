@@ -11,4 +11,3 @@
  * @async
  * */
 export declare const unflagComment: (commentId: Amity.Comment['commentId']) => Promise<boolean>;
-//# sourceMappingURL=unflagComment.d.ts.map

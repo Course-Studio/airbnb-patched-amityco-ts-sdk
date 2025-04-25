@@ -7,4 +7,3 @@ export declare class AnalyticsEventSyncer {
     syncCapturedEvent(): Promise<void>;
     syncHighPriorityCapturedEvent(): Promise<void>;
 }
-//# sourceMappingURL=AnalyticsEventSyncer.d.ts.map

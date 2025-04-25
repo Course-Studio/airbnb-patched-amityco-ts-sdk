@@ -30,4 +30,3 @@ export declare class AnalyticsEventCapturer {
     markAdAsViewed(ad: Amity.InternalAd, placement: Amity.AdPlacement): void;
     markAdAsClicked(ad: Amity.InternalAd, placement: Amity.AdPlacement): void;
 }
-//# sourceMappingURL=AnalyticsEventCapturer.d.ts.map

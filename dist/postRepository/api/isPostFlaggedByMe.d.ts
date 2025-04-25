@@ -11,4 +11,3 @@
  * @async
  * */
 export declare const isPostFlaggedByMe: (postId: Amity.Post['postId']) => Promise<boolean>;
-//# sourceMappingURL=isPostFlaggedByMe.d.ts.map

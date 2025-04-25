@@ -13,5 +13,4 @@
  *
  * @category Cache API
  */
-export declare const pullFromCache: <T extends unknown>(key: Amity.CacheKey) => Amity.CacheEntry<T> | undefined;
-//# sourceMappingURL=pullFromCache.d.ts.map
+export declare const pullFromCache: <T extends unknown>(key: Amity.CacheKey) => Amity.CacheEntry<T>;

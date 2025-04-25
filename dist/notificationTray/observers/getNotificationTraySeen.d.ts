@@ -17,4 +17,3 @@
  * @category NotificationTraySeen Live Object
  */
 export declare const getNotificationTraySeen: (callback: Amity.LiveObjectCallback<Amity.NotificationTraySeen>) => Amity.Unsubscriber;
-//# sourceMappingURL=getNotificationTraySeen.d.ts.map

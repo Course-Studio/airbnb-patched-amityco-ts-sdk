@@ -2,7 +2,7 @@ import { createComment } from '~/commentRepository/api';
 export declare function generateInternalComment(params?: Partial<Amity.InternalComment>): Amity.InternalComment;
 export declare const generateComment: (params?: Partial<Amity.InternalComment>) => {
     creator: Amity.User;
-    childrenComment: never[];
+    childrenComment: any[];
     target: {
         type: string;
         communityId: string;
@@ -10,36 +10,36 @@ export declare const generateComment: (params?: Partial<Amity.InternalComment>) 
     };
     commentId: string;
     userId: string;
-    parentId?: string | undefined;
+    parentId?: string;
     rootId: string;
     childrenNumber: number;
     children: string[];
     segmentNumber: number;
     editedAt: string;
-    attachments?: Amity.Attachment[] | undefined;
+    attachments?: Amity.Attachment[];
     targetId: string;
     targetType: "community" | "user" | "content";
     referenceId: string;
     referenceType: Amity.CommentReferenceType;
     dataType?: any;
-    dataTypes?: any[] | undefined;
-    data?: string | Record<string, unknown> | Amity.ContentDataText | Amity.ContentDataFile | Amity.ContentDataImage | Amity.ContentDataVideo | Amity.ContentDataPoll | undefined;
-    metadata?: Record<string, any> | undefined;
+    dataTypes?: any[];
+    data?: string | Record<string, unknown> | Amity.ContentDataText | Amity.ContentDataFile | Amity.ContentDataImage | Amity.ContentDataVideo | Amity.ContentDataPoll;
+    metadata?: Record<string, any>;
     flagCount: number;
     hashFlag: {
         bits: number;
         hashes: number;
         hash: string;
-    } | null;
+    };
     reactionsCount: number;
     reactions: Record<string, number>;
-    myReactions?: string[] | undefined;
+    myReactions?: string[];
     createdAt: string;
-    updatedAt?: string | undefined;
-    deletedAt?: string | undefined;
-    isDeleted?: boolean | undefined;
+    updatedAt?: string;
+    deletedAt?: string;
+    isDeleted?: boolean;
     path: string;
-    mentionees?: Amity.UserMention[] | undefined;
+    mentionees?: Amity.UserMention[];
 };
 export declare const comment11: Amity.InternalComment;
 export declare const imageComment11: Amity.InternalComment;
@@ -58,8 +58,8 @@ export declare const textAndImageCommentMixedPayload: Amity.CommentPayload;
 export declare const deletedCommentPayload: Amity.CommentPayload;
 export declare const textCommentResponse: {
     data: {
-        files: never[];
-        commentChildren: never[];
+        files: any[];
+        commentChildren: any[];
         paging: {};
         comments: Amity.InternalComment<any>[];
         users: Amity.InternalUser[];
@@ -68,8 +68,8 @@ export declare const textCommentResponse: {
 };
 export declare const imageCommentResponse: {
     data: {
-        files: never[];
-        commentChildren: never[];
+        files: any[];
+        commentChildren: any[];
         paging: {};
         comments: Amity.InternalComment<any>[];
         users: Amity.InternalUser[];
@@ -78,8 +78,8 @@ export declare const imageCommentResponse: {
 };
 export declare const textImageCommentResponse: {
     data: {
-        files: never[];
-        commentChildren: never[];
+        files: any[];
+        commentChildren: any[];
         paging: {};
         comments: Amity.InternalComment<any>[];
         users: Amity.InternalUser[];
@@ -88,8 +88,8 @@ export declare const textImageCommentResponse: {
 };
 export declare const textMentionCommentResponse: {
     data: {
-        files: never[];
-        commentChildren: never[];
+        files: any[];
+        commentChildren: any[];
         paging: {};
         comments: Amity.InternalComment<any>[];
         users: Amity.InternalUser[];
@@ -98,8 +98,8 @@ export declare const textMentionCommentResponse: {
 };
 export declare const textCommentParentIdResponse: {
     data: {
-        files: never[];
-        commentChildren: never[];
+        files: any[];
+        commentChildren: any[];
         paging: {};
         comments: Amity.InternalComment<any>[];
         users: Amity.InternalUser[];
@@ -108,8 +108,8 @@ export declare const textCommentParentIdResponse: {
 };
 export declare const deletedCommentResponse: {
     data: {
-        files: never[];
-        commentChildren: never[];
+        files: any[];
+        commentChildren: any[];
         paging: {};
         comments: Amity.InternalComment<any>[];
         users: Amity.InternalUser[];
@@ -121,4 +121,3 @@ export declare const textCommentParentIdRequestPayload: Parameters<typeof create
 export declare const imageCommentRequestPayload: Parameters<typeof createComment>[0];
 export declare const textImageCommentRequestPayload: Parameters<typeof createComment>[0];
 export declare const textCommentWithMentionRequestPayload: Parameters<typeof createComment>[0];
-//# sourceMappingURL=comment.d.ts.map

@@ -12,4 +12,3 @@ export declare class SemanticSearchPostQueryStreamController extends QueryStream
         action: EnumPostActions;
     }[]): Amity.Unsubscriber[];
 }
-//# sourceMappingURL=SemanticSearchPostQueryStreamController.d.ts.map

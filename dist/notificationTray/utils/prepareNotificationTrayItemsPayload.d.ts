@@ -1,2 +1,1 @@
 export declare const prepareNotificationTrayItemsPayload: (rawPayload: Amity.NotificationTrayPayload) => Amity.ProcessedNotificationTrayPayload;
-//# sourceMappingURL=prepareNotificationTrayItemsPayload.d.ts.map

@@ -13,4 +13,3 @@
  * @async
  */
 export declare const queryStreams: (query?: Amity.QueryStreams) => Promise<Amity.Cached<Amity.PageToken<Amity.InternalStream>>>;
-//# sourceMappingURL=queryStreams.d.ts.map

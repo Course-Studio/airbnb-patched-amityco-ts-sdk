@@ -29,4 +29,3 @@ export declare const getCategory: {
      */
     locally(categoryId: Amity.Category['categoryId']): Amity.Cached<Amity.Category> | undefined;
 };
-//# sourceMappingURL=getCategory.d.ts.map

@@ -13,4 +13,3 @@
  * @async
  */
 export declare const leaveChannel: (channelId: Amity.Channel['channelId']) => Promise<boolean>;
-//# sourceMappingURL=leaveChannel.d.ts.map

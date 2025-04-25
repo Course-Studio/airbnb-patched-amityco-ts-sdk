@@ -13,4 +13,3 @@
  * @async
  */
 export declare const deleteStream: (streamId: Amity.InternalStream['streamId']) => Promise<boolean>;
-//# sourceMappingURL=deleteStream.d.ts.map

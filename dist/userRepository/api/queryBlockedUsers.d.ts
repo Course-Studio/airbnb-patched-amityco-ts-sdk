@@ -14,7 +14,7 @@ export declare const queryBlockedUsers: {
     (query?: Amity.QueryBlockedUser): Promise<{
         data: Amity.User[];
     } & Amity.Pages<Amity.PageRaw> & {
-        cachedAt: number | undefined;
+        cachedAt: number;
     } & {
         total: number;
     }>;
@@ -36,4 +36,3 @@ export declare const queryBlockedUsers: {
         total: number;
     }) | undefined;
 };
-//# sourceMappingURL=queryBlockedUsers.d.ts.map

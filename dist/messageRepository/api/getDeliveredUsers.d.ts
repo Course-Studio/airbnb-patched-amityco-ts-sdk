@@ -33,4 +33,3 @@ export declare const getDeliveredUsers: {
      */
     locally(query: Amity.QueryDeliveredUsers): Amity.Cached<Amity.Paged<Amity.InternalUser>> | undefined;
 };
-//# sourceMappingURL=getDeliveredUsers.d.ts.map

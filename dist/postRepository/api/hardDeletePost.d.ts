@@ -13,4 +13,3 @@
  * @async
  */
 export declare const hardDeletePost: (postId: Amity.Post['postId']) => Promise<Amity.Post>;
-//# sourceMappingURL=hardDeletePost.d.ts.map

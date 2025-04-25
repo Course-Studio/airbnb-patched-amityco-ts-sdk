@@ -11,4 +11,3 @@ export * from './onLocalUserUnfollowed';
 export * from './onLocalFollowerRequested';
 export * from './onLocalFollowRequestAccepted';
 export * from './onLocalFollowRequestDeclined';
-//# sourceMappingURL=index.d.ts.map

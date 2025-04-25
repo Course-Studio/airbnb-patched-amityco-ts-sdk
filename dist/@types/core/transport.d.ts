@@ -39,4 +39,3 @@ declare global {
         };
     }
 }
-//# sourceMappingURL=transport.d.ts.map

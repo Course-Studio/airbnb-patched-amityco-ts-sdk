@@ -13,4 +13,3 @@
  * @async
  */
 export declare const joinCommunity: (communityId: Amity.Community['communityId']) => Promise<boolean>;
-//# sourceMappingURL=joinCommunity.d.ts.map

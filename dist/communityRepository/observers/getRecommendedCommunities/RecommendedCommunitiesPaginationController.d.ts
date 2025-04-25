@@ -6,4 +6,3 @@ import { PaginationController } from '~/core/liveCollection/PaginationController
 export declare class RecommendedCommunitiesPaginationController extends PaginationController<'community', Amity.RecommendedCommunityLiveCollection> {
     getRequest(queryParams: Amity.RecommendedCommunityLiveCollection, token: string | undefined): Promise<Amity.CommunityPayload & Amity.Pagination>;
 }
-//# sourceMappingURL=RecommendedCommunitiesPaginationController.d.ts.map

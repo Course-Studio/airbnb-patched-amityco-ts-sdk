@@ -13,4 +13,3 @@ export declare enum RequestCancelation {
  * @hidden
  */
 export declare const createHttpTransport: (endpoint: string) => import("axios").AxiosInstance;
-//# sourceMappingURL=http.d.ts.map

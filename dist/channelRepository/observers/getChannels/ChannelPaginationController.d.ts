@@ -8,7 +8,6 @@ export declare class ChannelPaginationController extends PaginationController<'c
         channels: Amity.RawChannel<any>[];
         channelUsers: Amity.RawMembership<"channel">[];
         messagePreviews: Amity.MessagePreviewPayload<any>[];
-        messageFeedsInfo?: Amity.messageFeedsInfoPayload[] | undefined;
+        messageFeedsInfo?: Amity.messageFeedsInfoPayload[];
     } & Amity.Pagination>;
 }
-//# sourceMappingURL=ChannelPaginationController.d.ts.map

@@ -52,4 +52,3 @@ declare global {
         type RunQueryOptions<T> = T extends Amity.AsyncFunc<infer Args, infer Returned> ? Omit<Amity.Snapshot<Returned>, 'data'> : never;
     }
 }
-//# sourceMappingURL=query.d.ts.map

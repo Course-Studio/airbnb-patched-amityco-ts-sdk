@@ -9,4 +9,3 @@ export * from './getDeliveredUsers';
 export * from './flagMessage';
 export * from './unflagMessage';
 export * from './isMessageFlaggedByMe';
-//# sourceMappingURL=index.d.ts.map

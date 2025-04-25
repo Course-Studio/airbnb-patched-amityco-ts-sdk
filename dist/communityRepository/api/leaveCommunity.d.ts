@@ -13,4 +13,3 @@
  * @async
  */
 export declare const leaveCommunity: (communityId: Amity.Community['communityId']) => Promise<boolean>;
-//# sourceMappingURL=leaveCommunity.d.ts.map

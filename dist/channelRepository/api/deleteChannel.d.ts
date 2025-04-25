@@ -13,4 +13,3 @@
  * @async
  */
 export declare const deleteChannel: (channelId: Amity.Channel['channelId']) => Promise<Amity.InternalChannel>;
-//# sourceMappingURL=deleteChannel.d.ts.map

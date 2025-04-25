@@ -14,4 +14,3 @@
  * @category Community Events
  */
 export declare const onCommunityUserBanned: (callback: (community: Amity.Community, member: Amity.Membership<'community'>[]) => void) => Amity.Unsubscriber;
-//# sourceMappingURL=onCommunityUserBanned.d.ts.map

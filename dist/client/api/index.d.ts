@@ -11,4 +11,3 @@ export * from './markerSync';
 export * from './enableUnreadCount';
 export * from './setUploadedFileAccessType';
 export * from './fetchLinkPreview';
-//# sourceMappingURL=index.d.ts.map

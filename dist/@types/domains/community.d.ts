@@ -138,4 +138,3 @@ declare global {
         QuerySemanticSearchCommunity>;
     }
 }
-//# sourceMappingURL=community.d.ts.map

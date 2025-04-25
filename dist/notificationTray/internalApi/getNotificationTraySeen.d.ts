@@ -27,4 +27,3 @@ export declare const getNotificationTraySeen: {
      * */
     locally(): Amity.Cached<Amity.InternalNotificationTraySeen> | undefined;
 };
-//# sourceMappingURL=getNotificationTraySeen.d.ts.map

@@ -2,8 +2,8 @@ import { PaginationController } from '~/core/liveCollection/PaginationController
 export declare class GetStreamsPageController extends PaginationController<'stream', Amity.StreamLiveCollection> {
     getRequest(queryParams: Amity.StreamLiveCollection, token: string | undefined): Promise<{
         paging: {
-            previous?: string | undefined;
-            next?: string | undefined;
+            previous?: string;
+            next?: string;
         };
         videoStreamings: Amity.RawStream[];
         videoStreamModerations: Amity.StreamModeration[];
@@ -11,4 +11,3 @@ export declare class GetStreamsPageController extends PaginationController<'stre
         files: Amity.File<"image">[];
     }>;
 }
-//# sourceMappingURL=GetStreamsPageController.d.ts.map

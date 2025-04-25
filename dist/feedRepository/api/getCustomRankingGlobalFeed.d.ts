@@ -34,4 +34,3 @@ export declare const getCustomRankingGlobalFeed: {
      * */
     locally(query?: Parameters<typeof getCustomRankingGlobalFeed>[0]): Omit<Amity.Cached<Amity.Paged<Amity.Post>> & Amity.Pagination, 'nextPage' | 'prevPage'> | undefined;
 };
-//# sourceMappingURL=getCustomRankingGlobalFeed.d.ts.map

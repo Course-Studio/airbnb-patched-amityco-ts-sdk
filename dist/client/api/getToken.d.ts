@@ -18,9 +18,8 @@ export declare const getToken: ({ params, options, }: {
         deviceId: Amity.Device['deviceId'];
     };
     options?: {
-        setAccessTokenCookie?: boolean | undefined;
-    } | undefined;
+        setAccessTokenCookie?: boolean;
+    };
 }) => Promise<Amity.Tokens & {
     users: Amity.InternalUser[];
 }>;
-//# sourceMappingURL=getToken.d.ts.map

@@ -12,4 +12,3 @@ export declare class FollowerQueryStreamController extends QueryStreamController
         action: EnumFollowActions;
     }[]): Amity.Unsubscriber[];
 }
-//# sourceMappingURL=FollowerQueryStreamController.d.ts.map

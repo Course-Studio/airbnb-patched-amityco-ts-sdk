@@ -11,4 +11,3 @@ export declare class ChannelMemberQueryStreamController extends QueryStreamContr
         action: string;
     }[]): Amity.Unsubscriber[];
 }
-//# sourceMappingURL=ChannelMemberQueryStreamController.d.ts.map

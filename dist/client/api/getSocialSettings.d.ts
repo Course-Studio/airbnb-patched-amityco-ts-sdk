@@ -12,4 +12,3 @@
  * @async
  */
 export declare const getSocialSettings: () => Promise<Amity.SocialSettings>;
-//# sourceMappingURL=getSocialSettings.d.ts.map

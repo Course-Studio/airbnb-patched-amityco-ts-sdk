@@ -12,4 +12,3 @@
  * @async
  */
 export declare const secureLogout: () => Promise<boolean>;
-//# sourceMappingURL=secureLogout.d.ts.map

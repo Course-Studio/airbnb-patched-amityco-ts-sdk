@@ -19,4 +19,3 @@ declare global {
         type CategoryLiveCollectionCache = Amity.LiveCollectionCache<Amity.InternalCategory['categoryId'], Pick<QueryCategories, 'page'>>;
     }
 }
-//# sourceMappingURL=category.d.ts.map

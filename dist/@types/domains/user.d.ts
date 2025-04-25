@@ -54,4 +54,3 @@ declare global {
         type UserLiveCollectionCache = Amity.LiveCollectionCache<Amity.InternalUser['userId'], Pick<QueryUsers, 'page'>>;
     }
 }
-//# sourceMappingURL=user.d.ts.map

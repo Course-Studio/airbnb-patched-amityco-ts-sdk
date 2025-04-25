@@ -35,4 +35,3 @@ declare global {
         };
     }
 }
-//# sourceMappingURL=group.d.ts.map

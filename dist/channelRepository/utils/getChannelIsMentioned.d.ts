@@ -7,4 +7,3 @@
  * If not found in the both cache, use `false` as defaul value.
  */
 export declare const getChannelIsMentioned: (channel: Omit<Amity.RawChannel, 'messageCount'>, marker?: Amity.ChannelMarker) => boolean;
-//# sourceMappingURL=getChannelIsMentioned.d.ts.map

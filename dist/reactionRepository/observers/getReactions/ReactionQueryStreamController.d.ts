@@ -11,4 +11,3 @@ export declare class ReactionQueryStreamController extends QueryStreamController
         action: Amity.ReactionActionTypeEnum;
     }[]): Amity.Unsubscriber[];
 }
-//# sourceMappingURL=ReactionQueryStreamController.d.ts.map

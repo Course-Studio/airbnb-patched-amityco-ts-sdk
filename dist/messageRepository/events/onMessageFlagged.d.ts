@@ -14,4 +14,3 @@
  * @category Message Events
  */
 export declare const onMessageFlagged: (callback: Amity.Listener<Amity.InternalMessage>) => Amity.Unsubscriber;
-//# sourceMappingURL=onMessageFlagged.d.ts.map

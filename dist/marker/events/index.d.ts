@@ -6,4 +6,3 @@ export * from './onFeedlMarkerUpdated';
 export * from './onUserMarkerFetched';
 export * from './onMessageMarkerFetched';
 export * from './onMessageMarked';
-//# sourceMappingURL=index.d.ts.map

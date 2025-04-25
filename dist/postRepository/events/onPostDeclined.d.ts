@@ -14,4 +14,3 @@
  * @category Post Events
  */
 export declare const onPostDeclined: (callback: Amity.Listener<Amity.InternalPost>) => Amity.Unsubscriber;
-//# sourceMappingURL=onPostDeclined.d.ts.map

@@ -32,4 +32,3 @@ declare global {
         } & Amity.Timestamps;
     }
 }
-//# sourceMappingURL=marker.d.ts.map

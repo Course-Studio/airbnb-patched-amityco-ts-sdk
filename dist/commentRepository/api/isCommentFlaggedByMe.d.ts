@@ -11,4 +11,3 @@
  * @async
  * */
 export declare const isCommentFlaggedByMe: (commentId: Amity.Comment['commentId']) => Promise<boolean>;
-//# sourceMappingURL=isCommentFlaggedByMe.d.ts.map

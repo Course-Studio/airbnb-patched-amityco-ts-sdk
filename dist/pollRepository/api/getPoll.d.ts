@@ -29,4 +29,3 @@ export declare const getPoll: {
      */
     locally(pollId: Amity.Poll['pollId']): Amity.Cached<Amity.Poll> | undefined;
 };
-//# sourceMappingURL=getPoll.d.ts.map

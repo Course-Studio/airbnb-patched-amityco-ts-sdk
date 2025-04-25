@@ -12,4 +12,3 @@ export declare class GlobalPinnedPostQueryStreamController extends QueryStreamCo
         action: EnumPostActions;
     }[]): Amity.Unsubscriber[];
 }
-//# sourceMappingURL=GlobalPinnedPostQueryStreamController.d.ts.map

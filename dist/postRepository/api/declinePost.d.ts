@@ -14,4 +14,3 @@
  * @async
  */
 export declare const declinePost: (postId: Amity.Post['postId']) => Promise<Amity.Cached<Amity.Post>>;
-//# sourceMappingURL=declinePost.d.ts.map

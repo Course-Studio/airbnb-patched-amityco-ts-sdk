@@ -5,4 +5,3 @@
  * @category Client API
  */
 export declare const validateUrls: (urls: string[]) => Promise<boolean>;
-//# sourceMappingURL=validateUrls.d.ts.map

@@ -8,4 +8,3 @@
  * @async
  */
 export declare const getTotalChannelsUnread: () => Amity.Cached<Amity.UserUnread>;
-//# sourceMappingURL=getTotalChannelsUnread.d.ts.map

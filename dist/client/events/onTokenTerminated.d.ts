@@ -8,4 +8,3 @@
  * @category private
  */
 export declare const onTokenTerminated: (callback: Amity.Listener<Amity.SessionStates.TERMINATED>) => Amity.Unsubscriber;
-//# sourceMappingURL=onTokenTerminated.d.ts.map

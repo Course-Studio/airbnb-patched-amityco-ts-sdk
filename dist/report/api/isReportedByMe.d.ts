@@ -12,4 +12,3 @@
  * @async
  * */
 export declare const isReportedByMe: (referenceType: 'user' | 'message' | 'post' | 'comment', referenceId: string) => Promise<boolean>;
-//# sourceMappingURL=isReportedByMe.d.ts.map

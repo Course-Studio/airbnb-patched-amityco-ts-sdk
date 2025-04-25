@@ -15,4 +15,3 @@
  * @category Cache API
  */
 export declare const isInTombstone: (model: Amity.Domain, modelId: string) => void;
-//# sourceMappingURL=isInTombstone.d.ts.map

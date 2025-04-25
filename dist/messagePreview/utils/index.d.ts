@@ -5,4 +5,3 @@ export * from './getSubChannelMessagePreview';
 export * from './getSubChannelMessagePreviewWithUser';
 export * from './updateSubChannelMessagePreviewCache';
 export * from './updateMessagePreviewFromMessage';
-//# sourceMappingURL=index.d.ts.map

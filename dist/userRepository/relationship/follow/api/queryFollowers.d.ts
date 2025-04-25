@@ -29,4 +29,3 @@ export declare const queryFollowers: {
      */
     locally(query: Parameters<typeof queryFollowers>[0]): Amity.Cached<Amity.Paged<Amity.FollowStatus, Amity.PageRaw>> | undefined;
 };
-//# sourceMappingURL=queryFollowers.d.ts.map

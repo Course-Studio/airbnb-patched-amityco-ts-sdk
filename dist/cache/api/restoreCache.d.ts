@@ -19,4 +19,3 @@
  * @category Cache API
  */
 export declare const restoreCache: (storageKey?: string) => Promise<boolean>;
-//# sourceMappingURL=restoreCache.d.ts.map

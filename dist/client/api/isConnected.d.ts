@@ -11,4 +11,3 @@
  * @category Client API
  */
 export declare const isConnected: () => boolean;
-//# sourceMappingURL=isConnected.d.ts.map

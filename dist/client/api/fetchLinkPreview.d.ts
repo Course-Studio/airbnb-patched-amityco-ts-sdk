@@ -11,4 +11,3 @@
  * @category Client API
  * */
 export declare const fetchLinkPreview: (url: string) => Promise<Amity.LinkPreview>;
-//# sourceMappingURL=fetchLinkPreview.d.ts.map

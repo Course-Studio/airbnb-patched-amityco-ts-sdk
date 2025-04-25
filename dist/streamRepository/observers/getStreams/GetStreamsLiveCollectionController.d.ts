@@ -11,4 +11,3 @@ export declare class GetStreamsLiveCollectionController extends LiveCollectionCo
     protected persistQueryStream({ response, direction, refresh, }: Amity.LiveCollectionPersistQueryStreamParams<'stream'>): void;
     private applyFilter;
 }
-//# sourceMappingURL=GetStreamsLiveCollectionController.d.ts.map

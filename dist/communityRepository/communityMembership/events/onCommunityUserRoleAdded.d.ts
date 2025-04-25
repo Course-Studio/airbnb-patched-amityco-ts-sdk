@@ -14,4 +14,3 @@
  * @category Community Events
  */
 export declare const onCommunityUserRoleAdded: (callback: (community: Amity.Community, member: Amity.Membership<'community'>[]) => void) => Amity.Unsubscriber;
-//# sourceMappingURL=onCommunityUserRoleAdded.d.ts.map

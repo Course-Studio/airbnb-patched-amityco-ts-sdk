@@ -6,4 +6,3 @@ export declare abstract class PaginationNoPageController<TPayloadDomain extends 
     onFetch(): Promise<Amity.Payloads[TPayloadDomain]>;
     abstract getRequest(queryParams: TQueryParams): Promise<Amity.Payloads[TPayloadDomain]>;
 }
-//# sourceMappingURL=PaginationNoPageController.d.ts.map

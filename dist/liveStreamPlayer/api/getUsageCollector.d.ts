@@ -11,4 +11,3 @@ import { UsageCollector } from '../utils/usageCollector';
  * @private
  */
 export declare const getUsageCollector: () => UsageCollector;
-//# sourceMappingURL=getUsageCollector.d.ts.map

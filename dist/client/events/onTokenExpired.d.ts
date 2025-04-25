@@ -14,4 +14,3 @@
  * @category private
  */
 export declare const onTokenExpired: (callback: Amity.Listener<Amity.SessionStates.TOKEN_EXPIRED>) => Amity.Unsubscriber;
-//# sourceMappingURL=onTokenExpired.d.ts.map

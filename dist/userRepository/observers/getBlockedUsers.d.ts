@@ -14,4 +14,3 @@
  * @async
  */
 export declare const getBlockedUsers: (params: Amity.BlockedUsersLiveCollection, callback: Amity.LiveCollectionCallback<Amity.InternalUser>, config?: Amity.LiveCollectionConfig) => Amity.Unsubscriber;
-//# sourceMappingURL=getBlockedUsers.d.ts.map

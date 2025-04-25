@@ -18,4 +18,3 @@ export declare const applyFilter: <T extends Amity.Membership<"channel">>(data: 
  * @category Channel Live Collection
  */
 export declare const getMembers: (params: Amity.ChannelMembersLiveCollection, callback: Amity.LiveCollectionCallback<Amity.Membership<'channel'>>, config?: Amity.LiveCollectionConfig) => () => void;
-//# sourceMappingURL=getMembers.d.ts.map

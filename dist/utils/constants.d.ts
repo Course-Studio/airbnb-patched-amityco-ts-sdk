@@ -12,4 +12,3 @@ export declare const WEEK: number;
 export declare const MONTH: number;
 export declare const YEAR: number;
 export declare const ACCESS_TOKEN_WATCHER_INTERVAL: number;
-//# sourceMappingURL=constants.d.ts.map

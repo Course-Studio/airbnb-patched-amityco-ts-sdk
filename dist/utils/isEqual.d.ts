@@ -14,4 +14,3 @@
  * @private
  */
 export declare function isEqual(x: any, y: any): boolean;
-//# sourceMappingURL=isEqual.d.ts.map

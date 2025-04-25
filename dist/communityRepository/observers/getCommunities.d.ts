@@ -17,4 +17,3 @@
  * @category Community Live Collection
  */
 export declare const getCommunities: (params: Amity.CommunityLiveCollection, callback: Amity.LiveCollectionCallback<Amity.Community>, config?: Amity.LiveCollectionConfig) => () => void;
-//# sourceMappingURL=getCommunities.d.ts.map

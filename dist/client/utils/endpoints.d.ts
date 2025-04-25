@@ -10,4 +10,3 @@ declare const URLS: {
 };
 export declare function computeUrl(type: keyof typeof URLS, region: string): string;
 export {};
-//# sourceMappingURL=endpoints.d.ts.map

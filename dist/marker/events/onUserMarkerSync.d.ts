@@ -14,4 +14,3 @@
  * @category UserMarker Events
  */
 export declare const onUserMarkerSync: (callback: Amity.Listener<Amity.UserMarker>) => Amity.Unsubscriber;
-//# sourceMappingURL=onUserMarkerSync.d.ts.map

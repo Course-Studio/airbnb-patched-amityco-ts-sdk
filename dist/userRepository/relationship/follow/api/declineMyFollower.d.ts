@@ -13,4 +13,3 @@
  * @async
  */
 export declare const declineMyFollower: (userId: Amity.InternalUser['userId']) => Promise<boolean>;
-//# sourceMappingURL=declineMyFollower.d.ts.map

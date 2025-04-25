@@ -29,4 +29,3 @@ export declare const getUser: {
      */
     locally(userId: Amity.User['userId']): Amity.Cached<Amity.User> | undefined;
 };
-//# sourceMappingURL=getUser.d.ts.map

@@ -1,7 +1,7 @@
 export declare const date: string;
 export declare const rolesAndPermissions: {
-    roles: never[];
-    permissions: never[];
+    roles: any[];
+    permissions: any[];
 };
 export * from './user';
 export * from './role';
@@ -21,4 +21,3 @@ export * from './community';
 export * from './category';
 export * from './stream';
 export * from './feed';
-//# sourceMappingURL=index.d.ts.map

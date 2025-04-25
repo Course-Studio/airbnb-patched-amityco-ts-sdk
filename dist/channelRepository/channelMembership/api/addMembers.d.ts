@@ -14,4 +14,3 @@
  * @async
  */
 export declare const addMembers: (channelId: Amity.Channel['channelId'], userIds: Amity.InternalUser['userId'][]) => Promise<boolean>;
-//# sourceMappingURL=addMembers.d.ts.map

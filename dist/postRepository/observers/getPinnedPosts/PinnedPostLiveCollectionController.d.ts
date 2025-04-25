@@ -11,4 +11,3 @@ export declare class PinnedPostLiveCollectionController extends LiveCollectionCo
     notifyChange({ origin, loading, error }: Amity.LiveCollectionNotifyParams): void;
     private applyFilter;
 }
-//# sourceMappingURL=PinnedPostLiveCollectionController.d.ts.map

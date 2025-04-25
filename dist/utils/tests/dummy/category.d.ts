@@ -4,7 +4,7 @@ export declare const category11: {
     createdAt: string;
     isDeleted: boolean;
     categoryId: string;
-    avatar: null;
+    avatar: any;
 };
 export declare const category12: {
     name: string;
@@ -12,7 +12,7 @@ export declare const category12: {
     createdAt: string;
     isDeleted: boolean;
     categoryId: string;
-    avatar: null;
+    avatar: any;
 };
 export declare const category13: {
     name: string;
@@ -20,7 +20,7 @@ export declare const category13: {
     createdAt: string;
     isDeleted: boolean;
     categoryId: string;
-    avatar: null;
+    avatar: any;
 };
 export declare const category21: {
     name: string;
@@ -28,7 +28,7 @@ export declare const category21: {
     createdAt: string;
     isDeleted: boolean;
     categoryId: string;
-    avatar: null;
+    avatar: any;
 };
 export declare const category22: {
     name: string;
@@ -36,7 +36,7 @@ export declare const category22: {
     createdAt: string;
     isDeleted: boolean;
     categoryId: string;
-    avatar: null;
+    avatar: any;
 };
 export declare const categoryQueryResponse: {
     data: {
@@ -46,7 +46,7 @@ export declare const categoryQueryResponse: {
             createdAt: string;
             isDeleted: boolean;
             categoryId: string;
-            avatar: null;
+            avatar: any;
         }[];
         paging: {
             next: string;
@@ -61,11 +61,10 @@ export declare const categoryQueryResponsePage2: {
             createdAt: string;
             isDeleted: boolean;
             categoryId: string;
-            avatar: null;
+            avatar: any;
         }[];
         paging: {
             next: string;
         };
     };
 };
-//# sourceMappingURL=category.d.ts.map

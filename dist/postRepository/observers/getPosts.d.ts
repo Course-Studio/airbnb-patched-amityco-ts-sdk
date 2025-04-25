@@ -20,4 +20,3 @@
  * @category Posts Live Collection
  */
 export declare const getPosts: (params: Amity.PostLiveCollection, callback: Amity.LiveCollectionCallback<Amity.Post>, config?: Amity.LiveCollectionConfig) => Amity.Unsubscriber;
-//# sourceMappingURL=getPosts.d.ts.map

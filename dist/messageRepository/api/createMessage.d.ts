@@ -1,4 +1,4 @@
-declare type createMessageParam<T extends Amity.MessageContentType> = Pick<Amity.Message<T>, 'subChannelId' | 'parentId' | 'dataType' | 'tags' | 'metadata' | 'mentionees'> & {
+type createMessageParam<T extends Amity.MessageContentType> = Pick<Amity.Message<T>, 'subChannelId' | 'parentId' | 'dataType' | 'tags' | 'metadata' | 'mentionees'> & {
     data?: Amity.Message<T>['data'];
     fileId?: Amity.File['fileId'];
     referenceId?: string;
@@ -27,4 +27,3 @@ declare type createMessageParam<T extends Amity.MessageContentType> = Pick<Amity
  */
 export declare const createMessage: <T extends Amity.MessageContentType>(bundle: createMessageParam<T>) => Promise<Amity.Cached<Amity.Message>>;
 export {};
-//# sourceMappingURL=createMessage.d.ts.map

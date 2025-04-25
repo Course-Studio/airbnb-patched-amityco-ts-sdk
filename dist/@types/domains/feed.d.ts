@@ -14,4 +14,3 @@ declare global {
         };
     }
 }
-//# sourceMappingURL=feed.d.ts.map

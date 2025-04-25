@@ -29,4 +29,3 @@ export declare const querySubChannels: {
      */
     locally(query: Parameters<typeof querySubChannels>[0]): Amity.Cached<Amity.Paged<Amity.SubChannel> & Amity.Pagination> | undefined;
 };
-//# sourceMappingURL=querySubChannels.d.ts.map

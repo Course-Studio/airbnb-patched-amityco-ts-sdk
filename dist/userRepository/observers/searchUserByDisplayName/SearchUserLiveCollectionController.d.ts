@@ -11,4 +11,3 @@ export declare class SearchUserLiveCollectionController extends LiveCollectionCo
     notifyChange({ origin, loading, error }: Amity.LiveCollectionNotifyParams): void;
     applyFilter(data: Amity.InternalUser[]): Amity.InternalUser[];
 }
-//# sourceMappingURL=SearchUserLiveCollectionController.d.ts.map

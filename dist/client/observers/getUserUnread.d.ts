@@ -16,4 +16,3 @@
  * @category Message Live Object
  */
 export declare const getUserUnread: (callback: Amity.LiveObjectCallback<Amity.UserUnread | undefined>) => Amity.Unsubscriber;
-//# sourceMappingURL=getUserUnread.d.ts.map

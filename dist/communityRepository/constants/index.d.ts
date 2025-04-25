@@ -3,4 +3,3 @@ export declare const enum AmityCommunityMemberStatusFilter {
     MEMBER = "member",
     NOT_MEMBER = "notMember"
 }
-//# sourceMappingURL=index.d.ts.map

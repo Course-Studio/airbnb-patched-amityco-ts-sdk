@@ -14,4 +14,3 @@
  * @category NotificationTraySeen Events
  */
 export declare const onNotificationTraySeenUpdated: (callback: Amity.Listener<Amity.InternalNotificationTraySeen>) => Amity.Unsubscriber;
-//# sourceMappingURL=onNotificationTraySeenUpdated.d.ts.map

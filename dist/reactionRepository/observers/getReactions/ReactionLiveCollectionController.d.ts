@@ -10,4 +10,3 @@ export declare class ReactionLiveCollectionController extends LiveCollectionCont
     startSubscription(): Amity.Unsubscriber[];
     notifyChange({ origin, loading, error }: Amity.LiveCollectionNotifyParams): void;
 }
-//# sourceMappingURL=ReactionLiveCollectionController.d.ts.map

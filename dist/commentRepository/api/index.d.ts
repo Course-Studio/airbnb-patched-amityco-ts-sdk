@@ -7,4 +7,3 @@ export * from './hardDeleteComment';
 export * from './flagComment';
 export * from './unflagComment';
 export * from './isCommentFlaggedByMe';
-//# sourceMappingURL=index.d.ts.map

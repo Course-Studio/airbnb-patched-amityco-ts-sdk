@@ -29,4 +29,3 @@ export declare const getStream: {
      */
     locally(streamId: Amity.Stream['streamId']): Amity.Cached<Amity.Stream> | undefined;
 };
-//# sourceMappingURL=getStream.d.ts.map

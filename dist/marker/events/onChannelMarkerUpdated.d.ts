@@ -14,4 +14,3 @@
  * @category ChannelMarker Events
  */
 export declare const onChannelMarkerUpdated: (callback: Amity.Listener<Amity.ChannelMarker>) => Amity.Unsubscriber;
-//# sourceMappingURL=onChannelMarkerUpdated.d.ts.map

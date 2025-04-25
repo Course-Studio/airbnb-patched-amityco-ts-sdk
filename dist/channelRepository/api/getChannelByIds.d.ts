@@ -29,4 +29,3 @@ export declare const getChannelByIds: {
      */
     locally(channelIds: Amity.Channel['channelPublicId'][]): Amity.Cached<Amity.Channel[]> | undefined;
 };
-//# sourceMappingURL=getChannelByIds.d.ts.map

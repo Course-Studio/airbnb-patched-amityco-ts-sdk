@@ -36,10 +36,7 @@ export declare const isAfterBeforeRaw: (json: Record<string, unknown>) => json i
 export declare const isPaged: <T extends unknown>(payload: any) => payload is {
     data: T[];
 } & Amity.Pages<any> & {
-    paging?: {
-        previous?: string | undefined;
-        next?: string | undefined;
-    } | undefined;
+    paging?: Amity.Pagination['paging'];
 };
 /**
  * Converts a paging object into a b64 string token
@@ -69,4 +66,3 @@ export declare const toPage: (token?: Amity.Token) => Amity.Page | undefined;
  * @hidden
  */
 export declare const toPageRaw: (token?: Amity.Token) => Amity.PageRaw | undefined;
-//# sourceMappingURL=paging.d.ts.map

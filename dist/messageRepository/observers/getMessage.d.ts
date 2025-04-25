@@ -18,4 +18,3 @@
  * @category Message Live Object
  */
 export declare const getMessage: (messageId: Amity.Message['messageId'], callback: Amity.LiveObjectCallback<Amity.Message>) => Amity.Unsubscriber;
-//# sourceMappingURL=getMessage.d.ts.map

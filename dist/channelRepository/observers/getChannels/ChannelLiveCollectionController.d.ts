@@ -16,4 +16,3 @@ export declare class ChannelLiveCollectionController extends LiveCollectionContr
     private static getPaginationController;
     private getSubscriptions;
 }
-//# sourceMappingURL=ChannelLiveCollectionController.d.ts.map

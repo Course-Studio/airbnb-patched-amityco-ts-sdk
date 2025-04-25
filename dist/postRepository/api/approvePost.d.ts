@@ -14,4 +14,3 @@
  * @async
  */
 export declare const approvePost: (postId: Amity.Post['postId']) => Promise<Amity.Cached<Amity.Post>>;
-//# sourceMappingURL=approvePost.d.ts.map

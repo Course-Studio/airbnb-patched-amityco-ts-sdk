@@ -15,4 +15,3 @@ export declare const setClientToken: (params: Parameters<typeof getToken>[0]) =>
     accessToken: string;
     users: Amity.InternalUser[];
 }>;
-//# sourceMappingURL=setClientToken.d.ts.map

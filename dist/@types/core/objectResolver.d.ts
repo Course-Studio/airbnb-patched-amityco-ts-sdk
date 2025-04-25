@@ -10,4 +10,3 @@ declare global {
         };
     }
 }
-//# sourceMappingURL=objectResolver.d.ts.map

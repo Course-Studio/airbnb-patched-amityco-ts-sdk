@@ -14,4 +14,3 @@
  * @category Follow Events
  */
 export declare const onFollowInfoUpdated: (callback: Amity.Listener<Amity.FollowInfo>) => Amity.Unsubscriber;
-//# sourceMappingURL=onFollowInfoUpdated.d.ts.map

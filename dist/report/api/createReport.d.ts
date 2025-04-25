@@ -12,4 +12,3 @@
  * @async
  * */
 export declare const createReport: (referenceType: 'post' | 'comment' | 'message' | 'user', referenceId: string) => Promise<boolean>;
-//# sourceMappingURL=createReport.d.ts.map

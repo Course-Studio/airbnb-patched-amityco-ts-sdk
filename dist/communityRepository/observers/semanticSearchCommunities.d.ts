@@ -7,4 +7,3 @@
  *
  */
 export declare const semanticSearchCommunities: (params: Amity.LiveCollectionParams<Amity.SemanticSearchCommunityLiveCollection>, callback: Amity.LiveCollectionCallback<Amity.Community>, config?: Amity.LiveCollectionConfig) => () => void;
-//# sourceMappingURL=semanticSearchCommunities.d.ts.map

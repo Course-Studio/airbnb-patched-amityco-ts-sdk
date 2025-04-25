@@ -5,4 +5,3 @@ export declare abstract class QueryStreamController<TQueryResponse extends Value
     abstract saveToMainDB(response: TQueryResponse): Promise<void> | void;
     abstract appendToQueryStream(response: TQueryResponse & Amity.Pagination, direction: Amity.LiveCollectionPageDirection, refresh: boolean | undefined): void;
 }
-//# sourceMappingURL=QueryStreamController.d.ts.map

@@ -13,4 +13,3 @@
  * @async
  * */
 export declare const unbanMembers: (communityId: Amity.Community['communityId'], userIds: Amity.InternalUser['userId'][]) => Promise<Amity.Cached<Amity.Membership<'community'>[]>>;
-//# sourceMappingURL=unbanMembers.d.ts.map

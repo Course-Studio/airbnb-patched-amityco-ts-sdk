@@ -1832,14 +1832,6 @@ var mqtt$1 = {exports: {}};
 	  resubscribe: true
 	};
 
-	const socketErrors = [
-	  'ECONNREFUSED',
-	  'EADDRINUSE',
-	  'ECONNRESET',
-	  'ENOTFOUND'
-	];
-
-	// Other Socket Errors: EADDRINUSE, ECONNRESET, ENOTFOUND.
 
 	const errors = {
 	  0: '',
@@ -2254,7 +2246,9 @@ var mqtt$1 = {exports: {}};
 
 	  function streamErrorHandler (error) {
 	    debug('streamErrorHandler :: error', error.message);
-	    if (socketErrors.includes(error.code)) {
+	    // error.code will only be set on NodeJS env, browse don't allow to detect erros on sockets
+	    // also emitting errors on browser seems to create issues 
+	    if (error.code) {
 	      // handle error
 	      debug('streamErrorHandler :: emitting error');
 	      that.emit('error', error);
@@ -20593,12 +20587,6 @@ const getDeviceInfo = () => {
 const QOS_FAILURE_CODE = 128;
 const RETRY_BASE_TIMEOUT = 1000;
 const RETRY_MAX_TIMEOUT = 8000;
-var MqttError;
-(function (MqttError) {
-    MqttError[MqttError["IDENTIFIER_REJECTED"] = 2] = "IDENTIFIER_REJECTED";
-    MqttError[MqttError["BAD_USERNAME_OR_PASSWORD"] = 134] = "BAD_USERNAME_OR_PASSWORD";
-    MqttError[MqttError["NOT_AUTHORIZED"] = 135] = "NOT_AUTHORIZED";
-})(MqttError || (MqttError = {}));
 function getMqttOptions(params) {
     return Object.assign({ clean: false, clientId: `mqttjs_ + ${Math.random().toString(16).substring(2, 10)}`, protocolId: 'MQTT', protocolVersion: 4, reconnectPeriod: RETRY_BASE_TIMEOUT, will: {
             topic: 'WillMsg',
@@ -20793,29 +20781,34 @@ PERFORMANCE OF THIS SOFTWARE.
 ***************************************************************************** */
 
 function __rest(s, e) {
-    var t = {};
-    for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0)
-        t[p] = s[p];
-    if (s != null && typeof Object.getOwnPropertySymbols === "function")
-        for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) {
-            if (e.indexOf(p[i]) < 0 && Object.prototype.propertyIsEnumerable.call(s, p[i]))
-                t[p[i]] = s[p[i]];
-        }
-    return t;
+  var t = {};
+  for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0)
+      t[p] = s[p];
+  if (s != null && typeof Object.getOwnPropertySymbols === "function")
+      for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) {
+          if (e.indexOf(p[i]) < 0 && Object.prototype.propertyIsEnumerable.call(s, p[i]))
+              t[p[i]] = s[p[i]];
+      }
+  return t;
 }
 
 function __classPrivateFieldGet(receiver, state, kind, f) {
-    if (kind === "a" && !f) throw new TypeError("Private accessor was defined without a getter");
-    if (typeof state === "function" ? receiver !== state || !f : !state.has(receiver)) throw new TypeError("Cannot read private member from an object whose class did not declare it");
-    return kind === "m" ? f : kind === "a" ? f.call(receiver) : f ? f.value : state.get(receiver);
+  if (kind === "a" && !f) throw new TypeError("Private accessor was defined without a getter");
+  if (typeof state === "function" ? receiver !== state || !f : !state.has(receiver)) throw new TypeError("Cannot read private member from an object whose class did not declare it");
+  return kind === "m" ? f : kind === "a" ? f.call(receiver) : f ? f.value : state.get(receiver);
 }
 
 function __classPrivateFieldSet(receiver, state, value, kind, f) {
-    if (kind === "m") throw new TypeError("Private method is not writable");
-    if (kind === "a" && !f) throw new TypeError("Private accessor was defined without a setter");
-    if (typeof state === "function" ? receiver !== state || !f : !state.has(receiver)) throw new TypeError("Cannot write private member to an object whose class did not declare it");
-    return (kind === "a" ? f.call(receiver, value) : f ? f.value = value : state.set(receiver, value)), value;
+  if (kind === "m") throw new TypeError("Private method is not writable");
+  if (kind === "a" && !f) throw new TypeError("Private accessor was defined without a setter");
+  if (typeof state === "function" ? receiver !== state || !f : !state.has(receiver)) throw new TypeError("Cannot write private member to an object whose class did not declare it");
+  return (kind === "a" ? f.call(receiver, value) : f ? f.value = value : state.set(receiver, value)), value;
 }
+
+typeof SuppressedError === "function" ? SuppressedError : function (error, suppressed, message) {
+  var e = new Error(message);
+  return e.name = "SuppressedError", e.error = error, e.suppressed = suppressed, e;
+};
 
 /**
  * Attach user object to membership model
@@ -36729,13 +36722,6 @@ const semanticSearchCommunities = (params, callback, config) => {
     };
 };
 
-var AmityCommunityMemberStatusFilter;
-(function (AmityCommunityMemberStatusFilter) {
-    AmityCommunityMemberStatusFilter["ALL"] = "all";
-    AmityCommunityMemberStatusFilter["MEMBER"] = "member";
-    AmityCommunityMemberStatusFilter["NOT_MEMBER"] = "notMember";
-})(AmityCommunityMemberStatusFilter || (AmityCommunityMemberStatusFilter = {}));
-
 /* begin_public_function
   id: community.moderation.add_roles
 */
@@ -36898,8 +36884,7 @@ var index$a = /*#__PURE__*/Object.freeze({
   getCommunity: getCommunity,
   getTrendingCommunities: getTrendingCommunities,
   getRecommendedCommunities: getRecommendedCommunities,
-  semanticSearchCommunities: semanticSearchCommunities,
-  get AmityCommunityMemberStatusFilter () { return AmityCommunityMemberStatusFilter; }
+  semanticSearchCommunities: semanticSearchCommunities
 });
 
 /* begin_public_function

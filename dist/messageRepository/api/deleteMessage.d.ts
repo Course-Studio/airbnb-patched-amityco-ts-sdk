@@ -29,4 +29,3 @@ export declare const deleteMessage: {
      */
     optimistically(messageId: Amity.Message['messageId']): Amity.Cached<Amity.Message> | undefined;
 };
-//# sourceMappingURL=deleteMessage.d.ts.map

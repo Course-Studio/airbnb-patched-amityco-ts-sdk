@@ -10,4 +10,3 @@ import { PAYLOAD2MODEL } from '~/core/model';
  * @hidden
  */
 export declare const ingestInCache: (payload?: Record<keyof typeof PAYLOAD2MODEL, Amity.Model[]>, options?: Amity.CacheOptions, replace?: boolean) => void;
-//# sourceMappingURL=ingestInCache.d.ts.map

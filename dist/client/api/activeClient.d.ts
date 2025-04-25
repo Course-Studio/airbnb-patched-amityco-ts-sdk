@@ -14,4 +14,3 @@ export declare const getActiveClient: () => Amity.Client;
  * @hidden
  */
 export declare const setActiveClient: (client: Amity.Client) => void;
-//# sourceMappingURL=activeClient.d.ts.map

@@ -13,4 +13,3 @@
  * @async
  */
 export declare const markItemsSeen: (trayItems: Amity.QueryNotificationItemSeen[]) => Promise<void>;
-//# sourceMappingURL=markItemsSeen.d.ts.map

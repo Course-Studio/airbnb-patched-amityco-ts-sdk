@@ -13,4 +13,3 @@ export declare class TrendingCommunitiesQueryStreamController extends QueryStrea
         action: EnumCommunityActions | EnumCommunityMemberActions;
     }[]): Amity.Unsubscriber[];
 }
-//# sourceMappingURL=TrendingCommunitiesQueryStreamController.d.ts.map

@@ -15,4 +15,3 @@ import { ASCError } from '~/core/errors';
  * @category Client Events
  */
 export declare const onConnectionError: (callback: Amity.Listener<ASCError>) => Amity.Unsubscriber;
-//# sourceMappingURL=onConnectionError.d.ts.map

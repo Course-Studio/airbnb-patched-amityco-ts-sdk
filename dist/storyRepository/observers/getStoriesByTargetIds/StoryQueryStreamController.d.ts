@@ -13,4 +13,3 @@ export declare class StoryQueryStreamController extends QueryStreamController<Am
         action: Amity.StoryActionType;
     }[]): Amity.Unsubscriber[];
 }
-//# sourceMappingURL=StoryQueryStreamController.d.ts.map

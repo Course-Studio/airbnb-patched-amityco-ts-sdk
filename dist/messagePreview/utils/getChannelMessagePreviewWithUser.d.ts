@@ -3,30 +3,29 @@ export declare const getChannelMessagePreviewWithUser: (channel: Amity.StaticInt
     channelId: string;
     channelInternalId: string;
     channelPublicId: string;
-    displayName?: string | undefined;
-    avatarFileId?: string | undefined;
+    displayName?: string;
+    avatarFileId?: string;
     type: any;
-    isDistinct?: boolean | undefined;
-    isMuted?: boolean | undefined;
-    muteTimeout?: string | undefined;
-    isRateLimited?: boolean | undefined;
-    rateLimit?: number | undefined;
-    rateLimitWindow?: number | undefined;
-    rateLimitTimeout?: number | undefined;
-    messageAutoDeleteEnabled?: boolean | undefined;
-    autoDeleteMessageByFlagLimit?: number | undefined;
-    memberCount?: number | undefined;
+    isDistinct?: boolean;
+    isMuted?: boolean;
+    muteTimeout?: string;
+    isRateLimited?: boolean;
+    rateLimit?: number;
+    rateLimitWindow?: number;
+    rateLimitTimeout?: number;
+    messageAutoDeleteEnabled?: boolean;
+    autoDeleteMessageByFlagLimit?: number;
+    memberCount?: number;
     messageCount: number;
-    moderatorMemberCount?: number | undefined;
-    messagePreviewId?: string | undefined;
-    isPublic?: boolean | undefined;
+    moderatorMemberCount?: number;
+    messagePreviewId?: string;
+    isPublic?: boolean;
     lastActivity: string;
 } & Amity.Metadata & Amity.Taggable & Amity.CreatedAt & Amity.UpdatedAt & Amity.DeletedAt & {
-    isDeleted?: boolean | undefined;
+    isDeleted?: boolean;
 } & Amity.Subscribable & {
     defaultSubChannelId: string;
     isUnreadCountSupport: boolean;
 } & {
     messagePreview: Amity.MessagePreview | null;
 };
-//# sourceMappingURL=getChannelMessagePreviewWithUser.d.ts.map

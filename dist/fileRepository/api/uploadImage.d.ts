@@ -13,5 +13,4 @@
  * @category File API
  * @async
  */
-export declare const uploadImage: (formData: FormData, onProgress?: ((percent: number) => void) | undefined) => Promise<Amity.Cached<Amity.File<'image'>[]>>;
-//# sourceMappingURL=uploadImage.d.ts.map
+export declare const uploadImage: (formData: FormData, onProgress?: (percent: number) => void) => Promise<Amity.Cached<Amity.File<'image'>[]>>;

@@ -11,4 +11,3 @@ export declare class SearchChannelMemberPaginationController extends PaginationC
         users: Amity.RawUser[];
     } & Omit<Amity.UserPayload, "users"> & Amity.Pagination>;
 }
-//# sourceMappingURL=SearchChannelMemberPaginationController.d.ts.map

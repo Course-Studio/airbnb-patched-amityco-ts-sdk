@@ -19,8 +19,8 @@ export declare const messagesDesc: {
 export declare const messageQueryResponse: {
     data: {
         messages: Amity.InternalMessage<any>[];
-        files: never[];
-        users: never[];
+        files: any[];
+        users: any[];
         paging: {
             previous: string;
             next: string;
@@ -32,4 +32,3 @@ export declare const messagePayload: {
     files: Amity.File<"image">[];
     users: Amity.User[];
 };
-//# sourceMappingURL=message.d.ts.map

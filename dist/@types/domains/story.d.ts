@@ -158,4 +158,3 @@ declare global {
         type Story = Amity.InternalStory & Amity.StoryLinkedObject;
     }
 }
-//# sourceMappingURL=story.d.ts.map

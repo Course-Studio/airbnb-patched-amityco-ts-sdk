@@ -14,4 +14,3 @@
  * @category Client Events
  */
 export declare const onClientDisconnected: (callback: Amity.Listener<void>) => Amity.Unsubscriber;
-//# sourceMappingURL=onClientDisconnected.d.ts.map

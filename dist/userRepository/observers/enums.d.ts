@@ -5,4 +5,3 @@ export declare enum EnumUserActions {
     OnUserUnflagged = "onUserUnflagged",
     OnUserFlagCleared = "onUserFlagCleared"
 }
-//# sourceMappingURL=enums.d.ts.map

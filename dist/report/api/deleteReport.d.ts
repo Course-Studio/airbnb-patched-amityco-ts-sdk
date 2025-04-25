@@ -12,4 +12,3 @@
  * @async
  * */
 export declare const deleteReport: (referenceType: 'user' | 'message' | 'post' | 'comment', referenceId: string) => Promise<boolean>;
-//# sourceMappingURL=deleteReport.d.ts.map

@@ -14,4 +14,3 @@ export declare class EventRegister {
     registerEvents(): void;
     _unregisterEvents(): void;
 }
-//# sourceMappingURL=eventRegister.d.ts.map

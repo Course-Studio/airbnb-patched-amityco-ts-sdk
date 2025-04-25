@@ -43,4 +43,3 @@ declare global {
         } & Amity.Pagination;
     }
 }
-//# sourceMappingURL=paging.d.ts.map

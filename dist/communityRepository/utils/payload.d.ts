@@ -8,8 +8,7 @@ export declare const prepareCommunityRequest: <T extends {
     postSetting?: Amity.Community['postSetting'];
 }>(params: T) => Omit<T, "postSetting" | "storySetting"> & {
     allowCommentInStory: any;
-    needApprovalOnPostCreation?: boolean | undefined;
-    onlyAdminCanPost?: boolean | undefined;
+    needApprovalOnPostCreation: boolean;
+    onlyAdminCanPost: boolean;
 };
 export declare const prepareSemanticSearchCommunityPayload: ({ searchResult, ...communityPayload }: Amity.SemanticSearchCommunityPayload) => Amity.ProcessedSemanticSearchCommunityPayload;
-//# sourceMappingURL=payload.d.ts.map

@@ -20,4 +20,3 @@ export declare const createUserToken: (apiKey: string, apiRegion: (typeof API_RE
 }) => Promise<{
     accessToken: string;
 }>;
-//# sourceMappingURL=createUserToken.d.ts.map

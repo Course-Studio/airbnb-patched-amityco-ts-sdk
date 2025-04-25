@@ -1,1 +1,0 @@
-{"version":3,"file":"deleteMessage.d.ts","sourceRoot":"","sources":["../../../src/messageRepository/api/deleteMessage.ts"],"names":[],"mappings":"AAKA;;;;;;;;;;;;;GAaG;AACH,eAAO,MAAM,aAAa;gBACb,MAAM,OAAO,CAAC,WAAW,CAAC,GACpC,QAAQ,MAAM,OAAO,CAAC;IAiBzB;;;;;;;;;;;;OAYG;8BAEU,MAAM,OAAO,CAAC,WAAW,CAAC,GACpC,MAAM,MAAM,CAAC,MAAM,OAAO,CAAC,GAAG,SAAS;CAjBzC,CAAC"}

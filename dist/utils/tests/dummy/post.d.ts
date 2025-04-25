@@ -17,15 +17,15 @@ export declare const posts: {
     page3: string[];
 };
 export declare const emptyPostPayload: {
-    posts: never[];
-    postChildren: never[];
-    communities: never[];
-    communityUsers: never[];
-    categories: never[];
-    comments: never[];
-    feeds: never[];
-    users: never[];
-    files: never[];
+    posts: any[];
+    postChildren: any[];
+    communities: any[];
+    communityUsers: any[];
+    categories: any[];
+    comments: any[];
+    feeds: any[];
+    users: any[];
+    files: any[];
 };
 export declare const postQueryResponse: {
     data: Omit<Amity.PostPayload<any>, "communityUsers" | "communities" | "posts"> & {
@@ -48,4 +48,3 @@ export declare const postQueryResponsePage2: {
         communityUsers: Amity.Membership<"community">[];
     } & Amity.Pagination;
 };
-//# sourceMappingURL=post.d.ts.map

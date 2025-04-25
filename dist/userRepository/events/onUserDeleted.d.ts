@@ -14,4 +14,3 @@
  * @category User Events
  */
 export declare const onUserDeleted: (callback: Amity.Listener<Amity.InternalUser>) => Amity.Unsubscriber;
-//# sourceMappingURL=onUserDeleted.d.ts.map

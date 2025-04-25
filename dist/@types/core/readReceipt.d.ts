@@ -29,4 +29,3 @@ declare global {
         };
     }
 }
-//# sourceMappingURL=readReceipt.d.ts.map

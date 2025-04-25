@@ -13,4 +13,3 @@
  * @async
  */
 export declare const hardDeleteSubChannel: (subChannelId: Amity.SubChannel['subChannelId']) => Promise<Amity.SubChannel>;
-//# sourceMappingURL=hardDeleteSubChannel.d.ts.map

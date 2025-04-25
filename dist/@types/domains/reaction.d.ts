@@ -36,4 +36,3 @@ declare global {
         type ReactionLiveCollectionCache = Amity.LiveCollectionCache<Amity.InternalReactor['reactionId'], Pick<QueryReactions, 'page'>>;
     }
 }
-//# sourceMappingURL=reaction.d.ts.map

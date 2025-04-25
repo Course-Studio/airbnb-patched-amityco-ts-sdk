@@ -13,4 +13,3 @@
  * @async
  */
 export declare const queryMessages: (query: Amity.QueryMessages) => Promise<Amity.Cached<Amity.Paged<Amity.Message, Amity.Page<string>> & Amity.Pagination>>;
-//# sourceMappingURL=queryMessages.d.ts.map

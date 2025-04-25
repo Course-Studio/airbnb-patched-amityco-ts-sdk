@@ -18,11 +18,10 @@ export declare const generateBlockResult: (blockUser: Amity.InternalUser, status
 export declare const generateBlockedUsers: (...blockedUser: Amity.InternalUser[]) => {
     data: {
         users: Amity.InternalUser[];
-        files: never[];
+        files: any[];
         follows: Amity.RawFollowStatus[];
         paging: {
             total: number;
         };
     };
 };
-//# sourceMappingURL=block.d.ts.map

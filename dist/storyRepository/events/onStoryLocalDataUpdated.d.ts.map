@@ -1,1 +1,0 @@
-{"version":3,"file":"onStoryLocalDataUpdated.d.ts","sourceRoot":"","sources":["../../../src/storyRepository/events/onStoryLocalDataUpdated.ts"],"names":[],"mappings":"AAGA,eAAO,MAAM,uBAAuB,aACxB,MAAM,QAAQ,CAAC;IAAE,YAAY,EAAE,MAAM,KAAK,CAAC,aAAa,CAAC,EAAE,CAAA;CAAE,CAAC,uBASzE,CAAC"}

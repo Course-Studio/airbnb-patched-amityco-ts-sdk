@@ -12,4 +12,3 @@
  * @async
  */
 export declare const getChatSettings: () => Promise<Amity.ChatSettings>;
-//# sourceMappingURL=getChatSettings.d.ts.map

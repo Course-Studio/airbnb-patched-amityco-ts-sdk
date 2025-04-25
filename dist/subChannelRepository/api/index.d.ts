@@ -4,4 +4,3 @@ export * from './updateSubChannel';
 export * from './deleteSubChannel';
 export * from './hardDeleteSubChannel';
 export * from './softDeleteSubChannel';
-//# sourceMappingURL=index.d.ts.map

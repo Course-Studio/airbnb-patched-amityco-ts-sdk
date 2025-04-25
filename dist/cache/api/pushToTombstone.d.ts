@@ -14,4 +14,3 @@
  * @hidden
  */
 export declare const pushToTombstone: (model: Amity.Domain, modelId: string) => void;
-//# sourceMappingURL=pushToTombstone.d.ts.map

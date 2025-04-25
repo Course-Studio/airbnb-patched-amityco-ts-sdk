@@ -34,4 +34,3 @@ declare global {
         type ErrorCode = ServerError | ClientError;
     }
 }
-//# sourceMappingURL=errors.d.ts.map

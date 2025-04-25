@@ -65,4 +65,3 @@ declare global {
         } & (T extends 'video' ? VideoFileExtraPayload : unknown) & Amity.Timestamps & Amity.SoftDelete;
     }
 }
-//# sourceMappingURL=file.d.ts.map

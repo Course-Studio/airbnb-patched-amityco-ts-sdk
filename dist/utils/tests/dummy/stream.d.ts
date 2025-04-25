@@ -96,10 +96,9 @@ export declare const streamsResponse: {
     createdAt: string;
     streamId: string;
     userId: string;
-    thumbnailFileId: null;
+    thumbnailFileId: any;
     platform: {
         name: string;
         version: string;
     };
 }[];
-//# sourceMappingURL=stream.d.ts.map

@@ -29,4 +29,3 @@ export declare const getCommunities: {
      */
     locally(communityIds: Amity.Community['communityId'][]): Amity.Cached<Amity.Community[]> | undefined;
 };
-//# sourceMappingURL=getCommunities.d.ts.map

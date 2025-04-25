@@ -9,4 +9,3 @@
  * @category MessageMarker Events
  */
 export declare const onSubChannelUnreadUpdatedLocal: (callback: Amity.Listener<Amity.Events['local.subChannelUnread.updated']>) => Amity.Unsubscriber;
-//# sourceMappingURL=onSubChannelUnreadUpdatedLocal.d.ts.map

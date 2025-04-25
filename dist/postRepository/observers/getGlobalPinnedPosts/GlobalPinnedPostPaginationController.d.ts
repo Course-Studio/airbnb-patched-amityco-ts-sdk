@@ -10,4 +10,3 @@ export declare class GlobalPinnedPostPaginationController extends PaginationCont
         polls: Amity.RawPoll[];
     } & Amity.CommunityPayload & Amity.Pagination>;
 }
-//# sourceMappingURL=GlobalPinnedPostPaginationController.d.ts.map

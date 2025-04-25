@@ -14,4 +14,3 @@
  * @category FeedMarker Events
  */
 export declare const onUserFeedMarkerUpdated: (callback: Amity.Listener<Amity.FeedMarker>) => Amity.Unsubscriber;
-//# sourceMappingURL=onUserFeedMarkerUpdated.d.ts.map

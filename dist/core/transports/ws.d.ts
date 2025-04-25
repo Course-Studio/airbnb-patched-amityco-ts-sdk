@@ -1,4 +1,3 @@
-/// <reference types="socket.io-client" />
 /**
  * Creates a pre-configured socket.io instance
  *
@@ -8,7 +7,7 @@
  * @category Transport
  * @hidden
  */
-export declare const createWebsocketTransport: (endpoint: string) => SocketIOClient.Socket;
+export declare const createWebsocketTransport: (endpoint: string) => any;
 /**
  * Promisify a websocket event emission - resulting in a synchronous http-like XHR (ws legacy)
  *
@@ -23,5 +22,4 @@ export declare const createWebsocketTransport: (endpoint: string) => SocketIOCli
  * @async
  * @hidden
  */
-export declare const synchronousWSCall: <T>(client: Amity.Client, event: string, data?: Record<string, unknown>) => Promise<T | undefined>;
-//# sourceMappingURL=ws.d.ts.map
+export declare const synchronousWSCall: <T>(client: Amity.Client, event: string, data?: Record<string, unknown>) => Promise<T>;

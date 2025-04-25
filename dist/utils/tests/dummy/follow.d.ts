@@ -11,4 +11,3 @@ export declare const follows: {
     page2: Amity.RawFollowStatus[];
 };
 export declare const followPayload: Amity.FollowersPayload;
-//# sourceMappingURL=follow.d.ts.map

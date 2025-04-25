@@ -15,4 +15,3 @@
  * @category Cache API
  */
 export declare const snipeIdFromCollections: (domain: Amity.Domain, id: string) => boolean;
-//# sourceMappingURL=snipeIdFromCollection.d.ts.map

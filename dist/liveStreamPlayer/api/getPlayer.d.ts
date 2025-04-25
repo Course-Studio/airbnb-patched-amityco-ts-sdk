@@ -12,4 +12,3 @@
 export declare const getPlayer: (parameters: {
     streamId: string;
 }) => Promise<HTMLVideoElement>;
-//# sourceMappingURL=getPlayer.d.ts.map

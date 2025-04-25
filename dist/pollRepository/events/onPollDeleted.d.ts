@@ -14,4 +14,3 @@
  * @category Poll Events
  */
 export declare const onPollDeleted: (callback: Amity.Listener<Amity.Poll>) => Amity.Unsubscriber;
-//# sourceMappingURL=onPollDeleted.d.ts.map

@@ -33,4 +33,3 @@ export declare const addReaction: {
      * */
     optimistically(referenceType: Amity.ReactableType, referenceId: Amity.Reaction['referenceId'], reactionName: Amity.InternalReactor['reactionName']): boolean | undefined;
 };
-//# sourceMappingURL=addReaction.d.ts.map

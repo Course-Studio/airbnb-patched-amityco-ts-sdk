@@ -14,4 +14,3 @@
  * @async
  * */
 export declare const muteMembers: (channelId: Amity.Channel['channelId'], userIds: Amity.InternalUser['userId'][], mutePeriod?: number) => Promise<boolean>;
-//# sourceMappingURL=muteMembers.d.ts.map

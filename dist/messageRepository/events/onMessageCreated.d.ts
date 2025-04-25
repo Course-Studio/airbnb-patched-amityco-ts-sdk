@@ -16,4 +16,3 @@
  */
 export declare const onMessageCreatedMqtt: (callback: Amity.Listener<Amity.InternalMessage>) => Amity.Unsubscriber;
 export declare const onMessageCreatedLocal: (callback: Amity.Listener<Amity.InternalMessage>) => Amity.Unsubscriber;
-//# sourceMappingURL=onMessageCreated.d.ts.map

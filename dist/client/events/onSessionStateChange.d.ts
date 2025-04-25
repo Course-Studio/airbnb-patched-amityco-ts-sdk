@@ -14,4 +14,3 @@
  * @category Client Events
  */
 export declare const onSessionStateChange: (callback: Amity.Listener<Amity.SessionStates>) => Amity.Unsubscriber;
-//# sourceMappingURL=onSessionStateChange.d.ts.map

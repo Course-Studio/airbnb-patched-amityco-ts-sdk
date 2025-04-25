@@ -13,4 +13,3 @@
  * @async
  */
 export declare const deleteCommunity: (communityId: Amity.Community['communityId']) => Promise<Amity.Community>;
-//# sourceMappingURL=deleteCommunity.d.ts.map

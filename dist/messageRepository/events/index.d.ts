@@ -7,4 +7,3 @@ export * from './onMessageFlagCleared';
 export * from './onMessageReactionAdded';
 export * from './onMessageReactionRemoved';
 export * from './onMessageFetched';
-//# sourceMappingURL=index.d.ts.map

@@ -32,4 +32,3 @@ declare module 'axios' {
         metadata?: MetaData;
     }
 }
-//# sourceMappingURL=global.d.ts.map

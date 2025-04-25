@@ -11,23 +11,22 @@ export declare function generateRawMessagePreviewSubChannel(params: Partial<Amit
     data: string | Record<string, unknown>;
     dataType: any;
     isDeleted: boolean;
-    mentionedUsers?: (Amity.ChannelMention | Amity.UserMention)[] | undefined;
+    mentionedUsers?: (Amity.ChannelMention | Amity.UserMention)[];
     messageFeedId: string;
     messageId: string;
     parentId: string;
     path: string;
     segment: number;
-    dataTypes?: any[] | undefined;
+    dataTypes?: any[];
     flagCount: number;
     hashFlag?: {
         bits: number;
         hashes: number;
         hash: string;
-    } | null | undefined;
-    tags?: string[] | undefined;
+    };
+    tags?: string[];
     createdAt: string;
     updatedAt: string;
-    hashFlagged: null;
+    hashFlagged: any;
     reactionCount: number;
 };
-//# sourceMappingURL=subChannel.d.ts.map

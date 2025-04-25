@@ -66,4 +66,3 @@ declare global {
         QuerySemanticSearchPosts>;
     }
 }
-//# sourceMappingURL=post.d.ts.map

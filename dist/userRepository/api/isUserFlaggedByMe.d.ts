@@ -11,4 +11,3 @@
  * @async
  * */
 export declare const isUserFlaggedByMe: (userId: Amity.User['userId']) => Promise<boolean>;
-//# sourceMappingURL=isUserFlaggedByMe.d.ts.map

@@ -15,4 +15,3 @@
  * @category Category Live Collection
  */
 export declare const getUsers: (params: Amity.UserLiveCollection, callback: Amity.LiveCollectionCallback<Amity.User>, config?: Amity.LiveCollectionConfig) => () => void;
-//# sourceMappingURL=getUsers.d.ts.map

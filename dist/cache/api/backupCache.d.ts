@@ -20,5 +20,4 @@
  *
  * @category Cache API
  */
-export declare const backupCache: (storageKey?: string, persistIf?: (entry: Amity.CacheEntry) => boolean | undefined) => Promise<boolean>;
-//# sourceMappingURL=backupCache.d.ts.map
+export declare const backupCache: (storageKey?: string, persistIf?: (entry: Amity.CacheEntry) => boolean) => Promise<boolean>;

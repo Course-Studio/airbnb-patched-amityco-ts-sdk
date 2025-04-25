@@ -14,4 +14,3 @@
  * @category Cache API
  */
 export declare const dropFromCache: (key: Amity.CacheKey, exact?: boolean) => boolean;
-//# sourceMappingURL=dropFromCache.d.ts.map

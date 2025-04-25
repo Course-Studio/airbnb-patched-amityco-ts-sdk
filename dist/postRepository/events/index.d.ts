@@ -7,4 +7,3 @@ export * from './onPostFlagged';
 export * from './onPostUnflagged';
 export * from './onPostReactionAdded';
 export * from './onPostReactionRemoved';
-//# sourceMappingURL=index.d.ts.map

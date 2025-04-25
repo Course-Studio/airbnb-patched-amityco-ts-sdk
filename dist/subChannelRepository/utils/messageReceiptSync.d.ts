@@ -28,4 +28,3 @@ export declare const startMessageReceiptSync: (subChannelId: Amity.SubChannel['s
  * @async
  */
 export declare const stopMessageReceiptSync: (subChannelId: Amity.SubChannel['subChannelId']) => boolean;
-//# sourceMappingURL=messageReceiptSync.d.ts.map

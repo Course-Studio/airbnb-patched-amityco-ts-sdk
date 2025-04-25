@@ -4,4 +4,3 @@ export * from './observers';
 export * from './constants';
 export * as Moderation from './communityModeration';
 export * as Membership from './communityMembership';
-//# sourceMappingURL=index.d.ts.map

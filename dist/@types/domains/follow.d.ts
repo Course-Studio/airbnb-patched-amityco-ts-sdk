@@ -47,4 +47,3 @@ declare global {
         type FollowingLiveCollectionCache = FollowerLiveCollectionCache;
     }
 }
-//# sourceMappingURL=follow.d.ts.map

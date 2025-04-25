@@ -45,4 +45,3 @@ declare global {
         }>;
     }
 }
-//# sourceMappingURL=subChannel.d.ts.map

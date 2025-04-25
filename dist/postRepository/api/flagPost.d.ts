@@ -11,4 +11,3 @@
  * @async
  * */
 export declare const flagPost: (postId: Amity.Post['postId']) => Promise<boolean>;
-//# sourceMappingURL=flagPost.d.ts.map

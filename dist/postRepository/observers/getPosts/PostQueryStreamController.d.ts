@@ -12,4 +12,3 @@ export declare class PostQueryStreamController extends QueryStreamController<Ami
         action: EnumPostActions;
     }[]): Amity.Unsubscriber[];
 }
-//# sourceMappingURL=PostQueryStreamController.d.ts.map

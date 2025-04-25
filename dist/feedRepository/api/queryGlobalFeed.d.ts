@@ -30,4 +30,3 @@ export declare const queryGlobalFeed: {
      * */
     locally(query?: Parameters<typeof queryGlobalFeed>[0]): Omit<Amity.Cached<Amity.Paged<Amity.Post> & Amity.Pagination>, 'nextPage' | 'prevPage'> | undefined;
 };
-//# sourceMappingURL=queryGlobalFeed.d.ts.map

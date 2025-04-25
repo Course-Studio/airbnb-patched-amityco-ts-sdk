@@ -10,6 +10,5 @@ export declare class SubChannelLiveCollectionController extends LiveCollectionCo
     startSubscription(): Amity.Unsubscriber[];
     notifyChange({ origin, loading, error }: Amity.LiveCollectionNotifyParams): void;
     applyFilter(data: Amity.SubChannel[]): Amity.SubChannel[];
-    isRelatedCollection(subChannelId: string): boolean | undefined;
+    isRelatedCollection(subChannelId: string): boolean;
 }
-//# sourceMappingURL=SubChannelLiveCollectionController.d.ts.map

@@ -14,4 +14,3 @@
  * @category MessageMarker Events
  */
 export declare const onMessageMarkerFetched: (callback: Amity.Listener<Amity.MessageMarker>) => Amity.Unsubscriber;
-//# sourceMappingURL=onMessageMarkerFetched.d.ts.map

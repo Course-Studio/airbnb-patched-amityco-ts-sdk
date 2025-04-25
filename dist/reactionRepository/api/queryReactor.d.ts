@@ -16,4 +16,3 @@
  * @async
  * */
 export declare const queryReactor: (query: Amity.QueryReactions) => Promise<Amity.Paged<Amity.InternalReactor, Amity.Page<string>>>;
-//# sourceMappingURL=queryReactor.d.ts.map

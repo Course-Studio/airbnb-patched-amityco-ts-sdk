@@ -4,4 +4,3 @@ export declare const prepareStoryReactionPayloadFormEvent: <T extends "story.rea
 export declare const prepareCommentFromFlaggedEvent: (payload: Amity.CommentPayload) => Amity.CommentPayload<any> & {
     [x: string]: any[];
 };
-//# sourceMappingURL=prepareReactionPayloadFromEvent.d.ts.map

@@ -9,4 +9,3 @@
  * @category Channel Events
  */
 export declare const onChannelResolved: (callback: Amity.Listener<Amity.StaticInternalChannel[]>) => Amity.Unsubscriber;
-//# sourceMappingURL=onChannelResolved.d.ts.map

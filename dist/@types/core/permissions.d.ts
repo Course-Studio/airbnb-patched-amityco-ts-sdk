@@ -75,4 +75,3 @@ declare global {
         };
     }
 }
-//# sourceMappingURL=permissions.d.ts.map

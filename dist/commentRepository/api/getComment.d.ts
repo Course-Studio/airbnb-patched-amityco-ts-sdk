@@ -29,4 +29,3 @@ export declare const getComment: {
      */
     locally(commentId: Amity.Comment['commentId']): Amity.Cached<Amity.Comment> | undefined;
 };
-//# sourceMappingURL=getComment.d.ts.map

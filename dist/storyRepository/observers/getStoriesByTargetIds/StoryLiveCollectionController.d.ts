@@ -11,4 +11,3 @@ export declare class StoryLiveCollectionController extends LiveCollectionControl
     private applyFilter;
     startSubscription(): Amity.Unsubscriber[];
 }
-//# sourceMappingURL=StoryLiveCollectionController.d.ts.map

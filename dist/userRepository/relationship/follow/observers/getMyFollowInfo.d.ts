@@ -17,4 +17,3 @@
  * @category FollowInfo Live Object
  */
 export declare const getMyFollowInfo: (callback: Amity.LiveObjectCallback<Amity.FollowInfo>) => Amity.Unsubscriber;
-//# sourceMappingURL=getMyFollowInfo.d.ts.map

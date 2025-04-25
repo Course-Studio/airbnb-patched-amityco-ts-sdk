@@ -13,4 +13,3 @@
  * @async
  */
 export declare const unfollow: (userId: Amity.InternalUser['userId']) => Promise<boolean>;
-//# sourceMappingURL=unfollow.d.ts.map

@@ -56,4 +56,3 @@ export declare const isCached: <T extends unknown>(obj?: any) => obj is Amity.Ca
  * @category Cache
  */
 export declare const checkIfShouldGoesToTombstone: (errorCode: Amity.ServerError) => boolean;
-//# sourceMappingURL=index.d.ts.map

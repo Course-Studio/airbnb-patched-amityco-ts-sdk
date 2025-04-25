@@ -11,4 +11,3 @@ export declare class CommunityMembersLiveCollectionController extends LiveCollec
     notifyChange({ origin, loading, error }: Amity.LiveCollectionNotifyParams): void;
     applyFilter(data: Amity.Membership<'community'>[]): Amity.Membership<"community">[];
 }
-//# sourceMappingURL=CommunityMembersLiveCollectionController.d.ts.map

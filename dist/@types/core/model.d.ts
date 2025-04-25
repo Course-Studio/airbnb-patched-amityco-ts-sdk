@@ -98,4 +98,3 @@ declare global {
         };
     }
 }
-//# sourceMappingURL=model.d.ts.map

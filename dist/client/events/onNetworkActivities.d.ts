@@ -13,4 +13,3 @@ export declare const onNetworkActivities: (callback: (request: Request, response
     statusText: string;
     headers: Headers;
 }) => void) => Amity.Unsubscriber;
-//# sourceMappingURL=onNetworkActivities.d.ts.map

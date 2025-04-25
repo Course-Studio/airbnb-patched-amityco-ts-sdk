@@ -2,4 +2,3 @@ export declare const getMessageReadCount: (message: Amity.InternalMessage | Amit
     readCount: number;
     deliveredCount: number;
 };
-//# sourceMappingURL=getMessageReadCount.d.ts.map

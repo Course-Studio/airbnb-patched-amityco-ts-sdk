@@ -16,4 +16,3 @@
  * @async
  */
 export declare const updateComment: (commentId: Amity.Comment['commentId'], patch: Patch<Amity.Comment, 'data' | 'metadata' | 'mentionees'>) => Promise<Amity.Cached<Amity.Comment>>;
-//# sourceMappingURL=updateComment.d.ts.map

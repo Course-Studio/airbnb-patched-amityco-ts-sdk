@@ -10,4 +10,3 @@
  * @hidden
  */
 export declare const unwrapPayload: <T>(response: Amity.Response<T>) => T;
-//# sourceMappingURL=utils.d.ts.map

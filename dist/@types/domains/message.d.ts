@@ -82,4 +82,3 @@ declare global {
         }>;
     }
 }
-//# sourceMappingURL=message.d.ts.map

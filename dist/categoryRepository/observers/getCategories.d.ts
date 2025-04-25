@@ -15,4 +15,3 @@
  * @category Category Live Collection
  */
 export declare const getCategories: (params: Amity.CategoryLiveCollection, callback: Amity.LiveCollectionCallback<Amity.Category>, config?: Amity.LiveCollectionConfig) => () => void;
-//# sourceMappingURL=getCategories.d.ts.map
