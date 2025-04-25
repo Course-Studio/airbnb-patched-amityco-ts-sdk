@@ -4,8 +4,6 @@ import dotenv from 'rollup-plugin-dotenv';
 import resolve from '@rollup/plugin-node-resolve';
 import typescript from 'rollup-plugin-typescript2';
 import replace from '@rollup/plugin-replace';
-import { terser } from 'rollup-plugin-terser';
-import babel from '@rollup/plugin-babel';
 
 import pkg from './package.json';
 
@@ -21,6 +19,7 @@ const config = {
     commonjs(),
     typescript({
       useTsconfigDeclarationDir: true,
+      abortOnError: false,
     }),
     dotenv(),
   ],
@@ -49,40 +48,6 @@ export default [
         'process.env.NODE_ENV': `'${process.env.NODE_ENV}'`,
         'process.env.VERSION': `'v${pkg.version}-esm'`,
       }),
-    ],
-  },
-  {
-    ...config,
-    output: [
-      {
-        format: 'cjs',
-        file: pkg.main,
-      },
-    ],
-    external: Object.keys(pkg.dependencies),
-    plugins: [
-      ...config.plugins,
-      babel({ presets: ['@babel/preset-env'], babelHelpers: 'bundled' }),
-      replace({
-        'process.env.NODE_ENV': `'${process.env.NODE_ENV}'`,
-        'process.env.VERSION': `'v${pkg.version}-cjs'`,
-      }),
-    ],
-  },
-  {
-    ...config,
-    output: {
-      format: 'iife',
-      name: 'Amity',
-      file: pkg.unpkg,
-    },
-    plugins: [
-      ...config.plugins,
-      replace({
-        'process.env.NODE_ENV': `'${process.env.NODE_ENV}'`,
-        'process.env.VERSION': `'v${pkg.version}-umd'`,
-      }),
-      terser(),
     ],
   },
 ];
